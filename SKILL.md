@@ -13,7 +13,7 @@ description: >-
 license: 0BSD
 metadata:
   author: pitch.dog
-  version: "1.0.2"
+  version: "1.0.3"
   source: "Written by Us v2.0"
 ---
 

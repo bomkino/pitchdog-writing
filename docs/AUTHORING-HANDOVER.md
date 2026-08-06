@@ -35,7 +35,7 @@ adding new rules.
 
 ## Release checklist
 
-1. Validate `SKILL.md` with `skills-ref validate`.
+1. Validate the package with `skills-ref validate "$(pwd)"`.
 2. Confirm frontmatter name matches the `pitchdog-writing` directory.
 3. Confirm description is under 1,024 characters and says when to trigger.
 4. Confirm every relative link resolves one level from `SKILL.md`.

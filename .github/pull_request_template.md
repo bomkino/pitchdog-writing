@@ -6,7 +6,7 @@
 
 ## Validation
 
-- [ ] `skills-ref validate .` passes
+- [ ] `skills-ref validate "$(pwd)"` passes
 - [ ] JSON and YAML parse
 - [ ] Relevant evals run in clean contexts
 - [ ] No private, client, or personal material added

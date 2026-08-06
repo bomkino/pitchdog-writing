@@ -2,6 +2,11 @@
 
 All notable changes are recorded here.
 
+## 1.0.3 — 2026-08-06
+
+- Corrects the remaining validator commands in the pull-request checklist and
+  authoring handover.
+
 ## 1.0.2 — 2026-08-06
 
 - States ChatGPT's separate desktop and web/mobile Personal Skill installation
