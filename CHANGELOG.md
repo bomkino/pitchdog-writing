@@ -2,6 +2,13 @@
 
 All notable changes are recorded here.
 
+## 1.0.2 — 2026-08-06
+
+- States ChatGPT's separate desktop and web/mobile Personal Skill installation
+  requirement precisely.
+- Uses an absolute path in the contributor validation command, matching the
+  current reference validator's directory-name check.
+
 ## 1.0.1 — 2026-08-06
 
 - Removes the unsupported `api` product value from `agents/openai.yaml` so

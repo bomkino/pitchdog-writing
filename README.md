@@ -38,9 +38,9 @@ humanity score.
 2. Open **Plugins → Skills → Create → Upload from your computer**.
 3. Upload the archive, review the scan, and install the skill.
 
-Personal Skills may need separate installation on ChatGPT desktop and on
-web/mobile. Workspace permissions can also control uploading, sharing, and
-installation.
+Personal Skills must be added separately in ChatGPT desktop and on ChatGPT
+web/mobile; those installations do not sync automatically. Workspace
+permissions can also control uploading, sharing, and installation.
 
 ### Codex and other Agent Skills clients
 

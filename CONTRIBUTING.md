@@ -10,7 +10,7 @@ project.
 2. Show why existing guidance does not already cover it.
 3. Add or update a realistic eval when behaviour changes.
 4. Preserve medium, speaker, recipient, client authorship, and protected facts.
-5. Validate the skill with `skills-ref validate .`.
+5. Validate the skill with `skills-ref validate "$(pwd)"`.
 6. Keep `SKILL.md` lean; route specialised detail to one focused reference.
 
 ## Useful contributions
