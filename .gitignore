@@ -1,0 +1,6 @@
+.DS_Store
+*.zip
+*.skill
+.venv/
+__pycache__/
+pitchdog-writing-workspace/

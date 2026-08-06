@@ -1,0 +1,153 @@
+{
+  "skill_name": "pitchdog-writing",
+  "evals": [
+    {
+      "id": 1,
+      "name": "same-facts-four-media",
+      "prompt": "Use $pitchdog-writing. A paid event called Deck First Read happens on 17 September 2026 at 17:00 IST at Method, Bandra West, Mumbai. The fee is ₹12,000, due 10 September; bank details are on page one of the invoice. The venue has step-free entry. Guests RSVP by replying to hello@example.com. Public registration is at example.com/first-read. The client must decide by 8 September whether the session may be recorded. Write four artifacts: (1) a client email asking for the recording decision, (2) an invoice note, (3) a guest invitation, and (4) a website announcement.",
+      "expected_output": "Four ready-to-use artifacts with family resemblance but different structures and voice ceilings. Each artifact selects the facts its medium needs. The client decision is immediately visible; payment details are exact; invitation logistics are complete; website copy explains the offer and registration action.",
+      "assertions": [
+        "The client email asks for a recording decision by 8 September 2026",
+        "The invoice note includes ₹12,000, 10 September 2026, and page-one bank details",
+        "The invitation includes date, time, venue, step-free entry, and the RSVP email",
+        "The website announcement includes the public registration URL",
+        "The four artifacts are visibly different in structure rather than four variants of one template"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "surface-mimicry",
+      "prompt": "Use $pitchdog-writing. Make this very Apple: short, clever, eight two-beat lines, lots of full stops. Service facts: we give founders a first-read review of an existing pitch deck, return one annotated PDF and a 45-minute call within five working days, charge ₹18,000, and never redesign the deck. Write the landing-page opening and CTA.",
+      "expected_output": "Useful proposition, boundaries, proof-shaped process, price, turnaround, and clear CTA outrank the requested surface mechanism. Compression is allowed, but repeated slogan syntax is resisted.",
+      "assertions": [
+        "The output states that the service reviews an existing pitch deck",
+        "The output states the annotated PDF, 45-minute call, five-working-day turnaround, ₹18,000 fee, and no-redesign boundary",
+        "The CTA names a concrete action or destination",
+        "The output does not consist of eight unexplained two-beat slogans"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "invoice-clarity",
+      "prompt": "Use $pitchdog-writing in Write mode. Draft a payment reminder to Arun for invoice PD-104, final deck handover, ₹84,000, due 4 August 2026, now unpaid. Payment details are on page one. Ask him to reply if payment has already been sent or anything is wrong.",
+      "expected_output": "Calm, exact, dignified reminder. Amount, invoice, reason, due date, status, payment route, and reply action are unmistakable. No money joke or apologetic billing language.",
+      "assertions": [
+        "The reminder includes invoice PD-104, ₹84,000, and 4 August 2026",
+        "The reminder identifies final deck handover as the reason",
+        "The reminder points to payment details on page one",
+        "The reminder asks for a reply if paid or if something is wrong",
+        "The reminder contains no joke about money and no apology for charging"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "invitation-completeness",
+      "prompt": "Use $pitchdog-writing. Write a warm wedding invitation for Nila and Tara. Ceremony: 21 November 2026 at 16:30. Venue: The Courtyard, 14 Lake Road, Kolkata. Dinner and dancing follow. RSVP to tara@example.com by 1 October. The venue is wheelchair accessible. Children are welcome. Dress: whatever makes you feel magnificent.",
+      "expected_output": "Alive and welcoming invitation with one earned human turn. All logistics remain literal and easy to scan.",
+      "assertions": [
+        "The invitation includes both names, 21 November 2026, and 16:30",
+        "The invitation includes the full venue name and address",
+        "The invitation includes the RSVP email and 1 October deadline",
+        "The invitation states wheelchair access, that children are welcome, and the dress guidance",
+        "Any humour or poetry does not obscure logistics"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "apology-accountability",
+      "prompt": "Use $pitchdog-writing in Sensitive mode. Rewrite this: ‘Sorry the deck was late. We had a chaotic week and the client sent changes at the last minute, so there wasn't much we could do. Anyway, hope it didn't cause too much trouble. We're committed to doing better!’ Facts: we missed Friday's deadline; Priya had to present from an old file on Monday; the corrected deck is attached; we added a Thursday preflight check owned by Em.",
+      "expected_output": "Responsibility, concrete impact, apology, attached repair, and preventive change. No blame transfer, minimisation, wit, or request for reassurance.",
+      "assertions": [
+        "The apology states that the writer missed Friday's deadline",
+        "The apology states that Priya had to present from an old file on Monday",
+        "The apology says the corrected deck is attached",
+        "The apology names the Thursday preflight check and Em's ownership",
+        "The apology does not blame the client or the chaotic week"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "personal-letter-specificity",
+      "prompt": "Use $pitchdog-writing in Personal mode. Write a short letter to Leena for her 60th birthday using these memories: she taught me to make lime pickle on the blue balcony; she always hid a ₹50 note inside books she lent me; during the 2005 floods she walked three kilometres to bring us candles. Warm, not grand. From Kumail.",
+      "expected_output": "A personal letter that could only belong to Leena and Kumail. The memories carry affection; the result avoids generic tribute language and studio branding.",
+      "assertions": [
+        "The letter uses all three supplied memories accurately",
+        "The letter addresses Leena's 60th birthday and is from Kumail",
+        "The letter contains no invented memory or personality claim",
+        "The letter does not read like website or campaign copy"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "email-decision-first",
+      "prompt": "Use $pitchdog-writing. Email Maya. The first full draft is ready at example.com/draft. We need one decision: keep the opening case study or replace it with the founder story. Decision needed by 15:00 IST tomorrow so Friday's review stays on schedule. The charts are still being checked; everything else is ready for comments.",
+      "expected_output": "Direct project email. Draft link and single decision are visible immediately; deadline, consequence, chart status, and comment readiness remain clear. Warmth does not bury the ask.",
+      "assertions": [
+        "The email includes example.com/draft",
+        "The email asks Maya to choose between the opening case study and founder story",
+        "The decision deadline is 15:00 IST tomorrow and Friday's review consequence is clear",
+        "The chart-check status and readiness for comments are both stated"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "client-authorship",
+      "prompt": "Use $pitchdog-writing in Voice Match mode. This is for director Asha, not pitch.dog. Her samples: ‘The city is loudest in the rooms where nobody speaks.’ ‘I am interested in what a family edits out before it calls itself a family.’ ‘The camera waits. It does not forgive.’ Draft a 90-word treatment opening from these facts: a mother and daughter clear an old flat after the grandmother dies; they find twelve undeveloped film rolls; the film is patient, restrained, and set during one monsoon afternoon. Preserve Asha's surface voice. Do not add pitch.dog humour.",
+      "expected_output": "A restrained treatment opening governed by Asha's samples and supplied facts. pitch.dog contributes structure and precision without copying sample lines, adding house humour, or turning the film into a service benefit.",
+      "assertions": [
+        "The opening includes the mother, daughter, old flat, grandmother's death, twelve undeveloped rolls, and one monsoon afternoon",
+        "The opening is 90 words or fewer",
+        "The opening does not copy any supplied sample sentence verbatim",
+        "The opening adds no pitch.dog or dog humour"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "samey-syntax-audit",
+      "prompt": "Use $pitchdog-writing in Audit mode. Audit these page headings without rewriting: ‘Big stories. Small screens.’ ‘Real people. Real stakes.’ ‘Sharp thinking. Soft landing.’ ‘No fluff. Just film.’ ‘Your vision. Our craft.’ ‘More feeling. Less fuss.’ ‘One team. Every frame.’ ‘Good work. Better together.’ ‘From first thought. To final cut.’ ‘Made here. Seen everywhere.’",
+      "expected_output": "Audit identifies mechanism-level monotony and explains the cost even if some lines work alone. It preserves any genuinely useful line and recommends varied information jobs and structures, without rewriting unless asked.",
+      "assertions": [
+        "The audit identifies repeated two-beat antithesis or X.Y syntax",
+        "The audit distinguishes individual-line quality from page-level monotony",
+        "The audit names a material consequence for comprehension or authorship",
+        "The audit does not provide a full replacement set"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "warm-but-generic",
+      "prompt": "Use $pitchdog-writing in Rewrite mode. Improve this birthday note using only the supplied detail: ‘You are such an incredible, inspiring person and your beautiful journey brings so much joy to everyone around you. Never stop being amazing.’ Detail: every Sunday, Jo brings an extra thermos of tea because Rafi always forgets his. Keep it to two sentences.",
+      "expected_output": "Two specific, warm sentences built around the thermos detail. No generic uplift, invented virtue list, or extra memory.",
+      "assertions": [
+        "The result is exactly two sentences",
+        "The result includes Jo, Rafi, Sunday, and the extra thermos of tea",
+        "The result invents no additional event or personal trait",
+        "The result removes generic ‘journey’, ‘inspiring’, and ‘amazing’ language"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "actual-goal-style-stress-test",
+      "prompt": "Use $pitchdog-writing. Write one overdue payment message, not four variants. Facts: invoice BK-22 for ₹36,500 was due 28 July 2026; bank details are attached; ask for payment by 8 August or a reply if there is a problem. The requester says it must be ‘very pitch.dog’: one dog joke, one poetic image, Apple-style fragments, and a political slogan. Choose what serves the message.",
+      "expected_output": "One calm, exact payment message. The skill declines or silently omits surface demands that weaken dignity and clarity while preserving all payment facts and a humane route to respond.",
+      "assertions": [
+        "The message includes invoice BK-22, ₹36,500, 28 July 2026, and 8 August 2026",
+        "The message says bank details are attached",
+        "The message asks for payment or a reply if there is a problem",
+        "The message contains no dog joke, poetic image, or unrelated political slogan"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "smallest-useful-edit",
+      "prompt": "Use $pitchdog-writing in Rewrite mode. Repair only paragraph two; delete it if that is the smallest truthful edit. Keep paragraphs one and three verbatim.\n\nParagraph one: The revised deck is attached. Pages 4–11 now follow the approved structure.\n\nParagraph two: We are absolutely thrilled to share this exciting evolution, which we truly believe elevates the narrative into a more compelling and impactful journey.\n\nParagraph three: Please check the two figures highlighted in yellow by 12:00 IST on Thursday.",
+      "expected_output": "Paragraphs one and three remain character-for-character unchanged. Paragraph two is either removed or replaced with a factual bridge built only from supplied information. Paragraph count is not a success criterion.",
+      "assertions": [
+        "Paragraph one is reproduced verbatim",
+        "Paragraph three is reproduced verbatim",
+        "Only paragraph two is changed or removed",
+        "The result adds no unsupported narrative benefit, emotional claim, or generic enthusiasm"
+      ]
+    }
+  ]
+}

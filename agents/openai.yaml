@@ -1,0 +1,11 @@
+interface:
+  display_name: "pitch.dog Writing"
+  short_description: "Do the real job. Sound like us doing it."
+  default_prompt: "Use $pitchdog-writing to write this in our clear, warm, exact voice while preserving its real job, medium, facts, and speaker."
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: false
