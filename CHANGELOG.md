@@ -2,6 +2,13 @@
 
 All notable changes are recorded here.
 
+## 1.0.4 — 2026-08-06
+
+- Allows ChatGPT and Codex to activate the skill when a request matches its
+  metadata, fixing cross-surface invocation after installation.
+- Keeps the stricter invocation gate inside `SKILL.md`, so ordinary unrelated
+  writing still does not inherit pitch.dog voice.
+
 ## 1.0.3 — 2026-08-06
 
 - Corrects the remaining validator commands in the pull-request checklist and
