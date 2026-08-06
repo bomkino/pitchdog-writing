@@ -2,6 +2,12 @@
 
 All notable changes are recorded here.
 
+## 1.0.1 — 2026-08-06
+
+- Removes the unsupported `api` product value from `agents/openai.yaml` so
+  Codex accepts the package metadata during skill discovery.
+- Leaves the writing instructions and evaluated behaviour unchanged.
+
 ## 1.0.0 — 2026-08-06
 
 - First public release of `pitchdog-writing`.
