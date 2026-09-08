@@ -9,6 +9,8 @@ All notable changes are recorded here.
 - Aligns the entrypoint, voice references, and evaluation cases on improving
   writing within the brief and recognizing expressly delegated choices.
 - Narrows the description to the intended pitch.dog and bomkino voice requests.
+- Aligns maintainer guidance, installation links, and historical evaluation
+  labels with the current instructions and release evidence.
 
 ## 1.0.4 — 2026-08-06
 

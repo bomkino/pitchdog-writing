@@ -11,8 +11,12 @@ dependency.
 - **Package name:** `pitchdog-writing` satisfies the Agent Skills naming rules
   and matches the public repository. Human title: **pitch.dog Writing**.
   “Written by Us” remains the emotional and editorial title.
-- **Invocation:** explicit by default. Repository ownership alone should not
-  silently colour unrelated writing.
+- **Invocation:** explicit calls and matching voice requests may activate the
+  skill. Metadata permits automatic discovery; the brief must still call for
+  pitch.dog or bomkino voice. Repository ownership alone does not do that.
+- **Explicit constraints:** preserve requested form, count, wording, and edit
+  scope. Infer the communication goal within those constraints; vary choices
+  only when the user delegates them.
 - **Progressive disclosure:** `SKILL.md` carries the operating spine. Medium,
   tonal, rewrite, anti-pattern, example, and eval detail loads only when needed.
 - **No scripts:** the skill performs no computation and needs no executable
@@ -35,16 +39,22 @@ adding new rules.
 
 ## Release checklist
 
-1. Validate the package with `skills-ref validate "$(pwd)"`.
+1. Validate with an available Agent Skills validator, such as
+   `skills-ref validate "$(pwd)"` or OpenAI’s `quick_validate.py`. Record the
+   validator and result; a missing optional helper is not a package failure.
 2. Confirm frontmatter name matches the `pitchdog-writing` directory.
 3. Confirm description is under 1,024 characters and says when to trigger.
 4. Confirm every relative link resolves one level from `SKILL.md`.
 5. Parse `agents/openai.yaml` and `evals/evals.json`.
-6. Run the eight core media/authorship cases and the four adversarial cases.
-7. Review outputs for actual outcome, medium, speaker, client authorship,
-   specificity, and mechanism repetition.
+6. Run the evaluation cases that can expose failure in the changed behavior.
+   Broader changes to voice, authorship, or routing warrant the full suite.
+   Record prompts, outputs, findings, and cases not rerun.
+7. Review those outputs for factual accuracy, requested constraints, medium,
+   speaker, client authorship, specificity, and mechanism repetition.
 8. Build an archive with `pitchdog-writing/` as its top-level directory.
-9. Install and invoke the archive on each target product surface.
+9. Re-extract and validate the archive. If claiming installation on a product
+   surface, verify installation and invocation there separately. A GitHub
+   release alone does not make that installation claim.
 10. Tag the exact commit and attach the verified archive to the release.
 
 ## Acceptance statement

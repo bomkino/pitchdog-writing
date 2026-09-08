@@ -6,8 +6,9 @@ invitation, apology, proposal, or letter into website copy.
 
 > **Do the real job. Sound like us doing it.**
 
-The skill protects clarity, truth, authorship, medium, relationship, and human
-attention before visible style. Wit is optional. Warmth is attention, not
+The skill follows the requested form, length, protected wording, and edit scope.
+Within that brief, it protects clarity, truth, authorship, medium, relationship,
+and human attention before visible style. Wit is optional. Warmth is attention, not
 enthusiasm. Politics appears through credit, consent, labour, ownership,
 privacy, access, dignity, and boundaries—not a values paragraph bolted onto the
 work.
@@ -34,13 +35,13 @@ humanity score.
 
 ### ChatGPT
 
-1. Download the latest `pitchdog-writing.zip` release asset.
+1. Download [`pitchdog-writing.zip`](https://github.com/bomkino/pitchdog-writing/releases/latest/download/pitchdog-writing.zip) from the [latest release](https://github.com/bomkino/pitchdog-writing/releases/latest), which also includes `SHA256SUMS`.
 2. Open **Plugins → Skills → Create → Upload from your computer**.
 3. Upload the archive, review the scan, and install the skill.
 
-Personal Skills must be added separately in ChatGPT desktop and on ChatGPT
-web/mobile; those installations do not sync automatically. Workspace
-permissions can also control uploading, sharing, and installation.
+Availability, installation, and syncing vary by product, surface, and workspace
+settings. Confirm the skill is available in the client you intend to use. See
+[OpenAI’s Skills guide](https://help.openai.com/en/articles/20001066).
 
 ### Codex and other Agent Skills clients
 
