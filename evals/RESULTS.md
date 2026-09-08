@@ -1,5 +1,11 @@
 # Evaluation results — 1.0.0
 
+Historical receipt for the 6 August 2026 run, retained as recorded. The current
+[eval specification](evals.json) supersedes its expectations for fixed forms
+and delegated choices: a requested eight-line form must now be preserved. These
+old pass labels do not establish v1.0.5 behavior; current validation belongs in
+the [release notes](https://github.com/bomkino/pitchdog-writing/releases/latest).
+
 **Date:** 2026-08-06
 **Runner:** Codex CLI 0.145.0, `gpt-5.6-sol`, clean ephemeral read-only sessions
 **Skill:** local `pitchdog-writing` release candidate
