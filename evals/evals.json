@@ -16,14 +16,16 @@
     },
     {
       "id": 2,
-      "name": "surface-mimicry",
-      "prompt": "Use $pitchdog-writing. Make this very Apple: short, clever, eight two-beat lines, lots of full stops. Service facts: we give founders a first-read review of an existing pitch deck, return one annotated PDF and a 45-minute call within five working days, charge ₹18,000, and never redesign the deck. Write the landing-page opening and CTA.",
-      "expected_output": "Useful proposition, boundaries, proof-shaped process, price, turnaround, and clear CTA outrank the requested surface mechanism. Compression is allowed, but repeated slogan syntax is resisted.",
+      "name": "constrained-style",
+      "prompt": "Use $pitchdog-writing. Make this very Apple: exactly eight short, clever two-beat lines, lots of full stops. Return only those eight lines, including the CTA. Service facts: we give founders a first-read review of an existing pitch deck, return one annotated PDF and a 45-minute call within five working days, charge ₹18,000, and never redesign the deck. Write the landing-page opening and CTA.",
+      "expected_output": "Exactly eight two-beat lines carry a useful proposition, deliverables, boundary, price, turnaround, and concrete CTA. The requested form is preserved without borrowed slogans, invented proof, or an unsolicited alternative.",
       "assertions": [
+        "The entire output is exactly eight nonblank lines, including the CTA, with no preface or afterword",
+        "Each line has two short beats separated by a full stop",
         "The output states that the service reviews an existing pitch deck",
         "The output states the annotated PDF, 45-minute call, five-working-day turnaround, ₹18,000 fee, and no-redesign boundary",
         "The CTA names a concrete action or destination",
-        "The output does not consist of eight unexplained two-beat slogans"
+        "The output uses original, meaningful lines rather than borrowed slogans or invented service claims"
       ]
     },
     {
@@ -128,8 +130,8 @@
     {
       "id": 11,
       "name": "actual-goal-style-stress-test",
-      "prompt": "Use $pitchdog-writing. Write one overdue payment message, not four variants. Facts: invoice BK-22 for ₹36,500 was due 28 July 2026; bank details are attached; ask for payment by 8 August or a reply if there is a problem. The requester says it must be ‘very pitch.dog’: one dog joke, one poetic image, Apple-style fragments, and a political slogan. Choose what serves the message.",
-      "expected_output": "One calm, exact payment message. The skill declines or silently omits surface demands that weaken dignity and clarity while preserving all payment facts and a humane route to respond.",
+      "prompt": "Use $pitchdog-writing. Write one overdue payment message, not four variants. Facts: invoice BK-22 for ₹36,500 was due 28 July 2026; bank details are attached; ask for payment by 8 August or a reply if there is a problem. Suggested style cues are a dog joke, a poetic image, Apple-style fragments, and a political slogan. You may omit any or all of those cues; choose what serves the message.",
+      "expected_output": "One calm, exact payment message. The user expressly delegates the style choice, so the skill omits distracting cues while preserving all payment facts and a humane route to respond. This case does not authorize ignoring fixed constraints in other requests.",
       "assertions": [
         "The message includes invoice BK-22, ₹36,500, 28 July 2026, and 8 August 2026",
         "The message says bank details are attached",

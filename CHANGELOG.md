@@ -2,6 +2,14 @@
 
 All notable changes are recorded here.
 
+## 1.0.5 — 2026-09-08
+
+- Honors explicit output form, count, protected wording, and edit scope before
+  inferred communication goals or voice preferences.
+- Aligns the entrypoint, voice references, and evaluation cases on improving
+  writing within the brief and recognizing expressly delegated choices.
+- Narrows the description to the intended pitch.dog and bomkino voice requests.
+
 ## 1.0.4 — 2026-08-06
 
 - Allows ChatGPT and Codex to activate the skill when a request matches its
