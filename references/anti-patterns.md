@@ -32,10 +32,10 @@ carry.
 
 Compression is useful only when meaning survives.
 
-A user may explicitly request this surface. Treat the requested mechanism as
-optional polish when its repetition would flatten the page. Preserve the
-underlying desired effect—economy, confidence, memorability—using varied,
-medium-appropriate language.
+A user may explicitly request this surface. Keep the requested count and
+structure; distinguish the lines through useful facts, images, or actions.
+These diagnostics help improve the chosen form, not replace it. Use varied,
+medium-appropriate structures when the brief leaves that choice open.
 
 ## AI cadence
 

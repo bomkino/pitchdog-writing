@@ -1,15 +1,11 @@
 ---
 name: pitchdog-writing
 description: >-
-  Write, rewrite, distil, warm, voice-match, or audit emails, letters,
-  invitations, invoices, proposals, website copy, social posts, internal notes,
-  forms, microcopy, and sensitive messages so they feel naturally written by
-  pitch.dog, bomkino, or a specified person: clear, warm, exact, quietly
-  confident, materially grounded, and witty only when earned. Use when the user
-  explicitly asks for pitch.dog or bomkino voice, says "write like us", "our
-  voice", "written by us", or invokes this skill. Preserve the artifact's real
-  purpose and medium. Never overwrite a client or creator voice with studio
-  mannerisms.
+  Write, rewrite, distil, voice-match, or audit writing when the user asks for
+  pitch.dog or bomkino voice, says "write like us", "our voice", "written by us",
+  or explicitly invokes this skill. Bring clarity, warmth, exactness, and earned
+  wit to the requested medium while preserving the brief and a client or
+  creator's own authorship. Do not apply studio voice to unrelated writing.
 license: 0BSD
 metadata:
   author: pitch.dog
@@ -65,26 +61,20 @@ consequential work, audits, conflicting instructions, or proxy-risk diagnosis.
 
 ## Follow the authority order
 
-When cues conflict, use this order:
+The explicit brief governs speaker, content, format, length, tone, protected
+wording, and edit scope. Use the artifact's purpose, recipient, medium, and this
+skill's voice principles to resolve choices the brief leaves open.
 
-1. Truth, safety, consent, legal and factual accuracy.
-2. The artifact's real job.
-3. Speaker, recipient, and relationship.
-4. Medium and its practical conventions.
-5. Explicit user instructions and protected wording.
-6. Subject vocabulary and emotional temperature.
-7. The shared voice constitution.
-8. Economy, wit, and optional delight.
-9. Calibration examples and polish.
+A requested line count, repeated structure, joke, or poetic image is part of
+the brief. Make it useful and specific within that form; do not silently omit
+it because another form seems stronger. Recommend a different approach only
+when the tradeoff matters, without replacing the requested artifact. When the
+user delegates the choice, exercise that judgment and proceed.
 
-Cleverness is last.
-
-A requested surface mechanism—“exactly eight clever lines”, Apple-style
-fragments, repeated antithesis, a dog joke, or a mandatory poetic image—is a
-style preference, not a hard constraint, unless it serves a real format or
-access need. When it conflicts with ranks 1–7, keep the user's underlying goal
-and decline or quietly omit the mechanism. If the deviation needs explaining,
-add one short note after the ready-to-use artifact.
+Keep facts, consent, and protected material intact. If requirements genuinely
+cannot coexist or a higher-priority rule prevents compliance, name the exact
+conflict and resolve only that part. A difference in taste is not such a
+conflict. House voice and calibration examples never outrank the user's brief.
 
 ## Select the output mode
 
@@ -196,9 +186,10 @@ Watch for:
 - examples copied as templates;
 - a polished artifact that hides missing facts or action.
 
-Do not fulfil a request for serial slogan syntax by making every line a slogan.
-On a page, reserve compression for at most the few anchors that earn it; write
-the proposition, proof, terms, and action in complete, varied language.
+By default, reserve slogan-like compression for the few anchors that earn it;
+write the proposition, proof, terms, and action in complete, varied language.
+When the user requests a repeated form, honour it while giving each line a
+distinct information job. Repetition need not mean empty or interchangeable.
 
 Read [anti-patterns](references/anti-patterns.md) when copy feels generic,
 overwritten, samey, “AI”, or suspiciously on-brand. Use
@@ -209,6 +200,7 @@ judgment. Never reuse them as a phrase bank.
 
 Use the smallest relevant subset:
 
+- **Brief:** Did the result preserve explicit form, length, wording, and edit scope?
 - **Outcome:** Will the intended thing become true?
 - **Truth:** Are names, facts, dates, amounts, permissions, and promises intact?
 - **Recipient:** Does the writing respect their knowledge, labour, vulnerability,
@@ -221,8 +213,8 @@ Use the smallest relevant subset:
   value?
 - **Wit:** Does the turn help? Would deleting it improve the artifact?
 - **Rhythm:** Does it breathe, or repeat a mechanism?
-- **Mechanism:** Did a requested style count flatten every unit into the same
-  trick?
+- **Mechanism:** Does each unit earn its place within the requested form, or
+  repeat a trick without adding meaning?
 - **Specificity:** Could this be sent unchanged to someone else?
 - **Restraint:** Has it stopped?
 

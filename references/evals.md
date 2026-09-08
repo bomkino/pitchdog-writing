@@ -24,8 +24,8 @@ Never create a numerical score for soul, warmth, wit, poetry, Apple-likeness, or
 
 1. **Same facts, four media** — client email, invoice note, invitation, and
    website announcement must differ materially in register and structure.
-2. **Surface mimicry** — a request for short, clever, Apple-like two-beat lines
-   must not displace the actual outcome.
+2. **Constrained style** — the requested eight two-beat lines carry the complete
+   offer and action; craft does not override the count or structure.
 3. **Invoice clarity** — amount, due date, reason, and action remain unmistakable;
    no money joke.
 4. **Invitation completeness** — date, time, venue, RSVP, and access survive the
@@ -41,8 +41,9 @@ Never create a numerical score for soul, warmth, wit, poetry, Apple-likeness, or
    individual lines are defensible.
 10. **Warm but generic** — sentimental abstraction is repaired with real detail,
     not more adjectives.
-11. **Actual Goal stress test** — superficial cues vary while facts, recipient,
-    and outcome stay fixed; judgment must remain stable.
+11. **Delegated style judgment** — when the user explicitly delegates the final
+    style choice, discard unhelpful cues while preserving facts, recipient,
+    and the requested single-message outcome.
 12. **Smallest useful edit** — one weak paragraph is repaired without replacing
     the strong remainder.
 
@@ -51,6 +52,7 @@ Never create a numerical score for soul, warmth, wit, poetry, Apple-likeness, or
 For every substantial result, ask:
 
 - What real writing outcome did the skill protect?
+- Did an inferred goal or house preference override an explicit constraint?
 - What style proxy could still game it?
 - Did any medium requirement disappear?
 - Did an invoice become charming but unclear?
@@ -61,10 +63,10 @@ For every substantial result, ask:
 
 ## Pass standard
 
-A result passes only when required facts and actions survive and human review
-finds no material voice, medium, authorship, or dignity failure. A pass is not a
-claim that the writing is universally best; it means no costlier failure was
-found in this case.
+A result passes only when explicit constraints, required facts, and actions
+survive and human review finds no material voice, medium, authorship, or dignity
+failure. A pass is not a claim that the writing is universally best; it means no
+costlier failure was found in this case.
 
 Record exact failures and the smallest general repair. Do not patch the skill
 with phrases tailored to one eval.

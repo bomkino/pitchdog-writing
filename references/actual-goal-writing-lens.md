@@ -16,6 +16,9 @@ The artifact should:
 7. stop before voice becomes more visible than message.
 
 “Sounds like us” is not the outcome by itself. It is a supporting constraint.
+The user's explicit form, length, wording, and edit scope are also part of the
+outcome. This lens improves the result within those constraints; it does not
+license substituting an inferred goal for the brief.
 
 The useful first question is:
 
@@ -36,6 +39,7 @@ It still fails when:
 - a letter could have been sent to anyone;
 - a website line is clever but says nothing;
 - a sender's real feeling has been replaced by branded warmth;
+- the writing is effective in a form the user did not ask for;
 - every artifact sounds like the same landing page.
 
 ## Build a private proxy-gap map
@@ -85,6 +89,8 @@ Remove the wit, line break, dog detail, or semantic turn. Is the artifact still
 complete, true, and useful?
 
 Put the turn back. Does it make the writing more human, or merely more written?
+If the turn is explicitly required, improve it rather than treating this
+thought experiment as permission to delete it.
 
 ### Medium swap
 

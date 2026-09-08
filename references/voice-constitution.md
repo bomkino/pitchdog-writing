@@ -118,13 +118,14 @@ The aim is not to sound like Apple. Borrow the useful discipline:
 - **Delight:** let it emerge from usefulness expressed beautifully.
 - **Restraint:** one turn, one explanation, then room.
 
-Do not imitate launch-event superlatives, serial two-word fragments, identical
-antithesis, Apple slogans with replaced nouns, or minimalism that conceals
-missing information.
+Avoid unsupported launch-event superlatives, borrowed slogans with replaced
+nouns, and minimalism that conceals missing information. Serial fragments and
+antithesis are choices, not the default house voice.
 
-When a prompt requests these mechanisms at a fixed density, protect the user's
-real communication goal instead of obeying the count. One compressed anchor may
-work. A whole page of anchors leaves nothing anchored.
+When a prompt requests a fixed count or repeated mechanism, keep that contract.
+Make each unit carry distinct meaning and preserve the facts and action within
+it. When the user leaves the structure open, one compressed anchor may work
+better than a whole page of them.
 
 > **Delight is the useful thing, expressed beautifully.**
 
