@@ -1,0 +1,204 @@
+{
+  "date": "2026-09-12",
+  "version": "1.1.1",
+  "runner": "Codex CLI 0.154.0-alpha.6.2",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "method": "24 fresh ephemeral generations with full exact SKILL.md and references supplied; requested output only, no tools called. Agent editorial review of all outputs; an independent reviewer checked cases 1-12. Separate agent read the installed skill and followed the private library pointer.",
+  "runtime_sha256": {
+    "SKILL.md": "7afc7937a8d4f27b9a03098438bc14a7f1e30f2055ae4064af27ebb1f85bd11a",
+    "references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+    "references/anti-patterns.md": "801e853fa401b11915dfe8f9528ba234ff1d42c252d8b3631c7ad614b4aac86a",
+    "references/calibration-examples.md": "2b6b3748dce8cb2c1869cfe69665a1914e9f3ca591d9a716fb14304e553a6bf1",
+    "references/craft-decisions.md": "de9f7fd3d59fb323e9d881b2dc4c1f9dc2f454bb4d397881b2812d1b82102291",
+    "references/evals.md": "444101e55d6e2de56b22c88b9a4ce908846b62f3193d01a55056fc82783930d9",
+    "references/juno-voice.md": "c42936f3944e345c32321941bd41426d7ef8344e3ec734705397e70cd1aec8bc",
+    "references/medium-registers.md": "c4b9f80234b77bef2af2d3e72d6bb7240f17148d96ef0e1b13e31223a2f08cff",
+    "references/narrative-craft.md": "47e114f7b05d4c754044be365eeb88e0237fdcb8487f701fa40eac2a3d97fabb",
+    "references/rewrite-workflows.md": "6b4eaa7bba9968387e0537b8bcd1fdfd196bf2d42b1a486872b89556d6adacee",
+    "references/rhythm-wit-warmth.md": "3b80dc758dbfa070a320cf59af1d8f6296d618b9fcd3d87b41c219524b277558",
+    "references/speaker-modes.md": "1c0e78e77da56345f4ea70e451ec6b8e8e351bbb7860251425566ad43d342ff5",
+    "references/voice-constitution.md": "dfbe49ae8ff09298109471acb5ca1662d41e501cb1446bbb485bb44eb2e74e6a"
+  },
+  "runs": [
+    {
+      "id": 1,
+      "name": "same-facts-four-media",
+      "exit_code": 0,
+      "seconds": 54.4,
+      "sha256": "ef488a36cf761153a699b9e64d4f09abbf9bc2b394034d5639f9d034b8f9554d"
+    },
+    {
+      "id": 2,
+      "name": "constrained-style",
+      "exit_code": 0,
+      "seconds": 88.1,
+      "sha256": "94c8f151d1edde8865a1bd9982d945233615323fe14ebbc1cc00aa9dda324aef"
+    },
+    {
+      "id": 3,
+      "name": "invoice-clarity",
+      "exit_code": 0,
+      "seconds": 27.1,
+      "sha256": "e976805ce7a2eb30d28b2f4d6144ce6bfbfa501669e90de5da97d45d2b68a1d9"
+    },
+    {
+      "id": 4,
+      "name": "invitation-completeness",
+      "exit_code": 0,
+      "seconds": 33.6,
+      "sha256": "c88e435a63b980e7750d9028bfb01d53dd3361cf8e8ba6b001040b1158cfb82c"
+    },
+    {
+      "id": 5,
+      "name": "apology-accountability",
+      "exit_code": 0,
+      "seconds": 28.1,
+      "sha256": "5579a34f99929a6b0d38051ad513f31c7f0324dc263d13c6fd5b039987c575b7"
+    },
+    {
+      "id": 6,
+      "name": "personal-letter-specificity",
+      "exit_code": 0,
+      "seconds": 55.7,
+      "sha256": "24327939acce592b523aced3e52f69d95f3e50039b2745ca2f0d4b2361a62bc7"
+    },
+    {
+      "id": 7,
+      "name": "email-decision-first",
+      "exit_code": 0,
+      "seconds": 33.8,
+      "sha256": "20fbca8da36678405185ff29838dce006aae4ebae5eaf1ef7fb85c5c5c9e6f0f"
+    },
+    {
+      "id": 8,
+      "name": "client-authorship",
+      "exit_code": 0,
+      "seconds": 68.4,
+      "sha256": "c9ff9a760ea2b1e43a177d1a11e03abf5e04e0d2ebcb6131b0af05b09c07f249"
+    },
+    {
+      "id": 9,
+      "name": "samey-syntax-audit",
+      "exit_code": 0,
+      "seconds": 72.2,
+      "sha256": "b46a9d5a2e079b289f9d8210aa83e5b2bcb4c4d5a0b5e94d91bc8824d4efffd1"
+    },
+    {
+      "id": 10,
+      "name": "warm-but-generic",
+      "exit_code": 0,
+      "seconds": 30.3,
+      "sha256": "ad4405b09a0bf12cb26166e7ee9a1ebf75bae952ebb9de6051a3c1bdb24b7a65"
+    },
+    {
+      "id": 11,
+      "name": "actual-goal-style-stress-test",
+      "exit_code": 0,
+      "seconds": 29.7,
+      "sha256": "bc329628e39ecc60c1df2efc135b6d00670c816096ca67e46ab5907a5d792274"
+    },
+    {
+      "id": 12,
+      "name": "smallest-useful-edit",
+      "exit_code": 0,
+      "seconds": 23.1,
+      "sha256": "2e445b878c642d7dfc58799f4cafcced994906499765cda3a87cccd25e736e1f"
+    },
+    {
+      "id": 13,
+      "name": "unpack-without-inventing",
+      "exit_code": 0,
+      "seconds": 21.2,
+      "sha256": "0118bcb21ca45a49d01f226ec8512a853d5b1b3ba6e8b6638a9abbc952f4ec99"
+    },
+    {
+      "id": 14,
+      "name": "uncertainty-is-meaning",
+      "exit_code": 0,
+      "seconds": 25.5,
+      "sha256": "087cba529ad1ce583b50b1efbb93ac2be4e9bdfbd4a4c1a1e17c1b82fde29508"
+    },
+    {
+      "id": 15,
+      "name": "factual-case-study-evidence",
+      "exit_code": 0,
+      "seconds": 78.4,
+      "sha256": "5cd536069ba8fd6aa1b865e97292daa554b99494c2a52d374d66ffe3fa4c8905"
+    },
+    {
+      "id": 16,
+      "name": "object-changes-meaning",
+      "exit_code": 0,
+      "seconds": 69.4,
+      "sha256": "3d8b5a8547569e598d76f7bd3f51ced0d8feeaf531f1dec6bd408bb87473c25d"
+    },
+    {
+      "id": 17,
+      "name": "comparison-serves-the-speaker",
+      "exit_code": 0,
+      "seconds": 27.8,
+      "sha256": "5c78e29021272fc69c003c56284842a47c015c27cc489892258683a746dd6720"
+    },
+    {
+      "id": 18,
+      "name": "structure-follows-question",
+      "exit_code": 0,
+      "seconds": 77.4,
+      "sha256": "8be2d7f04bc144a83f53bd8b5a54560a9d6bdf6a766ad7cf9674d45ba87c4561"
+    },
+    {
+      "id": 19,
+      "name": "dialogue-and-practical-answer",
+      "exit_code": 0,
+      "seconds": 45.0,
+      "sha256": "37bec3870ae1a9e494d90fb0ed1e9df0882521592289311f4d3090a0084ab636"
+    },
+    {
+      "id": 20,
+      "name": "source-exercise-is-not-authority",
+      "exit_code": 0,
+      "seconds": 55.9,
+      "sha256": "910c067bfc644d206b4d2aa82116428263afbff484964ec024c79f650d74fca3"
+    },
+    {
+      "id": 21,
+      "name": "global-studio-positioning",
+      "exit_code": 0,
+      "seconds": 33.8,
+      "sha256": "c71fd8a706fd127cd421da0edb52d1460e223aa251a5ca3badab3a43799fe493"
+    },
+    {
+      "id": 22,
+      "name": "calibration-is-not-current-proof",
+      "exit_code": 0,
+      "seconds": 33.5,
+      "sha256": "b7dffaa344302351753c88f6760d0e55de481fc1937e19291cd0c6e174078748"
+    },
+    {
+      "id": 23,
+      "name": "global-positioning-protects-local-facts",
+      "exit_code": 0,
+      "seconds": 34.8,
+      "sha256": "6a31724f1f7b912b530e976614c13868316f57a4213cc6d196459e1920828e56"
+    },
+    {
+      "id": 24,
+      "name": "juno-voice-across-media",
+      "exit_code": 0,
+      "seconds": 54.8,
+      "sha256": "bd4db5d122fbb3ec5175e838a205ac4f882dcecc62fcd05e697a771c8eecc500"
+    }
+  ],
+  "assertion_adjustment": {
+    "case": 11,
+    "change": "Permit the year in the 8 August payment deadline to remain implicit where supplied context is unambiguous.",
+    "reason": "The prompt says 8 August, while the old assertion required the explicit full date 8 August 2026. Output retains 28 July 2026 as the invoice due date; no deadline changes. No prompt, output or runtime rule was changed."
+  },
+  "limits": [
+    "One generation per case, one model, no new baseline comparison.",
+    "Full reference preload does not test selective routing; separate installed smoke does.",
+    "No human taste approval or general literary-quality gain claimed.",
+    "Configured unrelated MCP servers logged startup warnings; accepted generations called no tools."
+  ]
+}

@@ -2,6 +2,14 @@
 
 All notable changes are recorded here.
 
+## 1.1.1 — 2026-09-12
+
+- Makes the user-selected Juno master the primary studio voice calibration,
+  with a private library pointer and portable writing decisions.
+- Establishes global studio positioning while preserving real currencies,
+  locations, quotations, and creator identity when required by the brief.
+- Separates historical master copy from current facts, prices, and permissions.
+
 ## 1.1.0 — 2026-09-12
 
 - Adds source-grounded craft decisions for evidence, selected detail, viewpoint,

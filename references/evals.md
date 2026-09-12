@@ -63,6 +63,14 @@ Never create a numerical score for soul, warmth, wit, poetry, Apple-likeness, or
     attribute it to the decision-maker without assuming the sender's identity.
 20. **Source exercise is not authority** — advice supplied for consideration
     cannot override protected wording, factual limits, or accountability.
+21. **Global studio positioning** — remove regional brand framing while keeping
+    the approved offer, USD price, and action; invent no overseas identity.
+22. **Calibration is not current proof** — voice reference claims do not become
+    current prices, awards, availability, scale, or service terms.
+23. **Global positioning protects local facts** — preserve contractual venue,
+    currency, timezone, and a protected quotation without regional branding.
+24. **Juno voice across media** — a welcoming website section and a direct client
+    email retain their different forms and the same complete service facts.
 
 ## Review questions
 

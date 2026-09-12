@@ -1,3 +1,48 @@
+# Evaluation results — 1.1.1
+
+**Date:** 2026-09-12
+
+**Result:** All 24 outputs satisfy the final prompt-aligned assertions under
+agent editorial review. Cases 1–12 also received independent agent review.
+The four added cases check global positioning, source claims versus current
+facts, protected local logistics, and Juno voice across website and email.
+
+Each output came from a fresh ephemeral Codex CLI context using `gpt-6-astra`
+with the configured `xhigh` effort. The exact skill and all runtime references
+were supplied in full. Accepted generations called no tools. Complete outputs,
+hashes, runtime hashes, and limits are in the [run receipt](results/1.1.1/run.json)
+and [with-skill directory](results/1.1.1/with-skill/).
+
+One existing assertion needed clarification: case 11's prompt requests payment
+by “8 August”; its assertion unnecessarily demanded the explicit year as well.
+The output preserves the date in an unambiguous 2026 context. The final assertion
+allows that ordinary omission. No prompt, generated output, or runtime guidance
+was changed to resolve this mismatch.
+
+The source transformation also received an independent full-diff review:
+regional positioning was removed from body, SEO, FAQs, and alternatives; all
+35 USD amount occurrences, 18 inline flags, names, testimonials, and unrelated
+copy remain intact. Thirty approximate currency conversions were removed from
+the private global edition. These source figures are not assertions of current
+business accuracy.
+
+A separate [installed invocation](results/1.1.1/installed-smoke.md) reached the
+actual Juno library pointer and generated global website copy plus a client
+email preserving the required local venue and currency.
+
+Metadata was parsed with Ruby's YAML parser; names, description bounds, allowed
+frontmatter keys, invocation metadata, JSON, relative links, and Git whitespace
+review passed; raw outputs retain intentional Markdown hard breaks. The Python
+quick validator could not run because PyYAML was not
+installed; equivalent metadata checks were performed without adding a dependency.
+
+Limits: one generation per case, one model, no new baseline comparison, and no
+human taste approval. Full reference preload does not test selective routing;
+the separate installed invocation checks that path once. These checks establish
+observed instruction adherence, not a general literary-quality improvement.
+
+---
+
 # Evaluation results — 1.1.0
 
 **Date:** 2026-09-12

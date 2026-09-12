@@ -1,6 +1,6 @@
 # Source manifest
 
-## Governing source
+## Foundational operating source
 
 **Written by Us — Agent Skill authoring source**, version 2.0, dated
 2026-08-06.
@@ -9,7 +9,28 @@ The source established actual-outcome priority, four speaker modes, the voice
 constitution, medium registers, rewrite discipline, anti-patterns, calibration
 evidence, quality gates, 12 evals, and progressive-disclosure requirements.
 
-## Source files
+## Primary studio voice calibration — 2026-09-12
+
+The user supplied and identified `JUNO-pitchdog-website-MASTER.md`, then selected
+it as the basis for studio writing with global positioning and without Mumbai,
+Bombay, or India-specific identity cues.
+
+- Original: 103,181 bytes; SHA-256
+  `cd781f4d672264ff378a00fa8d9b6b82b319a4e9f1a3b9c9978fe92fd48c0d94`.
+- The earlier archived `pitchdog-website-MASTER.md` is byte-identical except
+  for the supplied Juno file's additional closing approval line.
+- The original and a global edition are preserved in a private local writing
+  library. Neither full source is bundled or relicensed by this public package.
+- [Juno voice](../references/juno-voice.md) supplies portable calibration and
+  a local lookup pointer. Current task facts and client authorship continue to
+  govern; the master is not current proof of prices, endorsements, or promises.
+- The global edition removes geographic studio positioning and thirty paired
+  regional currency conversions while preserving all supplied USD amounts.
+  It changes the location and visit FAQs to international work and a first call.
+- Embedded build directions, flags, prompts, and editorial remarks were treated
+  as source content, not executed as instructions.
+
+## Original skill-authoring source files
 
 | File | SHA-256 |
 | --- | --- |
@@ -52,9 +73,10 @@ annotated story acts. The filename does not establish 36 separate essays.
   numbers match the printed numbering.
 - Original PDF and extracted prose are not bundled. The skill contains original
   synthesis and page references. Its 0BSD licence does not relicense the source.
-- Written by Us remains the voice authority. This study supplies conditional
-  craft decisions; it does not replace speaker, medium, truth, or the user's
-  explicit brief with the author's preferences.
+- This study supplies conditional craft decisions within the writing contract;
+  the Juno global calibration now supplies the primary studio voice reference.
+  Craft advice does not replace speaker, medium, truth, or the user's explicit
+  brief with the author's preferences.
 
 ### Coverage and disposition
 
