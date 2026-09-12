@@ -6,6 +6,12 @@ This repository is the public shipping authority for `pitchdog-writing`.
 The original “Written by Us” v2.0 source remains provenance, not a runtime
 dependency.
 
+Juno's global edition is the user-selected studio voice calibration. The full
+master stays in the private writing library; `references/juno-voice.md` carries
+portable decisions. Written by Us remains the operating contract and the craft
+study remains a toolbox. Public repository changes do not publish the private
+source or establish that its business claims are current.
+
 ## Deliberate decisions
 
 - **Package name:** `pitchdog-writing` satisfies the Agent Skills naming rules

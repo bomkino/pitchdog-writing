@@ -1,0 +1,3 @@
+Over one monsoon afternoon, a mother and daughter clear an old flat after the grandmother’s death. They sort what can be carried, what can be given away. Then twelve undeveloped rolls of film interrupt the work. Neither woman can say what is on them. For now, they have to decide where to put them.
+
+I want to stay with that small difficulty: two people handling a life whose images remain withheld. Rain presses against the windows. We stay close enough to see which things they touch twice before letting go.

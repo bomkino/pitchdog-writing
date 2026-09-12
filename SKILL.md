@@ -9,8 +9,8 @@ description: >-
 license: 0BSD
 metadata:
   author: pitch.dog
-  version: "1.1.0"
-  source: "Written by Us v2.0"
+  version: "1.1.1"
+  source: "Juno global voice; Written by Us v2.0"
 ---
 
 # pitch.dog Writing
@@ -24,6 +24,12 @@ preset, website-copy machine, Apple imitation guide, phrase bank, or dog-pun
 generator.
 
 The voice has a spine. It does not wear a uniform.
+
+For studio voice, read [Juno's voice reference](references/juno-voice.md): the
+user-selected master is our primary calibration, with global positioning.
+Write for a global audience without Mumbai, Bombay, or India-specific brand
+framing. Preserve practical locale facts when the brief requires them. Written
+by Us supplies the writing contract; the craft studies supply optional tools.
 
 ## Apply the invocation gate
 

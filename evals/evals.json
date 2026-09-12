@@ -133,7 +133,7 @@
       "prompt": "Use $pitchdog-writing. Write one overdue payment message, not four variants. Facts: invoice BK-22 for ₹36,500 was due 28 July 2026; bank details are attached; ask for payment by 8 August or a reply if there is a problem. Suggested style cues are a dog joke, a poetic image, Apple-style fragments, and a political slogan. You may omit any or all of those cues; choose what serves the message.",
       "expected_output": "One calm, exact payment message. The user expressly delegates the style choice, so the skill omits distracting cues while preserving all payment facts and a humane route to respond. This case does not authorize ignoring fixed constraints in other requests.",
       "assertions": [
-        "The message includes invoice BK-22, ₹36,500, 28 July 2026, and 8 August 2026",
+        "The message includes invoice BK-22, ₹36,500, 28 July 2026, and the requested 8 August payment deadline; the year may remain implicit where the supplied context is unambiguous",
         "The message says bank details are attached",
         "The message asks for payment or a reply if there is a problem",
         "The message contains no dog joke, poetic image, or unrelated political slogan"
@@ -251,6 +251,57 @@
         "It preserves Sal, the old file, Tuesday's review, corrected attachment, and the next export check",
         "Responsibility, impact, and repair are clear without suspense or passive evasion",
         "It invents no physical detail, emotional claim, or completed preventive check"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "global-studio-positioning",
+      "prompt": "Use $pitchdog-writing. Rewrite this pitch.dog website opening in our Juno voice for a global audience. Return a headline, a paragraph, and a CTA. Source draft: A Mumbai-based Indian studio with Bombay hustle. We make pitch decks for film, advertising, and business. Our design-only deck service starts at $2,500 (INR conversion to follow). Contact hello@example.com. Keep the service and supplied USD price. Remove regional studio positioning.",
+      "expected_output": "Ready-to-use writing that follows Juno global voice calibration while preserving the explicit brief and factual boundaries.",
+      "assertions": [
+        "The opening explains pitch decks for film, advertising, and business",
+        "The output preserves the supplied $2,500 starting price and hello@example.com",
+        "The output has no Mumbai, Bombay, India, regional identity cue, or added INR conversion",
+        "The output does not invent an overseas location, country count, outcomes, or availability",
+        "The result includes a useful headline, developed paragraph, and concrete CTA"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "calibration-is-not-current-proof",
+      "prompt": "Use $pitchdog-writing and the Juno voice calibration. Write a website introduction of at most 65 words with a CTA. Confirmed brief: pitch.dog writes and designs pitch decks for film and television; the next action is to send a project outline to hello@example.com. An old reference mentions 30+ countries, $2,500, a 24-hour reply promise, major awards and unlimited revisions. None of those old claims has been confirmed for this brief. Give finished copy, without process commentary.",
+      "expected_output": "Ready-to-use writing that follows Juno global voice calibration while preserving the explicit brief and factual boundaries.",
+      "assertions": [
+        "The introduction states writing and design of pitch decks for film and television",
+        "The CTA requests a project outline at hello@example.com",
+        "No old price, country count, award, revision term, or response promise becomes a claim",
+        "At most 65 words, with no workflow explanation",
+        "The copy carries a clear proposition and human ease without forced dog language"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "global-positioning-protects-local-facts",
+      "prompt": "Use $pitchdog-writing. Our studio voice is global. Write a concise confirmation email for the client booking: a workshop in Mumbai at Room 4, Harbour House, on 8 October 2026 at 15:00 IST. Agreed fee: INR 40,000. Ask for the attendee count by 2 October. This venue, fee and time are contractual facts. Preserve this approved client quote exactly: “Our Mumbai team needs time to think.” Do not add a studio location or currency conversion.",
+      "expected_output": "Ready-to-use writing that follows Juno global voice calibration while preserving the explicit brief and factual boundaries.",
+      "assertions": [
+        "The email preserves Mumbai, Room 4, Harbour House, 8 October 2026, 15:00 IST, and INR 40,000",
+        "The approved client quote is character-for-character intact",
+        "The attendee count request and 2 October deadline are visible",
+        "There is no added studio location, converted currency, or regional brand caricature"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "juno-voice-across-media",
+      "prompt": "Use $pitchdog-writing. Same confirmed facts, two artifacts: (1) a pitch.dog website section of 50–75 words, including a short headline and CTA; (2) a client email of at most 60 words. Service: a first read of a film pitch; people may send a rough outline; we return written notes on story structure and a 30-minute call; no deck design is included. Price: $300. Submission: hello@example.com. Use our Juno voice. Do not invent a turnaround or a programme name.",
+      "expected_output": "Ready-to-use writing that follows Juno global voice calibration while preserving the explicit brief and factual boundaries.",
+      "assertions": [
+        "Website section has 50–75 words and the email at most 60",
+        "Both preserve rough-outline eligibility, written structure notes, the 30-minute call, $300, no deck design, and hello@example.com",
+        "Website and email have distinct forms appropriate to their jobs",
+        "The copy is plainspoken and welcoming without inventing enthusiasm, location, availability, or a programme",
+        "Personality does not become a dog routine or an extended string of slogans"
       ]
     }
   ]
