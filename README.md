@@ -25,6 +25,13 @@ work.
 - apologies, personal messages, and sensitive writing;
 - writing for clients and creators without stealing their voice.
 
+The craft layer helps substantial writing earn its claims, choose telling
+details, develop a narrative, and stop before explaining away its effect. It
+adapts techniques from Chuck Palahniuk's craft essays while preserving factual
+accuracy, the requested medium, and the speaker's own authorship. The
+[source manifest](provenance/SOURCE-MANIFEST.md) records coverage and boundaries;
+the essays themselves are not part of the package.
+
 ## What it refuses to become
 
 Not a phrase bank. Not an Apple slogan generator. Not generic “premium” agency

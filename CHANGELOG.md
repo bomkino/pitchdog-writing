@@ -2,6 +2,20 @@
 
 All notable changes are recorded here.
 
+## 1.1.0 — 2026-09-12
+
+- Adds source-grounded craft decisions for evidence, selected detail, viewpoint,
+  precise comparisons, information variety, and spoken revision.
+- Adds conditional narrative guidance for structure, passage purpose, recurring
+  objects, setup and payoff, duration, dialogue, and endings.
+- Records the full supplied Palahniuk collection study and its limits while
+  preserving Written by Us as the voice authority and keeping source prose out
+  of the package.
+- Extends behavioural cases to cover craft transfer, factual restraint,
+  uncertainty, source-instruction boundaries, and useful narrative development.
+- Separates a reported decision-maker from an unspecified message sender after
+  comparison review exposed first-person misattribution.
+
 ## 1.0.5 — 2026-09-08
 
 - Honors explicit output form, count, protected wording, and edit scope before

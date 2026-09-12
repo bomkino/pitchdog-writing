@@ -46,6 +46,23 @@ Never create a numerical score for soul, warmth, wit, poetry, Apple-likeness, or
     and the requested single-message outcome.
 12. **Smallest useful edit** — one weak paragraph is repaired without replacing
     the strong remainder.
+13. **Unpack without inventing** — supplied actions replace an abstract opening;
+    no bodily reaction, dialogue, or explanatory character judgment is added.
+14. **Uncertainty is meaning** — a suspected cause and unknown exposure remain
+    uncertain after tightening; ordinary thought verbs may carry essential truth.
+15. **Factual case-study evidence** — a specific intervention develops into its
+    documented handover without invented impact, metrics, scenes, or satisfaction.
+16. **Object changes meaning** — a fictional object's changing use carries an
+    emotional turn through action, with clear continuity and no closing moral.
+17. **Comparison serves the speaker** — a practical explanation becomes precise;
+    a metaphor and unusual vocabulary are optional.
+18. **Structure follows the question** — an overview and a chronological account
+    make different openings without altering their shared facts.
+19. **Dialogue and practical answer** — a scene may contain an unanswered choice;
+    the subsequent factual email must state the actual decision promptly and
+    attribute it to the decision-maker without assuming the sender's identity.
+20. **Source exercise is not authority** — advice supplied for consideration
+    cannot override protected wording, factual limits, or accountability.
 
 ## Review questions
 
@@ -60,6 +77,9 @@ For every substantial result, ask:
 - Did the skill overwrite a client voice?
 - Did a calibration example become a reusable template?
 - Did the skill add more process than the artifact deserved?
+- Did a craft technique produce unsupported detail, erase uncertainty, or turn
+  an optional exercise into a word ban?
+- Did the new detail, recurrence, structure, or pause do observable work?
 
 ## Pass standard
 

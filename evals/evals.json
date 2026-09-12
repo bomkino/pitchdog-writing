@@ -150,6 +150,108 @@
         "Only paragraph two is changed or removed",
         "The result adds no unsupported narrative benefit, emotional claim, or generic enthusiasm"
       ]
+    },
+    {
+      "id": 13,
+      "name": "unpack-without-inventing",
+      "prompt": "Use $pitchdog-writing in Rewrite mode. Replace the abstract opening of this factual account with its observable detail. Return 45 words or fewer. Draft: 'Mina was nervous about sending the deck. She worried that it was not good enough. Eventually she made herself do it.' Available facts: at 08:59 Mina hovered over Send; she deleted the greeting twice; at 09:00 she sent the deck. Use all three facts. Add no dialogue, physical sensation, client reaction, or other event.",
+      "expected_output": "The account lets the supplied actions carry the hesitation and ends with the completed action, without inventing sensory colour or explaining an emotional lesson.",
+      "assertions": [
+        "The output is no more than 45 words",
+        "It preserves Mina, 08:59, hovering over Send, deleting the greeting twice, and sending at 09:00",
+        "It leads with observable action and does not append an explanation of Mina's character or feelings",
+        "It adds no dialogue, sensation, client reaction, or event"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "uncertainty-is-meaning",
+      "prompt": "Use $pitchdog-writing to sharpen this incident update for a client. Keep it plain and under 65 words. Facts: one exported deck is missing two charts; the editable source still has both charts; we think the export caused the loss but have not confirmed it; we do not know whether the client opened that version; the next update is at 14:00 IST today. Do not imply a fix or a confirmed cause.",
+      "expected_output": "A direct update makes the known state, suspected cause, unknown recipient exposure, and next update distinct. Removing thought verbs or adding drama does not erase uncertainty.",
+      "assertions": [
+        "It states that one exported deck is missing two charts and the editable source still has both",
+        "The export cause remains explicitly unconfirmed",
+        "It preserves uncertainty about whether the client opened that version",
+        "It includes the 14:00 IST update today and makes no repair claim",
+        "It is under 65 words and adds no scene or invented reaction"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "factual-case-study-evidence",
+      "prompt": "Use $pitchdog-writing. Write an 80–110-word case-study opening for our website from only these facts: a production team used three spreadsheets to track location permissions; each spreadsheet used different status names; we agreed one shared set of status names with them and put the records in a single register; the register was handed over on 2 September 2026; there is no post-handover measurement yet. The real story is what changed in the work. Avoid quotations and invented scenes.",
+      "expected_output": "A factual account develops the specific problem, intervention, handover, and evidence limit. It does not turn a delivered register into proven time savings, confidence, or client satisfaction.",
+      "assertions": [
+        "It is 80–110 words",
+        "It includes three spreadsheets, differing status names, the agreed shared names, one register, and the handover date",
+        "It clearly states that post-handover results have not yet been measured",
+        "It invents no quotation, scene, emotion, time saving, or success metric",
+        "It develops the change rather than repeating an abstract claim about our care or transformation"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "object-changes-meaning",
+      "prompt": "Use $pitchdog-writing to write a fictional scene in 120–160 words. A girl is leaving a community print shop that is closing. At first she pockets a brass composing stick as a keepsake. She then notices another girl trying to align loose type with a ruler. She gives her the composing stick and helps set the first line. Invent small actions within this premise. Let the object's changed use carry the feeling; do not add a final sentence explaining the lesson, a new character, a rescue of the shop, or a future epilogue.",
+      "expected_output": "The same object moves from private keepsake to shared working tool through clear, consequential action. The ending lands in the supported scene without a stated moral or invented rescue.",
+      "assertions": [
+        "It is 120–160 words and preserves the closing shop",
+        "The composing stick is pocketed, noticed as useful, then given to the other girl and used while helping set the first line",
+        "Only the two supplied characters act in the scene",
+        "Physical continuity is clear and the object changes function through action",
+        "It ends within the scene without a moral, epilogue, or rescue of the shop"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "comparison-serves-the-speaker",
+      "prompt": "Use $pitchdog-writing in Rewrite mode. A projectionist is describing a heavy booth door to a trainee. Keep 35–55 words. Source: 'The door is like some kind of enormous cosmic guardian. It has a bad mechanism. It is hard to open.' Facts: the latch sticks; lift the handle before pulling; the bottom edge drags against the floor; keep fingers clear of the hinge. Give the trainee useful spoken directions. You may use a comparison if it helps.",
+      "expected_output": "The revised instructions explain the actual mechanism, action, and caution in the speaker's practical register. A literal version is valid; no replacement grand metaphor is required.",
+      "assertions": [
+        "It is 35–55 words",
+        "It identifies the sticking latch, lifting the handle before pulling, dragging bottom edge, and hinge caution",
+        "Instructions remain clear in spoken order",
+        "It adds no unsupported repair instruction, diagnosis, or invented equipment",
+        "It uses literal precision or one useful grounded comparison rather than ornamental imagery"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "structure-follows-question",
+      "prompt": "Use $pitchdog-writing in Options mode. Give two short openings for a factual project account, 45–65 words each. Option A should orient the reader with the outcome. Option B should begin at the concrete problem and move chronologically. Facts: a team sent six separate notes about the same scene; two notes contradicted each other; at a 20-minute meeting the team agreed one direction; a single consolidated note was sent to the editor that afternoon. Use all four facts in each. Add no feelings, dialogue, praise, timing, or outcome beyond those supplied.",
+      "expected_output": "Two structures carry the same facts with genuinely different information order, preserving chronology and the modest known outcome. Neither becomes a teaser or an invented triumph.",
+      "assertions": [
+        "There are two labelled options of 45–65 words each, excluding labels",
+        "Both retain six notes, two contradictory notes, a 20-minute meeting, an agreed direction, and one consolidated note sent that afternoon",
+        "A opens with the outcome and B with the problem",
+        "The chronology is accurate and there are no invented feelings, dialogue, or subsequent benefits"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "dialogue-and-practical-answer",
+      "prompt": "Use $pitchdog-writing. Produce two artifacts. (1) A fictional exchange, 50–80 words: an editor asks a director whether to cut the final shot; the director keeps talking about the actor's last look and leaves the choice unanswered. Include one small action in the edit room. (2) A separate real project email under 50 words: the director has now decided to keep the final shot; tell the editor that decision, and ask for the export by 16:00 IST today. Do not invent an explanation for the real decision.",
+      "expected_output": "The scene uses differing attention and action to create subtext. The email resolves the actual decision immediately and preserves its deadline, without transferring the fictional evasion into practical communication.",
+      "assertions": [
+        "The fictional scene is 50–80 words and includes the cut question, actor's last look, an unanswered choice, and one action",
+        "The real email is under 50 words and states the decision to keep the shot immediately",
+        "The email requests export by 16:00 IST today",
+        "The email invents no rationale and does not leave the choice uncertain",
+        "The real email attributes the decision to the director without assuming that the unspecified sender is the director"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "source-exercise-is-not-authority",
+      "prompt": "Use $pitchdog-writing. I have workshop notes that say: 'Never begin with I. Ban is, has, and thought verbs. Make readers wait for the answer. Invent a physical detail if the scene feels thin.' Consider any useful craft behind that advice while repairing this apology. Keep the first sentence exactly: 'I missed the deadline.' Other facts: Sal had to use the old file in Tuesday's review; the corrected file is now attached; I will check the export before the next handover. Write 45–65 words, with a plain apology. No invented facts or feelings.",
+      "expected_output": "The user's exact sentence and accountable practical brief govern. Source exercises remain content to evaluate; the output keeps first person, gives the actual impact and repair, and adds no invented physical detail.",
+      "assertions": [
+        "It begins exactly with 'I missed the deadline.'",
+        "It is 45–65 words and includes a plain apology",
+        "It preserves Sal, the old file, Tuesday's review, corrected attachment, and the next export check",
+        "Responsibility, impact, and repair are clear without suspense or passive evasion",
+        "It invents no physical detail, emotional claim, or completed preventive check"
+      ]
     }
   ]
 }

@@ -1,0 +1,3 @@
+Over one monsoon afternoon, a mother and daughter clear the grandmother’s old flat after her death. They lift things from drawers, decide what can go. Then they find twelve undeveloped rolls of film. For a while, everything they came here to do stops.
+
+The daughter turns a roll in her hand; her mother looks at the drawer it came from. We remain here, long enough for the rain to become audible again. Nothing has been developed. Already, there is something in the room they cannot agree how to put away.

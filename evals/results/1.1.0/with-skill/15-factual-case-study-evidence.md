@@ -1,0 +1,3 @@
+A production team was using three spreadsheets to track location permissions. Each spreadsheet used different status names. We agreed one shared set of status names with the team and brought the records together in a single register. The work changed both where the records lived and how their statuses were labelled.
+
+We handed over the register on 2 September 2026. There is no post-handover measurement yet, so we cannot say what effect the change has had on the team’s work.

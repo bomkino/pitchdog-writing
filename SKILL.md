@@ -9,7 +9,7 @@ description: >-
 license: 0BSD
 metadata:
   author: pitch.dog
-  version: "1.0.5"
+  version: "1.1.0"
   source: "Written by Us v2.0"
 ---
 
@@ -134,6 +134,25 @@ Read [the voice constitution](references/voice-constitution.md) for substantial
 drafts or unfamiliar contexts. Read [rhythm, wit, and warmth](references/rhythm-wit-warmth.md)
 when the work needs tonal judgment rather than more information.
 
+## Make the point felt
+
+When writing names a quality or feeling, look for the supplied action, object,
+choice, or consequence that earns it. Let the reader notice something before
+explaining what to think about it. In factual work, missing evidence calls for
+a smaller claim, a marked gap, or a question; vividness never licenses invention.
+Keep direct statements when they carry an answer, responsibility, uncertainty,
+consent, or terms.
+
+For substantial drafts or passages that feel abstract, flat, or over-explained,
+read [craft decisions](references/craft-decisions.md). For scenes, treatments,
+essays, speeches, or stories within case studies and decks, also read
+[narrative craft](references/narrative-craft.md). Choose a technique for an actual
+weakness; a piece does not need every technique.
+
+These tools adapt Palahniuk's craft essays to our writing contract. They develop
+attention, evidence, movement, and rhythm while preserving the speaker's own
+voice. They are neither an author imitation nor a set of forbidden words.
+
 ## Preserve medium differences
 
 Voice intensity must bend around the artifact's job:
@@ -216,6 +235,8 @@ Use the smallest relevant subset:
 - **Mechanism:** Does each unit earn its place within the requested form, or
   repeat a trick without adding meaning?
 - **Specificity:** Could this be sent unchanged to someone else?
+- **Development:** Does this passage add evidence, change understanding, or give
+  needed breathing room? Does a returning detail mean more this time?
 - **Restraint:** Has it stopped?
 
 For important work, complete privately:

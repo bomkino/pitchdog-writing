@@ -1,0 +1,1 @@
+One exported deck is missing two charts. Both are still in the editable source. We suspect they were lost during export, but haven’t confirmed the cause. We don’t know whether you’ve opened that version. We’ll update you at 14:00 IST today.
