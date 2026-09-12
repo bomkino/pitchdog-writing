@@ -7,19 +7,22 @@ These are diagnostic signals, not a banned-word linter. A phrase can be right
 when it is true, specific, and naturally placed. Repetition and substitution
 are usually the tell.
 
-## Surface voice without actual outcome
+## Two ways to disappear
 
-Primary failure: artifact sounds like us but does not do its job.
+An artifact can perform the voice while missing its job. It can also deliver
+every fact while removing its speaker. Both fail studio writing.
 
-Fix missing information, action, truth, or structure before style.
+Restore missing information or action. For a correct but anonymous draft,
+find a specific observation, preference, or way of addressing the reader.
+Replacing “solutions” with “decks” does not give a sentence a point of view.
 
 ## Website voice everywhere
 
 An invoice, apology, invitation, handover, and personal letter should not all
 sound like landing-page sections.
 
-Reset to the medium's practical conventions, then add only the voice it can
-carry.
+Keep the medium's practical conventions and let the relationship determine
+how the speaker sounds within them.
 
 ## Apple cosplay
 
@@ -84,7 +87,7 @@ with a sharper adjective.
 - excessive exclamation marks;
 - “we care deeply” without visible care;
 - fake familiarity;
-- emotional language inside a transaction;
+- emotional pressure used to secure a transaction;
 - optimism demanded from someone under pressure.
 
 Warmth should reduce friction or recognise reality.
@@ -95,10 +98,12 @@ Warmth should reduce friction or recognise reality.
 - jokes around money, consent, bad news, or vulnerability;
 - wordplay imported from outside the subject;
 - a body paragraph forced to rescue a cryptic line;
-- swearing used as personality;
+- profanity standing in for an observation;
 - dog language substituting for substance.
 
-Delete the line and test the artifact. If it improves, the wit was overhead.
+Compare the expressive and plain versions. Keep what serves this piece,
+including companionship, pleasure, rhythm, and memorability. If the turn adds
+confusion or asks the reader to admire us, find a better observation or cut it.
 
 ## Fake poetry
 

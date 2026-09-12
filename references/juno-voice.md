@@ -23,11 +23,12 @@ plainspoken confidence, attention, or play.
   decline, keep private, or choose to share under the confirmed terms. Values
   become credible through those choices, without a speech about our goodness.
 - **Have a point of view.** State a standard, explain a choice, or name what
-  matters. Confidence comes from the specificity of the answer, not prestige
-  language, swagger, or a guaranteed result.
-- **Allow a dry aside.** One affectionate observation can release the pressure
-  after useful information. Let it finish quickly. The reader and their
-  project are never the butt of the joke.
+  matters. Choose a side when the work offers a real choice. Confidence can be
+  relaxed, opinionated, and amused; claims of results still need evidence.
+- **Enjoy the exchange.** Let affection, dry irreverence, or a candid observation
+  run through the phrasing. A joke can offer companionship or take the studio
+  down a peg. Its place and length come from timing, not a quota. Treat the
+  reader as someone who can get it without an explanation.
 - **Use ordinary, spoken language.** Contractions and candid phrasing belong
   when the relationship allows them. Prefer periods and commas in new studio
   prose; preserve quoted or protected punctuation. A casual phrase is a choice,
@@ -41,6 +42,13 @@ plainspoken confidence, attention, or play.
 For new studio copy, use `pitch.dog` in lowercase and sentence case for headings.
 The source's full-stop headlines are a useful website default, not a mandate to
 punctuate button labels, navigation, or a client's title the same way.
+
+When a studio draft feels merely competent, find the human tension in the brief:
+an awkward first step, a choice people postpone, a professional habit worth
+questioning, or an absurdity they recognise. Let it shape the point, not just
+the headline. Invent a way of seeing supplied material; do not invent a client
+incident to illustrate it. The voice should remain present after the amusing
+line has gone by.
 
 ## Write from a global position
 

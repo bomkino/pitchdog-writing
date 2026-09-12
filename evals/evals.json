@@ -5,7 +5,7 @@
       "id": 1,
       "name": "same-facts-four-media",
       "prompt": "Use $pitchdog-writing. A paid event called Deck First Read happens on 17 September 2026 at 17:00 IST at Method, Bandra West, Mumbai. The fee is ₹12,000, due 10 September; bank details are on page one of the invoice. The venue has step-free entry. Guests RSVP by replying to hello@example.com. Public registration is at example.com/first-read. The client must decide by 8 September whether the session may be recorded. Write four artifacts: (1) a client email asking for the recording decision, (2) an invoice note, (3) a guest invitation, and (4) a website announcement.",
-      "expected_output": "Four ready-to-use artifacts with family resemblance but different structures and voice ceilings. Each artifact selects the facts its medium needs. The client decision is immediately visible; payment details are exact; invitation logistics are complete; website copy explains the offer and registration action.",
+      "expected_output": "Four ready-to-use artifacts with family resemblance but different structures and registers. Each artifact selects the facts its medium needs. The client decision is immediately visible; payment details are exact; invitation logistics are complete; website copy explains the offer and registration action.",
       "assertions": [
         "The client email asks for a recording decision by 8 September 2026",
         "The invoice note includes ₹12,000, 10 September 2026, and page-one bank details",
@@ -45,7 +45,7 @@
       "id": 4,
       "name": "invitation-completeness",
       "prompt": "Use $pitchdog-writing. Write a warm wedding invitation for Nila and Tara. Ceremony: 21 November 2026 at 16:30. Venue: The Courtyard, 14 Lake Road, Kolkata. Dinner and dancing follow. RSVP to tara@example.com by 1 October. The venue is wheelchair accessible. Children are welcome. Dress: whatever makes you feel magnificent.",
-      "expected_output": "Alive and welcoming invitation with one earned human turn. All logistics remain literal and easy to scan.",
+      "expected_output": "Alive and welcoming invitation with personality belonging to the people and occasion. All logistics remain literal and easy to scan.",
       "assertions": [
         "The invitation includes both names, 21 November 2026, and 16:30",
         "The invitation includes the full venue name and address",
@@ -302,6 +302,59 @@
         "Website and email have distinct forms appropriate to their jobs",
         "The copy is plainspoken and welcoming without inventing enthusiasm, location, availability, or a programme",
         "Personality does not become a dog routine or an extended string of slogans"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "studio-contact",
+      "prompt": "Use $pitchdog-writing. Write the contact section for pitch.dog. We write and design pitch decks for film, advertising and business. People can bring a finished script, a rough outline or questions about what they need. They can email hello@example.com or book a 30-minute call with the people who would work on their project. Headline, body and two CTAs. Final copy only.",
+      "expected_output": "Useful, recognisable studio writing whose observation, attitude or timing belongs to this brief. Preserve the medium and every practical constraint. No mandatory joke count.",
+      "assertions": [
+        "Preserves all three sectors and writing and design services",
+        "Welcomes finished scripts, rough outlines and questions",
+        "Provides email and a 30-minute call with the project makers as distinct actions",
+        "No invented response time, free-call claim or regional identity",
+        "The phrasing has an observable point of view or human ease beyond a neutral list of facts"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "reference-newsletter",
+      "prompt": "Use $pitchdog-writing. Open this month’s studio newsletter in 80–120 words. We’ve published a free reference-selection worksheet. It helps filmmakers sort their references into story, light, colour and framing, and note what they want to borrow from each. No email signup; download at example.com/references. We made it because collecting references and choosing a visual direction are different jobs. Final copy only.",
+      "expected_output": "Useful, recognisable studio writing whose observation, attitude or timing belongs to this brief. Preserve the medium and every practical constraint. No mandatory joke count.",
+      "assertions": [
+        "80–120 words",
+        "Preserves free worksheet, four categories, borrowing notes, no signup and download URL",
+        "Expresses the difference between collecting and choosing without inventing research, client incidents or results",
+        "An observation, attitude or turn belongs to visual references and is worth keeping",
+        "No source catchphrase transplant or repetitive slogan structure"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "returning-client-email",
+      "prompt": "Use $pitchdog-writing. Write to our returning client Asha. Her treatment’s first draft is at example.com/asha-draft. The rooftop sequence now opens the deck, as agreed. She needs to choose between the two cover images by 14:00 IST Tuesday. Everything else is ready for comments. The original photographs remain in the source folder. Keep it brief. Final email only.",
+      "expected_output": "Useful, recognisable studio writing whose observation, attitude or timing belongs to this brief. Preserve the medium and every practical constraint. No mandatory joke count.",
+      "assertions": [
+        "Names Asha and supplies the draft link",
+        "Makes the two-cover choice and 14:00 IST Tuesday deadline easy to find",
+        "Preserves rooftop opening as agreed, remaining comments and original photographs location",
+        "Invents no client reaction, quality improvement or personal history",
+        "Sounds like a comfortable working exchange and does not turn a deadline into a joke"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "contact-sheet-tool",
+      "prompt": "Use $pitchdog-writing. Announce our free contact-sheet tool in 50–80 words for a studio social post. It turns a folder of images into a PDF, keeps their order and labels each image with its filename. It runs locally; no images are uploaded. Get it at example.com/contact-sheet. Final copy only.",
+      "expected_output": "Useful, recognisable studio writing whose observation, attitude or timing belongs to this brief. Preserve the medium and every practical constraint. No mandatory joke count.",
+      "assertions": [
+        "50–80 words",
+        "Preserves free tool, folder-to-PDF conversion, image order and filename labels",
+        "Preserves local operation and no image uploads",
+        "Includes example.com/contact-sheet",
+        "Expressive language adds no unprovided formats, platforms, speed claims, client events or capability",
+        "Has subject-specific pleasure or a clear editorial observation without engagement bait"
       ]
     }
   ]

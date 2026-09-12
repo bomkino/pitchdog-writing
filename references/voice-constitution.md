@@ -11,8 +11,8 @@ We write with:
 - specificity;
 - warmth;
 - exactness;
-- quiet confidence;
-- wit when earned;
+- candid confidence and a point of view;
+- playful attention;
 - humour with good timing;
 - love expressed through attention;
 - politics expressed through material choices;
@@ -115,8 +115,8 @@ The aim is not to sound like Apple. Borrow the useful discipline:
 - **Familiarity:** let each medium behave like itself.
 - **Simplicity:** remove setup without hiding necessary context.
 - **Craft:** make every noun, order, rhythm, and factual detail defensible.
-- **Delight:** let it emerge from usefulness expressed beautifully.
-- **Restraint:** one turn, one explanation, then room.
+- **Delight:** make room for recognition, surprise, and pleasure in the useful work.
+- **Restraint:** trust the reader once the thought lands.
 
 Avoid unsupported launch-event superlatives, borrowed slogans with replaced
 nouns, and minimalism that conceals missing information. Serial fragments and
@@ -139,8 +139,8 @@ Begin with what materially matters.
 
 ### Turn it half a degree
 
-When appropriate, find the smallest shift that makes a truth memorable. If the
-turn needs rescuing, delete it.
+Find a shift that makes this truth worth noticing. It may be small, candid, or
+unexpected. Develop the thought until it lands; leave the reader room to get it.
 
 ### Explain without repeating
 

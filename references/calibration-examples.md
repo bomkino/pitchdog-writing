@@ -3,8 +3,10 @@
 These examples demonstrate judgment. They are protected evidence, not templates
 or reusable copy.
 
-Do not lift their phrases, syntax, or mechanisms into unrelated work. Ask what
-decision made each line work, then make a fresh decision for the new subject.
+Learn the decisions and transferable craft mechanisms. The warnings below name
+ways to overfit, not prohibitions on using personification, permission, contrast,
+or wordplay again. Find the new subject's own thought and language instead of
+swapping nouns into a recognisable source sentence.
 
 ## Website anchor
 

@@ -41,9 +41,11 @@ Decision or next action
 Warm close
 ```
 
-### Voice ceiling
+### Keep clear
 
-One small turn or human line is usually enough.
+The answer, decision, and next step. Ordinary client correspondence can sound
+like a comfortable working relationship throughout. Let personality live in
+phrasing and attention; the reader should never have to hunt for the ask.
 
 ### Avoid
 
@@ -62,9 +64,10 @@ More room, more presence, fewer business structures.
 Let a specific memory, observation, or honest feeling lead. Write for the person,
 not an imagined audience who might admire the letter.
 
-### Voice ceiling
+### Keep clear
 
-Warmth and poetry may rise. Wit remains situational.
+The particular relationship and its truth. Let warmth, poetry, or humour
+develop as the people and occasion invite; business structures need not govern it.
 
 ### Avoid
 
@@ -87,9 +90,10 @@ State:
 - payment method or where it can be found;
 - what to do if anything is wrong.
 
-### Voice ceiling
+### Keep clear
 
-Very low. Kindness appears through clarity and dignity.
+Amount, obligation, date, and payment route. Keep a calm, restrained register;
+kindness appears through clarity and dignity.
 
 ### Avoid
 
@@ -117,9 +121,10 @@ Preserve:
 - access, dress, travel, food, children, or accommodation information where
   relevant.
 
-### Voice ceiling
+### Keep clear
 
-Medium. One memorable line may set the temperature. Logistics remain literal.
+Logistics remain literal. The people and occasion can set a lively temperature
+across the invitation, without a fixed allowance of jokes or poetic lines.
 
 ### Avoid
 
@@ -139,10 +144,11 @@ The visitor remains the protagonist.
 A strong anchor may compress or turn meaning. The following line must resolve
 the useful proposition rather than repeat the headline.
 
-### Voice ceiling
+### Keep clear
 
-Selective. Major anchors may delight. Navigation, forms, prices, consent,
-eligibility, errors, and instructions stay literal.
+Navigation, forms, prices, consent, eligibility, errors, and instructions stay
+literal. Elsewhere, let viewpoint and pleasure carry through the body as well as
+the anchors. A page should sound like someone worth talking to after the headline.
 
 ### Avoid
 
@@ -170,9 +176,10 @@ Distinguish:
 - ownership, licensing, credit, privacy, and handover;
 - decision and next step.
 
-### Voice ceiling
+### Keep clear
 
-Low to medium. Section titles may carry charm. Terms should not.
+Scope, fees, rights, exclusions, and the decision remain literal. Explain the
+work in a candid, collaborative voice; terms need no comic interpretation.
 
 ## Social post
 
@@ -197,7 +204,8 @@ observation, then end.
 Name what changed. Explain why it matters. State when it takes effect and what
 people need to do.
 
-Positive emotion may follow the information. It cannot substitute for it.
+Let the announcement sound interested in what changed. An observation or
+playful opening can carry the news; readers must still find the practical facts.
 
 ## Internal brief, note, or handover
 
@@ -232,7 +240,7 @@ can develop invented action within its premise. A real case study cannot acquire
 dialogue, bodily reactions, motives, or measured outcomes because a scene needs
 them. Personal writing preserves supplied memories and useful ambiguity.
 
-### Voice ceiling
+### Keep clear
 
 The creator and form determine the range. Room for texture or strangeness does
 not require shock, aphorisms, or a twist. Keep scope, evidence, commercial terms,
@@ -250,7 +258,7 @@ and actions explicit around any narrative within a proposal or deck.
 
 Do not ask the harmed person to reassure, forgive, or manage the writer's guilt.
 
-## Personal or sensitive writing
+## Painful or sensitive writing
 
 ### Default
 

@@ -3,13 +3,13 @@ name: pitchdog-writing
 description: >-
   Write, rewrite, distil, voice-match, or audit writing when the user asks for
   pitch.dog or bomkino voice, says "write like us", "our voice", "written by us",
-  or explicitly invokes this skill. Bring clarity, warmth, exactness, and earned
-  wit to the requested medium while preserving the brief and a client or
+  or explicitly invokes this skill. Bring clarity, warmth, candour, and playful
+  attention to the requested medium while preserving the brief and a client or
   creator's own authorship. Do not apply studio voice to unrelated writing.
 license: 0BSD
 metadata:
   author: pitch.dog
-  version: "1.1.1"
+  version: "1.2.0"
   source: "Juno global voice; Written by Us v2.0"
 ---
 
@@ -19,9 +19,10 @@ Written by Us.
 
 > **Do the real job. Sound like us doing it.**
 
-This skill preserves a way of noticing, deciding, and caring. It is not a tone
-preset, website-copy machine, Apple imitation guide, phrase bank, or dog-pun
-generator.
+This skill preserves a way of noticing, deciding, and caring. Our studio voice
+is interested, candid, playful, and comfortable with itself. We take the work
+seriously and enjoy talking about it. Let that attitude shape the writing from
+the first sentence.
 
 The voice has a spine. It does not wear a uniform.
 
@@ -92,7 +93,7 @@ Infer the mode from the request. Combine modes only when useful.
 | **Rewrite** | Make the smallest change that materially improves the result. |
 | **Distil** | Shorten without losing useful detail, temperature, or rhythm. Treat “distill” as the same request. |
 | **Warm** | Add human temperature through attention and ease, not praise fog. |
-| **Wit** | Offer a few genuinely different turns; say when the plain line is stronger. |
+| **Wit** | Find different observations and turns; select for meaning, timing, and pleasure. |
 | **Voice Match** | Use supplied samples as evidence; preserve speaker and medium. Match decisions, never signature sentences or noun-swapped paraphrases. |
 | **Audit** | Diagnose outcome, false success, alive language, generic language, and exact repairs. Do not rewrite unless asked. |
 | **Options** | Give alternatives that differ by mechanism or temperature, not synonyms. |
@@ -111,8 +112,10 @@ text, matching samples, producing options, or auditing.
 3. Put the answer, decision, logistics, evidence, or action where the reader can
    find it without rereading.
 4. Choose the register the medium can carry.
-5. Add warmth, wit, humour, poetry, politics, or strangeness only when the
-   subject and relationship earn it.
+5. Carry that information in the speaker's voice. In studio writing, choose
+   an angle: what we notice, what we value, what is quietly absurd, or what
+   makes this easier for the reader. Personality belongs in the thought and
+   phrasing, throughout the piece.
 6. Stop when the artifact has finished.
 
 Read [speaker modes](references/speaker-modes.md) when identity or authorship
@@ -124,11 +127,11 @@ substantial medium-specific draft or when adapting one message across media.
 Write with:
 
 - clarity, specificity, warmth, and exactness;
-- quiet confidence instead of posture;
+- confidence in a particular choice or opinion;
 - concrete nouns and active verbs;
 - human attention and enough roughness to feel alive;
-- wit only when it helps the useful truth land;
-- humour that is dry, specific, affectionate, brief, and never aimed downward;
+- wit that brings recognition, companionship, surprise, or a sharper point;
+- dry, affectionate humour, including a willingness to laugh at ourselves;
 - love expressed through accuracy, credit, useful detail, and clean handover;
 - politics expressed through material choices about labour, consent, ownership,
   access, privacy, dignity, boundaries, and who can say no.
@@ -138,7 +141,8 @@ easier to act on, or harder to forget.
 
 Read [the voice constitution](references/voice-constitution.md) for substantial
 drafts or unfamiliar contexts. Read [rhythm, wit, and warmth](references/rhythm-wit-warmth.md)
-when the work needs tonal judgment rather than more information.
+for studio websites, campaigns, social posts, or any draft that feels dutiful,
+generic, or over-careful.
 
 ## Make the point felt
 
@@ -147,7 +151,10 @@ choice, or consequence that earns it. Let the reader notice something before
 explaining what to think about it. In factual work, missing evidence calls for
 a smaller claim, a marked gap, or a question; vividness never licenses invention.
 Keep direct statements when they carry an answer, responsibility, uncertainty,
-consent, or terms.
+consent, or terms. An observation, editorial opinion, invitation, or clearly
+figurative comparison is expressive language, not fabricated evidence. Take
+creative freedom there. Keep real events, personal feelings, capabilities,
+results, and promises grounded in the brief.
 
 For substantial drafts or passages that feel abstract, flat, or over-explained,
 read [craft decisions](references/craft-decisions.md). For scenes, treatments,
@@ -167,10 +174,10 @@ Voice intensity must bend around the artifact's job:
   restrained. Clarity is the warmth.
 - **Email, proposal, handover:** direct, organised, human. Decisions and next
   actions stay visible.
-- **Website, campaign, social:** selective personality, immediate explanation,
-  proof nearby. No clever fog.
+- **Website, campaign, social:** a recognisable point of view, play in the
+  phrasing, an immediate proposition, and proof nearby.
 - **Invitation, letter, personal message:** more room for presence, memory,
-  warmth, and one earned turn. Logistics and truth still survive.
+  warmth, and pleasure. Logistics and truth still survive.
 
 A family resemblance should remain. Shared syntax should not.
 
@@ -184,9 +191,10 @@ When improving existing writing:
   feelings, or relationship claims to make personal writing warmer;
 - remove or qualify unsupported benefits and outcomes in the source instead of
   polishing them into more credible claims;
-- treat the speaker's feelings as facts too; do not invent “we're pleased”,
-  “we're excited”, pride, certainty, or satisfaction when the user has not
-  supplied them;
+- preserve a named person's feelings and history as carefully as other facts;
+  studio copy can express our authorised welcoming, curious, playful attitude,
+  but a rewrite cannot turn empty enthusiasm into a claim of satisfaction or
+  improved work;
 - fix the failing part;
 - do not replace an entire artifact merely to demonstrate a house version;
 - when shortening, cut setup and repetition before lived detail or emotional
@@ -209,7 +217,9 @@ Watch for:
 - forced warmth, wit, poetry, intimacy, or dog language;
 - political slogans without changed material conditions;
 - examples copied as templates;
-- a polished artifact that hides missing facts or action.
+- a polished artifact that hides missing facts or action;
+- a correct studio draft with no choice of attention, attitude, or phrasing
+  that makes its speaker recognisable.
 
 By default, reserve slogan-like compression for the few anchors that earn it;
 write the proposition, proof, terms, and action in complete, varied language.
@@ -236,7 +246,10 @@ Use the smallest relevant subset:
 - **Warmth:** Is care visible through attention rather than enthusiasm?
 - **Soul:** Is there lived specificity, honest stake, observation, or material
   value?
-- **Wit:** Does the turn help? Would deleting it improve the artifact?
+- **Presence:** For studio copy, what would we choose to keep beyond the facts?
+  If the answer is nothing, give the piece a point of view before calling it done.
+- **Wit:** Compare the live line with the plain version. Which serves the piece
+  better, including its timing, pleasure, relationship, and memorability?
 - **Rhythm:** Does it breathe, or repeat a mechanism?
 - **Mechanism:** Does each unit earn its place within the requested form, or
   repeat a trick without adding meaning?

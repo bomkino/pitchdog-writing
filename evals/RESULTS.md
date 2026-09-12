@@ -1,3 +1,89 @@
+# Evaluation results — 1.2.0
+
+**Date:** 2026-09-12
+
+**Result:** All 28 candidate outputs satisfy their prompt-aligned constraints
+under agent editorial review. An independent reviewer checked cases 1–8. A
+separate blind reviewer preferred the candidate in five of six complete pairs
+against v1.1.1 and tied the remaining pair. This is a bounded observation of
+better writing, not human approval or a claim of consistent greatness.
+
+The change repairs a specific failure: correct studio writing could lose its
+speaker because several references treated personality as an optional addition
+and repeatedly favoured deleting it. The candidate makes candid, playful
+attention part of the initial writing, distinguishes expressive phrasing from
+invented evidence, and removes fixed allowances of humour. Serious registers,
+client authorship, explicit constraints, and global positioning remain protected.
+
+## Complete evidence and method
+
+The [run receipt](results/1.2.0/run.json) records exact runtime and output hashes
+for 28 [candidate outputs](results/1.2.0/with-skill/) and six fresh
+[previous-version outputs](results/1.2.0/previous-skill/). Every generation used
+a separate ephemeral Codex CLI context, `gpt-6-astra`, configured `xhigh` effort,
+and the same harness. The selected version's exact entrypoint and runtime
+references were preloaded; the maintenance eval specification, assertions,
+expected outputs, private library, and previous responses were withheld.
+Accepted generations called no tools and exited successfully. All emitted the
+same configured under-development feature warning, recorded in the receipt.
+
+This preload comparison isolates portable writing guidance; it does not prove
+selective reference routing. A separate installed invocation is recorded in
+[installed-smoke.md](results/1.2.0/installed-smoke.md). It reached the installed
+entrypoint, appropriate references, and private Juno index and global guide/pages.
+The 60-word website body retains the supplied offer and exclusions; the apology
+stays direct and adds no invented harm. No historical source claims were imported.
+
+## Blind comparison
+
+The reviewer saw complete artifacts and their shared prompts with opaque A/B
+labels, without the version key, candidate instructions, or this task's history.
+The original private Juno brand guide was available for calibration. Labels are
+retained in the receipt so the comparison can be reconstructed.
+
+| Case | Preference | Decisive observation |
+| --- | --- | --- |
+| 21 — Global positioning | Candidate | “A lot can ride on a few slides” recognises the stakes; the body connects the design to its job. The final benefit phrasing is still somewhat general. |
+| 24 — First read, website and email | Candidate | “Including the bits you’re still arguing with” welcomes unfinished work through a familiar creative experience; the email remains direct. |
+| 25 — Contact section | Candidate | “You don’t have to pitch us first” uses the actual service to lower the pressure of making contact. The concrete body resolves the headline. |
+| 26 — Reference newsletter | Candidate | “Almost everything except that orange” illustrates selective borrowing with useful, particular pleasure. The opening remains conventional. |
+| 27 — Returning-client email | Tie | Both are comfortable and actionable. The candidate's “get stuck in” adds little and is more idiomatic for a global audience. |
+| 28 — Contact-sheet tool | Candidate | The conversation reaching “that one” makes filename labels recognisable as a collaboration benefit without inventing capabilities. |
+
+There were no material factual failures in the six pairs. A clearer instruction
+can still produce ordinary sentences. The comparison supports this revision on
+these briefs; it does not establish sustained distinctiveness across a campaign.
+
+## Preservation review
+
+All existing cases were rerun. Invoices keep their amounts, dates, payment
+routes, and dignity. Apologies accept responsibility and preserve real repair.
+Personal writing retains supplied memories; creator writing keeps its specified
+speaker. Fixed form, protected wording, factual uncertainty, narrative scope,
+source-instruction boundaries, and necessary local logistics survive.
+
+The 90-word treatment is exactly 90 words; the requested eight-line form stays
+eight lines; protected paragraphs and the apology opening match exactly. Cases
+13–20 and 22, 24, 26, and 28 meet their respective length bounds. The initial
+paragraph-check helper assumed a final newline the output did not contain; its
+comparison was corrected to ignore terminal blank lines while preserving exact
+paragraph wording. No generated writing was edited to pass a check.
+
+Quality limits remain visible: case 1 has little programme substance to work
+with; case 6 repeats gratitude; case 8 develops plausible fictional intention
+that should not later be represented as independently confirmed project facts.
+The new cases assess recognisable attention and pleasure as editorial judgments,
+not a numerical voice score.
+
+Metadata, invocation policy, JSON, runtime links, and whitespace were checked
+with Ruby YAML parsing, standard-library checks, and Git. The optional Python
+validator remains unavailable because PyYAML is not installed. No dependency
+was added. There is no repository CI workflow. One generation per case, one
+model, and six comparison pairs limit the conclusions; no human taste approval
+or cross-device installation is claimed.
+
+---
+
 # Evaluation results — 1.1.1
 
 **Date:** 2026-09-12

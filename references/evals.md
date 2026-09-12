@@ -71,6 +71,14 @@ Never create a numerical score for soul, warmth, wit, poetry, Apple-likeness, or
     currency, timezone, and a protected quotation without regional branding.
 24. **Juno voice across media** — a welcoming website section and a direct client
     email retain their different forms and the same complete service facts.
+25. **Studio contact** — a recognisable welcome preserves the offer, ways to
+    begin, direct maker access, and two useful actions.
+26. **Reference newsletter** — an observation develops through the body while
+    preserving the worksheet facts, categories, and free download.
+27. **Returning client email** — comfortable working correspondence keeps a
+    deadline, choice, source location, and agreed change immediately usable.
+28. **Contact-sheet tool** — a short announcement has subject-specific pleasure
+    without inventing capabilities or weakening the privacy statement.
 
 ## Review questions
 
@@ -88,6 +96,8 @@ For every substantial result, ask:
 - Did a craft technique produce unsupported detail, erase uncertainty, or turn
   an optional exercise into a word ban?
 - Did the new detail, recurrence, structure, or pause do observable work?
+- Could an accurate studio draft still fail because nobody seems to be speaking?
+- What observation, attitude, or phrasing would a reader want to keep, and why?
 
 ## Pass standard
 
@@ -98,3 +108,9 @@ costlier failure was found in this case.
 
 Record exact failures and the smallest general repair. Do not patch the skill
 with phrases tailored to one eval.
+
+For voice changes, compare complete old/new outputs without version labels on
+a small set of realistic briefs with room for personality. Verify facts first;
+then justify each preference with actual wording and its effect. Count pair
+preferences only as observations, never as a general voice score. Record agent
+review separately from human approval. Keep mixed results and losses visible.
