@@ -8,8 +8,9 @@ invitation, apology, proposal, or letter into website copy.
 
 The skill follows the requested form, length, protected wording, and edit scope.
 Within that brief, it protects clarity, truth, authorship, medium, relationship,
-and human attention before visible style. Wit is optional. Warmth is attention, not
-enthusiasm. Politics appears through credit, consent, labour, ownership,
+and human attention. Studio writing begins candid, interested, and playful;
+personality belongs in the thought and phrasing. Serious writing stays exact
+and dignified. Politics appears through credit, consent, labour, ownership,
 privacy, access, dignity, and boundaries—not a values paragraph bolted onto the
 work.
 

@@ -2,6 +2,17 @@
 
 All notable changes are recorded here.
 
+## 1.2.0 — 2026-09-12
+
+- Makes candid, playful studio personality part of the initial writing, with
+  recognisable observations and a point of view throughout the piece.
+- Removes repeated joke quotas and the default preference for stripping style;
+  compares expressive and plain phrasing for timing, pleasure, and usefulness.
+- Distinguishes imaginative phrasing from invented evidence while preserving
+  factual claims, personal history, client authorship, and serious registers.
+- Adds realistic contact, newsletter, client-email, and tool-announcement cases,
+  including comparison with the previous release.
+
 ## 1.1.1 — 2026-09-12
 
 - Makes the user-selected Juno master the primary studio voice calibration,

@@ -30,6 +30,9 @@ source or establish that its business claims are current.
 - **No voice score:** soul, warmth, wit, poetry, Apple-likeness, and “human” are
   judgments, not honest numbers.
 - **Examples:** protected calibration evidence, never a phrase bank.
+- **Studio presence:** candour, play, and viewpoint shape the writing from the
+  start. A factually complete studio draft can still fail by removing its speaker.
+  Compare expressive and plain versions for pleasure and usefulness together.
 - **Client authorship:** client and creator voice outranks the studio voice.
 - **Apple influence:** purpose, agency, simplicity, craft, and restraint—not
   slogan syntax.

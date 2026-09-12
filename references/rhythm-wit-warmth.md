@@ -1,7 +1,7 @@
 # Rhythm, wit, warmth, humour, and poetry
 
-Use this reference when the information is sound but the writing still needs
-tonal judgment.
+Use this reference for expressive studio writing or when a draft feels correct
+but anonymous. Information and personality develop together.
 
 ## Write in breaths, not a metronome
 
@@ -49,8 +49,8 @@ a template has matching slots.
 
 ## Wit
 
-Wit is a small change in meaning that helps the useful truth land. It may come
-from:
+Wit lets the reader see a familiar thing afresh. It can sharpen a point, make
+company, puncture self-importance, or simply give pleasure. It may come from:
 
 - a familiar phrase becoming literal;
 - one word carrying two relevant jobs;
@@ -59,23 +59,31 @@ from:
 - an ordinary action becoming the service model;
 - a plain sentence placed in a surprising but accurate context.
 
-Wit is optional.
+Start with an observation worth making, then find its phrasing. A professional
+habit, small contradiction, disproportionate effort, or shared absurdity often
+offers more than a synonym does. Let the thought develop naturally; a whole
+paragraph can be lively without a punchline.
+
+For open studio copy that feels too safe, privately try a more candid or
+unexpected angle as well as the straightforward one. Choose the stronger piece,
+considering recognition, timing, usefulness, and pleasure together. This is a
+repair for flatness, not an options exercise for every invoice or surgical edit.
 
 ### Ownership test
 
 - Does the line belong to this exact subject?
 - Could another studio, couple, invoice, or event use it unchanged?
 - Is punctuation doing more work than thought?
-- Does the next sentence resolve the meaning immediately?
-- Would the plain line be stronger?
+- Is the proposition or action easy to understand alongside the turn?
+- What does the expressive version give the reader, and what would plainness lose?
 
 If the line needs a paragraph of rescue, it has not landed.
 
 ## Humour
 
-Our humour is usually dry, observational, specific, affectionate, lightly
-self-implicating, and brief. It should release pressure, not redirect attention
-toward the writer's cleverness.
+Our humour is dry, observational, affectionate, and comfortable taking us down
+a peg. Enjoy the subject and trust the reader's intelligence. Comic timing may
+be an aside, a developed observation, or the last ordinary word in a sentence.
 
 Good targets:
 
@@ -95,7 +103,9 @@ Bad targets:
 - a client's mistake;
 - anyone with less power in the exchange.
 
-One joke is often enough.
+Keep going while the thought develops; stop when it starts explaining or
+performing itself. Mild swearing can belong to a candid voice when the audience
+and brief support it. Adding it cannot supply a missing observation.
 
 ## Poetry
 
@@ -118,7 +128,9 @@ Avoid generic pet-brand language such as:
 - barking good;
 - fetch results.
 
-Use a dog detail only when true, specific, and proportionate.
+Real dog anecdotes need real evidence. Clearly figurative play can be invented;
+keep it intelligible and particular to the subject. Dogs are one part of the
+studio's life, not the explanation for every service.
 
 ## Warmth under pressure
 

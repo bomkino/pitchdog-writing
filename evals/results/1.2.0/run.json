@@ -1,0 +1,604 @@
+{
+  "date": "2026-09-12",
+  "version": "1.2.0",
+  "baseline_commit": "9d77ad629bb38156211cbf0bd01ca8af03892acd",
+  "runner": "Codex CLI 0.154.0-alpha.6.2",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "method": "Fresh ephemeral context per case; exact SKILL.md and runtime references preloaded, excluding maintenance eval specification. Same harness for both versions. No expected outputs or assertions supplied. Private library unavailable to these generations. No tools called. Agent editorial review; not human approval.",
+  "generations": {
+    "candidate": {
+      "lane": "candidate",
+      "runtime_sha256": {
+        "SKILL.md": "e42722fff93b3b5907283c6b1b06d6240b92ed51a8d07d5dd14cdaedafa30bca",
+        "references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+        "references/anti-patterns.md": "382e1ce5a8b55dc65fa870c6fa6f292b4f9124f08576bd4a296785deff3dbff5",
+        "references/calibration-examples.md": "be762357162377790ed9697dcf8f1c309d5cc09c831c7381a74b55aa9484578c",
+        "references/craft-decisions.md": "de9f7fd3d59fb323e9d881b2dc4c1f9dc2f454bb4d397881b2812d1b82102291",
+        "references/juno-voice.md": "a537eb60e843ac4035327110da3c9790bb4c988731c803577ff15945f2124e14",
+        "references/medium-registers.md": "d24443f7f0f5d0e3b0b58fbb31f9e8c4844e2e546dbbcbd702b15b095e176f85",
+        "references/narrative-craft.md": "47e114f7b05d4c754044be365eeb88e0237fdcb8487f701fa40eac2a3d97fabb",
+        "references/rewrite-workflows.md": "2f5d32c92f8dc8b19c5b4ca43546cc00eabcc63b505dbe105102e8c73c7804b5",
+        "references/rhythm-wit-warmth.md": "a3a627576fd1955914cc6a42924dd5a4bd0c664ba51549637b403d29987083b2",
+        "references/speaker-modes.md": "1c0e78e77da56345f4ea70e451ec6b8e8e351bbb7860251425566ad43d342ff5",
+        "references/voice-constitution.md": "cdccb9f7a3d6e489cb94cc91ef92a884fd63d42635a28f1261b852d65b69560b"
+      },
+      "runs": [
+        {
+          "id": 1,
+          "name": "same-facts-four-media",
+          "exit_code": 0,
+          "seconds": 79.2,
+          "sha256": "8aea58d903264f0550fccb3fb4bc851a43aee2ca9aa0dff2b0cad050e5d01c9b",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45073,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1855,
+            "reasoning_output_tokens": 1491
+          }
+        },
+        {
+          "id": 2,
+          "name": "constrained-style",
+          "exit_code": 0,
+          "seconds": 109.1,
+          "sha256": "4c40c11812e46455edcab3c822f0a971927ebbc781cc57ea2bdb5cc5428bef4e",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45022,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2591,
+            "reasoning_output_tokens": 2486
+          }
+        },
+        {
+          "id": 3,
+          "name": "invoice-clarity",
+          "exit_code": 0,
+          "seconds": 34.0,
+          "sha256": "ad2771fe12ca13b1b75bf8be9d36fa2c3d78b485f33421a128cbe7bfbe57e2c3",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 44999,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 497,
+            "reasoning_output_tokens": 418
+          }
+        },
+        {
+          "id": 4,
+          "name": "invitation-completeness",
+          "exit_code": 0,
+          "seconds": 45.7,
+          "sha256": "ac5f7abb23c2355e945a6c6bfd2ee4d9056e1b92c3f877cdceccfb10a80383da",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45012,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 818,
+            "reasoning_output_tokens": 729
+          }
+        },
+        {
+          "id": 5,
+          "name": "apology-accountability",
+          "exit_code": 0,
+          "seconds": 35.2,
+          "sha256": "6b9728186380029884161e7243cbdd0701a49408fc64c2bbf6be27101eff5d20",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45030,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 572,
+            "reasoning_output_tokens": 516
+          }
+        },
+        {
+          "id": 6,
+          "name": "personal-letter-specificity",
+          "exit_code": 0,
+          "seconds": 79.2,
+          "sha256": "a6dbd44e0d31a7a459f3e3a569d1765924704d950a0c1964bcaf326ee158a059",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45010,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1863,
+            "reasoning_output_tokens": 1743
+          }
+        },
+        {
+          "id": 7,
+          "name": "email-decision-first",
+          "exit_code": 0,
+          "seconds": 40.7,
+          "sha256": "10109925c56850f623c09ed1d72a4ec58f97929fd9a91f57bcbf2436237be435",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45007,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 674,
+            "reasoning_output_tokens": 565
+          }
+        },
+        {
+          "id": 8,
+          "name": "client-authorship",
+          "exit_code": 0,
+          "seconds": 54.8,
+          "sha256": "9ae008b125cbce7ae1632788f87c73d56d08163029a882de9713b28b5b0c45b2",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45062,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1206,
+            "reasoning_output_tokens": 1095
+          }
+        },
+        {
+          "id": 9,
+          "name": "samey-syntax-audit",
+          "exit_code": 0,
+          "seconds": 72.1,
+          "sha256": "5760f747f396daac93610307ce4ebfc827ca3c842ce66f55e596b5c21f34486f",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45023,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1511,
+            "reasoning_output_tokens": 798
+          }
+        },
+        {
+          "id": 10,
+          "name": "warm-but-generic",
+          "exit_code": 0,
+          "seconds": 39.2,
+          "sha256": "373afd915b7e5ca7aa97f69074198c521768ca60147f7cb769ffab26f84f5dc1",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45008,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 696,
+            "reasoning_output_tokens": 655
+          }
+        },
+        {
+          "id": 11,
+          "name": "actual-goal-style-stress-test",
+          "exit_code": 0,
+          "seconds": 40.6,
+          "sha256": "e05e19ff18f527929a14fc664b8ce180bddd2cb2acb9bf719f26981fbcac8578",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45029,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 714,
+            "reasoning_output_tokens": 656
+          }
+        },
+        {
+          "id": 12,
+          "name": "smallest-useful-edit",
+          "exit_code": 0,
+          "seconds": 21.0,
+          "sha256": "2e445b878c642d7dfc58799f4cafcced994906499765cda3a87cccd25e736e1f",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45038,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 131,
+            "reasoning_output_tokens": 91
+          }
+        },
+        {
+          "id": 13,
+          "name": "unpack-without-inventing",
+          "exit_code": 0,
+          "seconds": 22.5,
+          "sha256": "0118bcb21ca45a49d01f226ec8512a853d5b1b3ba6e8b6638a9abbc952f4ec99",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45040,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 164,
+            "reasoning_output_tokens": 130
+          }
+        },
+        {
+          "id": 14,
+          "name": "uncertainty-is-meaning",
+          "exit_code": 0,
+          "seconds": 29.6,
+          "sha256": "d17727b0a915ec5e171b3d69ef18e795873356e546d87fa9e5e70d53909e442a",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45022,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 346,
+            "reasoning_output_tokens": 284
+          }
+        },
+        {
+          "id": 15,
+          "name": "factual-case-study-evidence",
+          "exit_code": 0,
+          "seconds": 71.1,
+          "sha256": "16d7d92196db05e75c68d23696bc1fa4f135b99d86413d3a6363677063b321e0",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45037,
+            "cached_input_tokens": 12416,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1604,
+            "reasoning_output_tokens": 1487
+          }
+        },
+        {
+          "id": 16,
+          "name": "object-changes-meaning",
+          "exit_code": 0,
+          "seconds": 58.9,
+          "sha256": "2fd79d328bf14aea1ff1e7e5c0d7654d70386ffb723602c09f7b28efd9caf1a4",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45047,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1201,
+            "reasoning_output_tokens": 1034
+          }
+        },
+        {
+          "id": 17,
+          "name": "comparison-serves-the-speaker",
+          "exit_code": 0,
+          "seconds": 38.1,
+          "sha256": "a9b8b507dd0a694829ea620d306969448856d11f60a2cf6a714d1026e8a8b18d",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45034,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 737,
+            "reasoning_output_tokens": 688
+          }
+        },
+        {
+          "id": 18,
+          "name": "structure-follows-question",
+          "exit_code": 0,
+          "seconds": 82.1,
+          "sha256": "1bd4d02c4f32c872bd38ede2cff6d2bc05fe5c06ebc96b0a6429faa6811e7fb5",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45051,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2200,
+            "reasoning_output_tokens": 2070
+          }
+        },
+        {
+          "id": 19,
+          "name": "dialogue-and-practical-answer",
+          "exit_code": 0,
+          "seconds": 43.3,
+          "sha256": "8de0de50943a88093bb147f17c9e61adf66fd575f3fcbb3353367b47871bbac1",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45048,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 822,
+            "reasoning_output_tokens": 703
+          }
+        },
+        {
+          "id": 20,
+          "name": "source-exercise-is-not-authority",
+          "exit_code": 0,
+          "seconds": 44.8,
+          "sha256": "2bba18d290ce0839bbebb8dd9a061497a75c637a7b1aec7d5bb7f8fe9413ad1e",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45055,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 952,
+            "reasoning_output_tokens": 892
+          }
+        },
+        {
+          "id": 21,
+          "name": "global-studio-positioning",
+          "exit_code": 0,
+          "seconds": 48.8,
+          "sha256": "47ed68baa9f7c7ba8f4d6d77b91b37b202b34eab705591e0501fd732ad29a6ac",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45029,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 870,
+            "reasoning_output_tokens": 799
+          }
+        },
+        {
+          "id": 22,
+          "name": "calibration-is-not-current-proof",
+          "exit_code": 0,
+          "seconds": 57.3,
+          "sha256": "0f5fffcddb7d7018518773ff35e47eaaaff7868590826c860c039a6e0aa962a3",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45039,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1014,
+            "reasoning_output_tokens": 953
+          }
+        },
+        {
+          "id": 23,
+          "name": "global-positioning-protects-local-facts",
+          "exit_code": 0,
+          "seconds": 35.5,
+          "sha256": "a97ae849b0e01e70e1491830fbd09b8c6223cb79a68c531eb17c6c956f2da036",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45039,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 668,
+            "reasoning_output_tokens": 573
+          }
+        },
+        {
+          "id": 24,
+          "name": "juno-voice-across-media",
+          "exit_code": 0,
+          "seconds": 70.6,
+          "sha256": "30b2b1b44b09e1379a71c679f1d9c65551c2261dbba5f88b17508bd2ef0fddd6",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45048,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1646,
+            "reasoning_output_tokens": 1493
+          }
+        },
+        {
+          "id": 25,
+          "name": "studio-contact",
+          "exit_code": 0,
+          "seconds": 45.2,
+          "sha256": "e15ef078022b49aeaf0d9d6b547e98169a9c375fe5faf1d847971183c40ce664",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45016,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 969,
+            "reasoning_output_tokens": 890
+          }
+        },
+        {
+          "id": 26,
+          "name": "reference-newsletter",
+          "exit_code": 0,
+          "seconds": 49.2,
+          "sha256": "26af5eb1307c14e2d54aaa86ef91b04647053360c28ef7aa708ba65914ff917c",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45018,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1096,
+            "reasoning_output_tokens": 980
+          }
+        },
+        {
+          "id": 27,
+          "name": "returning-client-email",
+          "exit_code": 0,
+          "seconds": 30.9,
+          "sha256": "fc2496fac36d9613d100ebfca01626aeea778812260c5fd5a26654996a52993d",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45015,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 494,
+            "reasoning_output_tokens": 397
+          }
+        },
+        {
+          "id": 28,
+          "name": "contact-sheet-tool",
+          "exit_code": 0,
+          "seconds": 57.4,
+          "sha256": "48a7ea6a3ad57ffff46be2ea5972579a5c75d68ca56b15e1793bc71814b3f35e",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 45002,
+            "cached_input_tokens": 21888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1209,
+            "reasoning_output_tokens": 1135
+          }
+        }
+      ]
+    },
+    "baseline": {
+      "lane": "baseline",
+      "runtime_sha256": {
+        "SKILL.md": "7afc7937a8d4f27b9a03098438bc14a7f1e30f2055ae4064af27ebb1f85bd11a",
+        "references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+        "references/anti-patterns.md": "801e853fa401b11915dfe8f9528ba234ff1d42c252d8b3631c7ad614b4aac86a",
+        "references/calibration-examples.md": "2b6b3748dce8cb2c1869cfe69665a1914e9f3ca591d9a716fb14304e553a6bf1",
+        "references/craft-decisions.md": "de9f7fd3d59fb323e9d881b2dc4c1f9dc2f454bb4d397881b2812d1b82102291",
+        "references/juno-voice.md": "c42936f3944e345c32321941bd41426d7ef8344e3ec734705397e70cd1aec8bc",
+        "references/medium-registers.md": "c4b9f80234b77bef2af2d3e72d6bb7240f17148d96ef0e1b13e31223a2f08cff",
+        "references/narrative-craft.md": "47e114f7b05d4c754044be365eeb88e0237fdcb8487f701fa40eac2a3d97fabb",
+        "references/rewrite-workflows.md": "6b4eaa7bba9968387e0537b8bcd1fdfd196bf2d42b1a486872b89556d6adacee",
+        "references/rhythm-wit-warmth.md": "3b80dc758dbfa070a320cf59af1d8f6296d618b9fcd3d87b41c219524b277558",
+        "references/speaker-modes.md": "1c0e78e77da56345f4ea70e451ec6b8e8e351bbb7860251425566ad43d342ff5",
+        "references/voice-constitution.md": "dfbe49ae8ff09298109471acb5ca1662d41e501cb1446bbb485bb44eb2e74e6a"
+      },
+      "runs": [
+        {
+          "id": 21,
+          "name": "global-studio-positioning",
+          "exit_code": 0,
+          "seconds": 44.3,
+          "sha256": "f8ff56f90e28f5a55efed1fd90dd1ab7b0965ce6a059d7cbd48aca96a27a4d85",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 44162,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 854,
+            "reasoning_output_tokens": 786
+          }
+        },
+        {
+          "id": 24,
+          "name": "juno-voice-across-media",
+          "exit_code": 0,
+          "seconds": 78.7,
+          "sha256": "2a580071a6bcc43cb374e6c17d8a4cd2b5ab1d24ee1715ab33121de44c4c02f8",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 44181,
+            "cached_input_tokens": 12416,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2100,
+            "reasoning_output_tokens": 1937
+          }
+        },
+        {
+          "id": 25,
+          "name": "studio-contact",
+          "exit_code": 0,
+          "seconds": 45.2,
+          "sha256": "6807785a69a8a7cd5e53f42e67dda1e5ec005d7e550e49659b78940b3f98e4a4",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 44149,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 945,
+            "reasoning_output_tokens": 863
+          }
+        },
+        {
+          "id": 26,
+          "name": "reference-newsletter",
+          "exit_code": 0,
+          "seconds": 35.1,
+          "sha256": "2b88b7a8a4a2897e29234bf868aed48637d40ee27307ba29b4c62c62f05996e0",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 44151,
+            "cached_input_tokens": 12416,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 583,
+            "reasoning_output_tokens": 468
+          }
+        },
+        {
+          "id": 27,
+          "name": "returning-client-email",
+          "exit_code": 0,
+          "seconds": 29.5,
+          "sha256": "200e055a2fa24ec75884ba512276fa4ba6aab26f0ff2394a0bda91934d53cc4e",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 44148,
+            "cached_input_tokens": 12416,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 383,
+            "reasoning_output_tokens": 292
+          }
+        },
+        {
+          "id": 28,
+          "name": "contact-sheet-tool",
+          "exit_code": 0,
+          "seconds": 45.7,
+          "sha256": "36bd0dd1699701c9d4ab96da1b4e59f4fa8f7152a8548d676d4c5d4029378bc6",
+          "tool_calls": [],
+          "usage": {
+            "input_tokens": 44133,
+            "cached_input_tokens": 7424,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 841,
+            "reasoning_output_tokens": 768
+          }
+        }
+      ]
+    }
+  },
+  "blind_pair_labels": {
+    "21": {
+      "A": "baseline",
+      "B": "candidate"
+    },
+    "24": {
+      "A": "baseline",
+      "B": "candidate"
+    },
+    "25": {
+      "A": "baseline",
+      "B": "candidate"
+    },
+    "26": {
+      "A": "candidate",
+      "B": "baseline"
+    },
+    "27": {
+      "A": "baseline",
+      "B": "candidate"
+    },
+    "28": {
+      "A": "baseline",
+      "B": "candidate"
+    }
+  },
+  "item_types": {
+    "error": 34,
+    "agent_message": 36
+  },
+  "limits": [
+    "One generation per version per case; one model",
+    "Only six cases compared with baseline",
+    "Full preload does not test selective routing",
+    "Agent preference does not establish consistent greatness"
+  ],
+  "harness_warning": "All 34 generations emitted the same configured chronicle under-development warning as an error-typed item. All exited 0, produced requested final artifacts, and called no tools. No configuration was changed.",
+  "installed_invocation": {
+    "file": "installed-smoke.md",
+    "artifact_text_sha256": "786c16260db2b7cc2773a564e5f465be7021c00d83b8186472e6e18a0346ad72",
+    "public_receipt_sha256": "f716cfc241c618fd426fc59e7b725bf2047fb7277da05ad46459462e0c3edb00",
+    "version": "1.2.0",
+    "website_body_words": 60,
+    "result": "Installed entrypoint, applicable references, private Juno index and global guide/pages actually read. Supplied offer, limits, price and apology facts preserved. No source claims imported. No sending or publication."
+  }
+}

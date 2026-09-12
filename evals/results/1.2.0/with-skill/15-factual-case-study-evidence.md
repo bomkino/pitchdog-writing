@@ -1,0 +1,3 @@
+The production team tracked location permissions in three spreadsheets, each using different status names. Bringing the records together meant paying attention to the words, too. We agreed one shared set of status names with the team and put the records in a single register.
+
+The labels deserve a little of the credit here. They made the team’s agreement part of how the register was organised. It was handed over on 2 September 2026. There’s no post-handover measurement yet, so the story so far is the concrete change in the records and their naming.

@@ -1,0 +1,1 @@
+Keep your fingers clear of the hinge. It’s a heavy door, and the latch sticks. Lift the handle before you pull, then take it slowly. The bottom edge drags against the floor as it opens.

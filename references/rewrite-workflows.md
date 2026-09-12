@@ -30,18 +30,20 @@ Preserve:
 - useful roughness;
 - emotional stake.
 
-Fix the failing part. A rewrite is not a demonstration of how differently the
-agent can phrase everything.
+Fix the failing part. When the requested repair is the voice of a whole passage,
+that passage may need a full rewrite. Preserve protected sections and useful
+language; intervention size follows the actual failure.
 
 Treat an unsupported benefit, interpretation, or outcome in the source as a
 claim to remove, qualify, or verify—not meaning that must be preserved. Never
 turn “we believe this elevates the narrative” into a confident claim that the
 story now has a clearer arc unless evidence supports it.
 
-The speaker's feelings are also claims. Do not replace unsupported uplift with
-“we're pleased”, “we're excited”, pride, confidence, or satisfaction unless the
-user supplied that emotional fact. Use a factual bridge built only from known
-information, even if it is quieter than the source.
+An unsupported claim of improved work cannot become “we're pleased with it”.
+Named people's feelings, memories, and reactions need evidence. Studio writing
+can express the welcoming, curious, playful attitude the user has authorised;
+that freedom does not invent satisfaction, client approval, or a better outcome.
+Expressive phrasing can be fresh while the underlying account stays exact.
 
 Subtraction is a valid edit. When surrounding text already carries the true and
 useful information, a shorter bridge or no replacement is better than plausible
@@ -118,7 +120,8 @@ Offer a small set of options that use different mechanisms, for example:
 - dry aside;
 - plain line.
 
-Do not produce ten synonyms. Say when the plain line is strongest.
+Choose by the actual thought and timing, including what the reader enjoys.
+Alternatives should offer different ways of seeing the subject.
 
 ## Voice Match mode
 
@@ -178,6 +181,7 @@ Compare source and revision:
 - Did the revised artifact become more branded than personal?
 - Did compression remove the reason, action, or dignity?
 - Did warmth increase pressure?
-- Did wit move attention toward the writer?
+- Did the revision preserve a recognisable speaker and something worth keeping
+  beyond the information, where the medium invites it?
 
 Repair meaning before polishing rhythm.
