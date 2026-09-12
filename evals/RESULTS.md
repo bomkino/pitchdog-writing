@@ -1,9 +1,95 @@
+# Evaluation results — 1.1.0
+
+**Date:** 2026-09-12
+
+**Runner:** Codex CLI 0.154.0-alpha.6.2, `gpt-6-astra`, `xhigh`
+
+**Result:** All 20 final candidate cases satisfy their assertions after one
+speaker-attribution repair. Mechanical checks and agent editorial review were
+used; this is not a human taste approval or a numerical quality score.
+
+## Method and complete evidence
+
+Each generation used a fresh ephemeral context with the exact selected skill
+and all runtime references supplied in full. The prompts did not include
+expected outputs, assertions, or previous responses. Accepted runs made no tool
+calls. Candidate cases 1–20 were compared with the previous v1.0.5 skill on cases
+13–20. An independent reviewer received those eight pairs without version labels.
+
+That review exposed one shared failure: both versions assumed that a message
+relaying the director's decision came from the director. The repair in
+`speaker-modes.md` distinguishes the sender from the person acting or deciding.
+Cases 1, 5, 7, 8, 19, and 20 were rerun after the repair to check first person,
+reported decisions, and creator authorship. All six satisfy the final assertions.
+
+The [run receipt](results/1.1.0/run.json) records 34 generations, their output
+hashes, both candidate runtime states, and the baseline commit. Final selections
+are in [with-skill](results/1.1.0/with-skill/); superseded outputs are retained in
+[before-attribution-repair](results/1.1.0/before-attribution-repair/); baseline
+outputs are in [previous-skill](results/1.1.0/previous-skill/). The portable prompts
+and assertions are in [evals.json](evals.json).
+
+## Final constraint and editorial review
+
+| ID | Complete output | Decisive evidence |
+| --- | --- | --- |
+| 1 | [same-facts-four-media](results/1.1.0/with-skill/01-same-facts-four-media.md) | Four media retain their different jobs, recording decision, payment facts, access, and registration. |
+| 2 | [constrained-style](results/1.1.0/with-skill/02-constrained-style.md) | Exactly eight two-beat lines preserve the full offer, price, boundary, turnaround, and CTA. |
+| 3 | [invoice-clarity](results/1.1.0/with-skill/03-invoice-clarity.md) | Invoice identifier, amount, due date, reason, payment route, and correction path remain explicit. |
+| 4 | [invitation-completeness](results/1.1.0/with-skill/04-invitation-completeness.md) | Names, ceremony details, venue, RSVP, access, children, and dress survive. |
+| 5 | [apology-accountability](results/1.1.0/with-skill/05-apology-accountability.md) | Responsibility and impact precede repair; Thursday preflight ownership remains with Em. |
+| 6 | [personal-letter-specificity](results/1.1.0/with-skill/06-personal-letter-specificity.md) | All three supplied memories remain; no invented enduring personality claim. |
+| 7 | [email-decision-first](results/1.1.0/with-skill/07-email-decision-first.md) | The opening decision, deadline, Friday consequence, link, and unfinished chart checks remain visible. |
+| 8 | [client-authorship](results/1.1.0/with-skill/08-client-authorship.md) | A 90-word creator-led treatment preserves the premise without copying signature sample sentences. |
+| 9 | [samey-syntax-audit](results/1.1.0/with-skill/09-samey-syntax-audit.md) | Audit identifies the repeated mechanism and its consequence without supplying replacement headings. |
+| 10 | [warm-but-generic](results/1.1.0/with-skill/10-warm-but-generic.md) | Exactly two sentences retain Jo, Rafi, Sunday, and the thermos detail. |
+| 11 | [actual-goal-style-stress-test](results/1.1.0/with-skill/11-actual-goal-style-stress-test.md) | One payment message preserves all facts while exercising the expressly delegated style choice. |
+| 12 | [smallest-useful-edit](results/1.1.0/with-skill/12-smallest-useful-edit.md) | The two protected paragraphs are byte-exact; unsupported enthusiasm is removed. |
+| 13 | [unpack-without-inventing](results/1.1.0/with-skill/13-unpack-without-inventing.md) | Supplied actions replace emotional labels without new events or bodily details. |
+| 14 | [uncertainty-is-meaning](results/1.1.0/with-skill/14-uncertainty-is-meaning.md) | Known loss, suspected cause, unknown exposure, and the next update remain distinct. |
+| 15 | [factual-case-study-evidence](results/1.1.0/with-skill/15-factual-case-study-evidence.md) | The intervention and dated handover remain concrete; post-handover impact stays unmeasured. |
+| 16 | [object-changes-meaning](results/1.1.0/with-skill/16-object-changes-meaning.md) | The same object changes use through action; the ending stays within the scene without a moral. |
+| 17 | [comparison-serves-the-speaker](results/1.1.0/with-skill/17-comparison-serves-the-speaker.md) | Spoken directions retain the mechanism, sequence, and hinge caution without ornate imagery. |
+| 18 | [structure-follows-question](results/1.1.0/with-skill/18-structure-follows-question.md) | Both openings retain the same facts while changing information order and preserving chronology. |
+| 19 | [dialogue-and-practical-answer](results/1.1.0/with-skill/19-dialogue-and-practical-answer.md) | After repair, fictional subtext stays unresolved while the project email attributes the decision to the director. |
+| 20 | [source-exercise-is-not-authority](results/1.1.0/with-skill/20-source-exercise-is-not-authority.md) | The exact first sentence, accountability, impact, attachment, and future check survive contrary source exercises. |
+
+## What the comparisons establish
+
+The initial blind comparison found no meaningful overall quality improvement
+between versions. Case 13 was identical; the reviewer slightly preferred the
+baseline's more concrete ending in case 16. Both versions otherwise met the
+specified constraints apart from the shared attribution problem in case 19.
+The final repair removes that observed failure in its rerun.
+
+The enrichment makes additional craft decisions explicit and source-traceable.
+These small samples support preservation of the tested behaviour and the specific
+attribution repair. They do not establish a general gain in warmth, soul,
+authorship, literary merit, or future performance.
+
+## Validation and limits
+
+- OpenAI's `quick_validate.py`: valid. YAML and JSON parsing, relative-link
+  targets, 20 unique evals, and 31 source-map entries also pass.
+- Exact form, word limits, and protected paragraphs were checked where those
+  assertions apply; full outputs received agent editorial review.
+- Two earlier CLI attempts to load references through tools encountered a
+  code-mode host compatibility error. They are excluded from the accepted runs.
+- Bulk tests used all references already loaded, so they do not test selective
+  routing. A separate [file-based invocation](results/1.1.0/installed-smoke.md) loaded
+  installed v1.1.0, reached both new craft references and the speaker guidance,
+  and produced the requested scene and correctly attributed project note.
+- One generation per case and version, plus the six affected reruns. One model;
+  no cross-model claim. No human listening session or owner taste review.
+
+---
+
 # Evaluation results — 1.0.0
 
 Historical receipt for the 6 August 2026 run, retained as recorded. The current
 [eval specification](evals.json) supersedes its expectations for fixed forms
 and delegated choices: a requested eight-line form must now be preserved. These
-old pass labels do not establish v1.0.5 behavior; current validation belongs in
+old pass labels do not establish later-release behavior; current validation belongs in
 the [release notes](https://github.com/bomkino/pitchdog-writing/releases/latest).
 
 **Date:** 2026-08-06

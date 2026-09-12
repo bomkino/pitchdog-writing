@@ -134,6 +134,17 @@ comes from:
 
 ## Read-aloud test
 
+For consequential spoken work, read the actual wording aloud or use available
+audio playback when useful. Mark the precise place a breath runs out, an actor
+becomes unclear, a transition arrives too fast, or a repeated sound distracts.
+Change that place, then read it again. Do not claim a spoken or listener test
+when only a silent review occurred.
+
+Allow enough time to understand a turn. A pause, attribution, or relevant action
+may help in a scene; spoken scripts may need shorter clauses. Preserve authentic
+rhythm rather than regularising every sentence. For screen copy, also inspect
+the visual order of facts and actions; a performance cannot prove scanability.
+
 Read for mechanism as well as sound:
 
 - Does every paragraph use the same rhythm?

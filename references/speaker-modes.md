@@ -26,6 +26,12 @@ private traits the user did not supply.
 If sender identity would materially change the artifact and remains unknown,
 ask one concise question.
 
+Keep the person acting or deciding distinct from the person sending the message.
+If the brief says a director approved a choice but leaves the sender unspecified,
+attribute the decision to the director; do not silently turn it into “I approved”
+or “we approved.” A clear role-based attribution often resolves the gap without
+a question. Preserve first person when the brief or samples establish it.
+
 ## Personal or household
 
 Less branded. More intimate.

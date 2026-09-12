@@ -19,6 +19,7 @@ template is not.
 | Social post | A complete thought, update, or invitation rewards attention. | Engagement bait or faux intimacy. | It says something without begging for response. |
 | Announcement | People understand what changed, why it matters, and what happens next. | Excitement replaces information. | Practical consequences are clear. |
 | Handover | The next person can continue accurately. | A polished recap has no decisions, owners, or next actions. | Work can proceed without reconstructing context. |
+| Narrative or treatment | Reader can follow an experience, change, or question in the intended voice. | Vivid details and a tidy lesson conceal an inert or invented account. | Action, evidence, perspective, and consequence support the intended meaning. |
 | Apology | Responsibility, impact, and repair are clear. | Elegant self-explanation or wit acts as defence. | The harmed person is not asked to comfort the writer. |
 | Sensitive, grief, or medical | Dignity, accuracy, and presence. | Warmth theatre or compulsory optimism. | The writing does not make the situation smaller. |
 | Utility, error, legal, or consent | Reader knows what happened, what it means, what is optional, and what to do. | Brand voice interferes with recovery or rights. | State and next action are explicit. |
@@ -215,6 +216,27 @@ Do not collapse an open gate into “done”.
 - decorative headings;
 - missing owner or next step;
 - status claims without evidence.
+
+## Narrative, treatment, and story within a case study or deck
+
+### Default
+
+Establish the intended experience, whose perspective governs it, and what
+changes. Use [narrative craft](narrative-craft.md) for structure, selected detail,
+movement, and endings. An opening may orient, demonstrate, or raise a question;
+choose according to the brief rather than forcing every story to withhold its
+point.
+
+Distinguish an authorised fictional premise from a factual account. A treatment
+can develop invented action within its premise. A real case study cannot acquire
+dialogue, bodily reactions, motives, or measured outcomes because a scene needs
+them. Personal writing preserves supplied memories and useful ambiguity.
+
+### Voice ceiling
+
+The creator and form determine the range. Room for texture or strangeness does
+not require shock, aphorisms, or a twist. Keep scope, evidence, commercial terms,
+and actions explicit around any narrative within a proposal or deck.
 
 ## Apology
 

@@ -1,0 +1,392 @@
+{
+  "date": "2026-09-12",
+  "runner": "Codex CLI 0.154.0-alpha.6.2",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "candidate_version": "1.1.0",
+  "baseline_version": "1.0.5",
+  "baseline_commit": "f87b6884cfa3bf2669cb018934da3389f58f72bb",
+  "method": "One fresh ephemeral generation per case. Complete exact SKILL.md and runtime references were supplied in the prompt; no tools were called in the accepted runs. Expected outputs and assertions were not supplied. Candidate ran cases 1-20; baseline ran cases 13-20. After blind review, speaker attribution was repaired and candidate cases 1, 5, 7, 8, 19, and 20 were rerun once in fresh contexts. Earlier outputs are retained separately.",
+  "limits": [
+    "Single generation per case and version, one model.",
+    "Bulk tests verify writing behavior with full skill context, not automatic reference loading.",
+    "Two earlier filesystem-loading CLI pilots encountered code-mode host compatibility errors and are excluded.",
+    "No human listening session or owner taste review was performed."
+  ],
+  "runtime_sha256": {
+    "baseline": {
+      "SKILL.md": "828bf21167204334eff52371d895a85a5233cb343b5be3f3b2bcd793024940b3",
+      "references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+      "references/anti-patterns.md": "801e853fa401b11915dfe8f9528ba234ff1d42c252d8b3631c7ad614b4aac86a",
+      "references/calibration-examples.md": "2b6b3748dce8cb2c1869cfe69665a1914e9f3ca591d9a716fb14304e553a6bf1",
+      "references/medium-registers.md": "236124971982f13fc75a0f15f3ca6b774b09a908dbe1831b4298412eae1a8f08",
+      "references/rewrite-workflows.md": "6b4eaa7bba9968387e0537b8bcd1fdfd196bf2d42b1a486872b89556d6adacee",
+      "references/rhythm-wit-warmth.md": "22f37d6abe4df8e9b0fbbb6fe9282106bc20046a9a42b56ac75c77f0e5232d4a",
+      "references/speaker-modes.md": "c3ccd8a8714e6e6da09acd269b8a9690bb1b81c8f5c3776e817b8242e57c121a",
+      "references/voice-constitution.md": "dfbe49ae8ff09298109471acb5ca1662d41e501cb1446bbb485bb44eb2e74e6a"
+    },
+    "candidate_initial": {
+      "SKILL.md": "c340affcfcb27247bb2e78954975ccae62a529836d13e42e37b08c598f1beabd",
+      "references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+      "references/anti-patterns.md": "801e853fa401b11915dfe8f9528ba234ff1d42c252d8b3631c7ad614b4aac86a",
+      "references/calibration-examples.md": "2b6b3748dce8cb2c1869cfe69665a1914e9f3ca591d9a716fb14304e553a6bf1",
+      "references/craft-decisions.md": "de9f7fd3d59fb323e9d881b2dc4c1f9dc2f454bb4d397881b2812d1b82102291",
+      "references/medium-registers.md": "c4b9f80234b77bef2af2d3e72d6bb7240f17148d96ef0e1b13e31223a2f08cff",
+      "references/narrative-craft.md": "47e114f7b05d4c754044be365eeb88e0237fdcb8487f701fa40eac2a3d97fabb",
+      "references/rewrite-workflows.md": "6b4eaa7bba9968387e0537b8bcd1fdfd196bf2d42b1a486872b89556d6adacee",
+      "references/rhythm-wit-warmth.md": "3b80dc758dbfa070a320cf59af1d8f6296d618b9fcd3d87b41c219524b277558",
+      "references/speaker-modes.md": "c3ccd8a8714e6e6da09acd269b8a9690bb1b81c8f5c3776e817b8242e57c121a",
+      "references/voice-constitution.md": "dfbe49ae8ff09298109471acb5ca1662d41e501cb1446bbb485bb44eb2e74e6a"
+    },
+    "candidate_final": {
+      "SKILL.md": "c340affcfcb27247bb2e78954975ccae62a529836d13e42e37b08c598f1beabd",
+      "references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+      "references/anti-patterns.md": "801e853fa401b11915dfe8f9528ba234ff1d42c252d8b3631c7ad614b4aac86a",
+      "references/calibration-examples.md": "2b6b3748dce8cb2c1869cfe69665a1914e9f3ca591d9a716fb14304e553a6bf1",
+      "references/craft-decisions.md": "de9f7fd3d59fb323e9d881b2dc4c1f9dc2f454bb4d397881b2812d1b82102291",
+      "references/medium-registers.md": "c4b9f80234b77bef2af2d3e72d6bb7240f17148d96ef0e1b13e31223a2f08cff",
+      "references/narrative-craft.md": "47e114f7b05d4c754044be365eeb88e0237fdcb8487f701fa40eac2a3d97fabb",
+      "references/rewrite-workflows.md": "6b4eaa7bba9968387e0537b8bcd1fdfd196bf2d42b1a486872b89556d6adacee",
+      "references/rhythm-wit-warmth.md": "3b80dc758dbfa070a320cf59af1d8f6296d618b9fcd3d87b41c219524b277558",
+      "references/speaker-modes.md": "1c0e78e77da56345f4ea70e451ec6b8e8e351bbb7860251425566ad43d342ff5",
+      "references/voice-constitution.md": "dfbe49ae8ff09298109471acb5ca1662d41e501cb1446bbb485bb44eb2e74e6a"
+    }
+  },
+  "runs": [
+    {
+      "lane": "with-skill",
+      "id": 1,
+      "name": "same-facts-four-media",
+      "seconds": 69.5,
+      "output_sha256": "9541c174e589911b0effcbfb2af53d9958d0bcde062733f713b1455b0019e79e",
+      "artifact": "before-attribution-repair/01-same-facts-four-media.md",
+      "round": "initial",
+      "superseded": true
+    },
+    {
+      "lane": "with-skill",
+      "id": 2,
+      "name": "constrained-style",
+      "seconds": 66.8,
+      "output_sha256": "e15d40edc6b68d8f3bca4bbf31b316715f2536f96dd8bb5c4e3316dd2c8a69b4",
+      "artifact": "with-skill/02-constrained-style.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 3,
+      "name": "invoice-clarity",
+      "seconds": 32.3,
+      "output_sha256": "7eed39eccf10b54642647dfb31be53a33e6386068dca6b42884006bf95715be9",
+      "artifact": "with-skill/03-invoice-clarity.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 4,
+      "name": "invitation-completeness",
+      "seconds": 28.7,
+      "output_sha256": "a339fb348551cb36f7612158a1fed063a93ca1a389aedc36773fcfecaa323591",
+      "artifact": "with-skill/04-invitation-completeness.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 5,
+      "name": "apology-accountability",
+      "seconds": 30.1,
+      "output_sha256": "5d7f34f347fd57c984120998f5020e41164091dde559fcde6da5b94c403e566a",
+      "artifact": "before-attribution-repair/05-apology-accountability.md",
+      "round": "initial",
+      "superseded": true
+    },
+    {
+      "lane": "with-skill",
+      "id": 6,
+      "name": "personal-letter-specificity",
+      "seconds": 64.9,
+      "output_sha256": "f8c125c5a12317acb3936fbde57261aae292631a92a29b5eb664e7a6ba2cea92",
+      "artifact": "with-skill/06-personal-letter-specificity.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 7,
+      "name": "email-decision-first",
+      "seconds": 40.3,
+      "output_sha256": "14f0072751e531912b6becfa754df90215235533096242b8a5f40679185c2130",
+      "artifact": "before-attribution-repair/07-email-decision-first.md",
+      "round": "initial",
+      "superseded": true
+    },
+    {
+      "lane": "with-skill",
+      "id": 8,
+      "name": "client-authorship",
+      "seconds": 87.6,
+      "output_sha256": "2865742015f9e86a5f3d01ae7860c9850e024675b0cb3e92d0df9f3ba6ce3756",
+      "artifact": "before-attribution-repair/08-client-authorship.md",
+      "round": "initial",
+      "superseded": true
+    },
+    {
+      "lane": "with-skill",
+      "id": 9,
+      "name": "samey-syntax-audit",
+      "seconds": 53.4,
+      "output_sha256": "942db1463afb3ebb8e3af1e4699dcc2ddaab81c346f6db5eac477803ebd6e1b1",
+      "artifact": "with-skill/09-samey-syntax-audit.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 10,
+      "name": "warm-but-generic",
+      "seconds": 29.0,
+      "output_sha256": "f3b0494b577cfe42866e93fedba0c1e7260d454525572b1a724060a40dad2d9e",
+      "artifact": "with-skill/10-warm-but-generic.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 11,
+      "name": "actual-goal-style-stress-test",
+      "seconds": 32.6,
+      "output_sha256": "f2666e4ea3f717949f1cb956741b86e12951ed0a4b33211184db0a6d97f55f4d",
+      "artifact": "with-skill/11-actual-goal-style-stress-test.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 12,
+      "name": "smallest-useful-edit",
+      "seconds": 19.2,
+      "output_sha256": "2e445b878c642d7dfc58799f4cafcced994906499765cda3a87cccd25e736e1f",
+      "artifact": "with-skill/12-smallest-useful-edit.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 13,
+      "name": "unpack-without-inventing",
+      "seconds": 28.0,
+      "output_sha256": "0118bcb21ca45a49d01f226ec8512a853d5b1b3ba6e8b6638a9abbc952f4ec99",
+      "artifact": "with-skill/13-unpack-without-inventing.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 14,
+      "name": "uncertainty-is-meaning",
+      "seconds": 27.9,
+      "output_sha256": "60a85b469e0b818fc531ba0582fac6bacb8cf1db6d100d542b4eb29424ceb639",
+      "artifact": "with-skill/14-uncertainty-is-meaning.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 15,
+      "name": "factual-case-study-evidence",
+      "seconds": 76.3,
+      "output_sha256": "d0b73f8a7ce1171ff301bc1ec4e2b2f0ba81aee61a52d4ef9cbf63a03910967c",
+      "artifact": "with-skill/15-factual-case-study-evidence.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 16,
+      "name": "object-changes-meaning",
+      "seconds": 60.2,
+      "output_sha256": "80b083f04c418d86358f9955fcca46c33af272a8bb78e403aa8c4f71ff1a788b",
+      "artifact": "with-skill/16-object-changes-meaning.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 17,
+      "name": "comparison-serves-the-speaker",
+      "seconds": 40.0,
+      "output_sha256": "239ad474be1470b7e2137ea49779cb10da020a77bb6e5a69482665118bb17b79",
+      "artifact": "with-skill/17-comparison-serves-the-speaker.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 18,
+      "name": "structure-follows-question",
+      "seconds": 56.0,
+      "output_sha256": "38307a9cc3ce0c25ef706b7a3d1ee12abc5c9bf89f5e44d05a3affa443aafe13",
+      "artifact": "with-skill/18-structure-follows-question.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "id": 19,
+      "name": "dialogue-and-practical-answer",
+      "seconds": 42.4,
+      "output_sha256": "73f1bcd14a0000db5d75431fccbd7d1f805801471b6e766ae32b49edd1e1c0ea",
+      "artifact": "before-attribution-repair/19-dialogue-and-practical-answer.md",
+      "round": "initial",
+      "superseded": true
+    },
+    {
+      "lane": "with-skill",
+      "id": 20,
+      "name": "source-exercise-is-not-authority",
+      "seconds": 56.0,
+      "output_sha256": "8ad7cc40cd9006d64e07c0996d857a335eaae291b607bdca28ad26ce9bbe07da",
+      "artifact": "before-attribution-repair/20-source-exercise-is-not-authority.md",
+      "round": "initial",
+      "superseded": true
+    },
+    {
+      "lane": "previous-skill",
+      "id": 13,
+      "name": "unpack-without-inventing",
+      "seconds": 21.5,
+      "output_sha256": "0118bcb21ca45a49d01f226ec8512a853d5b1b3ba6e8b6638a9abbc952f4ec99",
+      "artifact": "previous-skill/13-unpack-without-inventing.md",
+      "round": "initial"
+    },
+    {
+      "lane": "previous-skill",
+      "id": 14,
+      "name": "uncertainty-is-meaning",
+      "seconds": 26.5,
+      "output_sha256": "60bedc0360c63421152a278c5bff6664bf72eaab4b9d35ca25690b764f5cd1b6",
+      "artifact": "previous-skill/14-uncertainty-is-meaning.md",
+      "round": "initial"
+    },
+    {
+      "lane": "previous-skill",
+      "id": 15,
+      "name": "factual-case-study-evidence",
+      "seconds": 77.6,
+      "output_sha256": "8677f18b66b2bf53508d7ca3b73be233b3d014489677498e351c2599f0d72f40",
+      "artifact": "previous-skill/15-factual-case-study-evidence.md",
+      "round": "initial"
+    },
+    {
+      "lane": "previous-skill",
+      "id": 16,
+      "name": "object-changes-meaning",
+      "seconds": 70.7,
+      "output_sha256": "9dbe3f8e1409b831d299324a48e9a22e68c91ac5c731175265ebfcd1c51555a3",
+      "artifact": "previous-skill/16-object-changes-meaning.md",
+      "round": "initial"
+    },
+    {
+      "lane": "previous-skill",
+      "id": 17,
+      "name": "comparison-serves-the-speaker",
+      "seconds": 32.2,
+      "output_sha256": "5c0da7e11a169442eee0b93e47105af779830b4169bce9a78e371edda154f5b6",
+      "artifact": "previous-skill/17-comparison-serves-the-speaker.md",
+      "round": "initial"
+    },
+    {
+      "lane": "previous-skill",
+      "id": 18,
+      "name": "structure-follows-question",
+      "seconds": 62.5,
+      "output_sha256": "baae50185d7d21c0d67c034ba4e94af87a44074569a26111127ee9c15259bb0c",
+      "artifact": "previous-skill/18-structure-follows-question.md",
+      "round": "initial"
+    },
+    {
+      "lane": "previous-skill",
+      "id": 19,
+      "name": "dialogue-and-practical-answer",
+      "seconds": 40.4,
+      "output_sha256": "1ce3066bbb3bf550175218f288e942b487ddd65303a93223fd89919c1ca24593",
+      "artifact": "previous-skill/19-dialogue-and-practical-answer.md",
+      "round": "initial"
+    },
+    {
+      "lane": "previous-skill",
+      "id": 20,
+      "name": "source-exercise-is-not-authority",
+      "seconds": 56.0,
+      "output_sha256": "6f8619dd8eebfdbf6fed2eab67414d03f58c37a4b4986f33f42b6d37eb1deb5f",
+      "artifact": "previous-skill/20-source-exercise-is-not-authority.md",
+      "round": "initial"
+    },
+    {
+      "lane": "with-skill",
+      "round": "attribution-repair",
+      "id": 1,
+      "name": "same-facts-four-media",
+      "seconds": 60.3,
+      "output_sha256": "888085f7d5e0a87f9d6d4c2bc6ca9275672563fe88a763fbab3a3582b495e979",
+      "artifact": "with-skill/01-same-facts-four-media.md"
+    },
+    {
+      "lane": "with-skill",
+      "round": "attribution-repair",
+      "id": 5,
+      "name": "apology-accountability",
+      "seconds": 28.5,
+      "output_sha256": "03454a953e2158bf48ab6490d8aeffe6ab5e51edc199f068aff305ec6348973d",
+      "artifact": "with-skill/05-apology-accountability.md"
+    },
+    {
+      "lane": "with-skill",
+      "round": "attribution-repair",
+      "id": 7,
+      "name": "email-decision-first",
+      "seconds": 42.1,
+      "output_sha256": "4f86cd251f5e98820ff099ca6cf08acc0dce10ab6f95bbb5de61daccde63d4f1",
+      "artifact": "with-skill/07-email-decision-first.md"
+    },
+    {
+      "lane": "with-skill",
+      "round": "attribution-repair",
+      "id": 8,
+      "name": "client-authorship",
+      "seconds": 71.7,
+      "output_sha256": "a715937cff8828038117a9492d587ac472820c36213b3d3fcda5d25ebfde9dd3",
+      "artifact": "with-skill/08-client-authorship.md"
+    },
+    {
+      "lane": "with-skill",
+      "round": "attribution-repair",
+      "id": 19,
+      "name": "dialogue-and-practical-answer",
+      "seconds": 40.8,
+      "output_sha256": "f415b909bcc59f4ea8a8ad91a8b2fe50aaca856c194318224b06751570053b35",
+      "artifact": "with-skill/19-dialogue-and-practical-answer.md"
+    },
+    {
+      "lane": "with-skill",
+      "round": "attribution-repair",
+      "id": 20,
+      "name": "source-exercise-is-not-authority",
+      "seconds": 52.9,
+      "output_sha256": "d86a2247c7682d87437b930865024c6069dd340186a4ed001fb2613ec540d277",
+      "artifact": "with-skill/20-source-exercise-is-not-authority.md"
+    }
+  ],
+  "review": {
+    "initial_blind_comparison": "Cases 13-20 met length constraints. No overall qualitative improvement established; case 19 exposed shared sender misattribution in both versions.",
+    "repair": "Preserve the actor or decision-maker separately from an unspecified message sender.",
+    "final_constraint_review": "All 20 selected candidate outputs satisfy the final assertions after the attribution repair.",
+    "reviewers": "Automated invariant checks and agent editorial review, including an independent blind comparison; not a human taste review."
+  },
+  "installed_smoke": {
+    "artifact": "installed-smoke.md",
+    "version": "1.1.0",
+    "method": "Fresh agent read installed files from disk; parent confirmed byte parity with final runtime.",
+    "files_read": [
+      "SKILL.md",
+      "references/narrative-craft.md",
+      "references/craft-decisions.md",
+      "references/speaker-modes.md",
+      "references/medium-registers.md",
+      "references/rhythm-wit-warmth.md",
+      "references/voice-constitution.md"
+    ],
+    "scene_word_count": 102,
+    "project_note_word_count": 19,
+    "result": "Constraints and decision attribution pass."
+  }
+}

@@ -1,0 +1,3 @@
+A mother and daughter clear the grandmother’s old flat during one monsoon afternoon. Since her death, everything must be sorted. Clothes, utensils, then twelve rolls of undeveloped film. The daughter puts the rolls on the table. Her mother continues folding a sheet.
+
+The film stays with the folding, the rain, the questions about what to keep. Neither woman reaches for the rolls. They are small enough to leave behind by mistake. As the afternoon passes, leaving them on the table begins to require a little more care from them both.
