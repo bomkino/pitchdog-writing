@@ -43,8 +43,28 @@ humanity score.
 
 ## Install
 
-This skill builds on craft-essays. Install
-[craft-essays](https://github.com/bomkino/craft-essays) the same way first.
+pitch.dog Writing 2.0 builds on
+[craft-essays](https://github.com/bomkino/craft-essays) 0.2.0 or later: install
+craft-essays the same way first. Keep one copy of each skill per app; two
+copies of one skill drift apart.
+
+### Claude
+
+**Claude apps (web and desktop).** Download
+[`pitchdog-writing.zip`](https://github.com/bomkino/pitchdog-writing/releases/latest/download/pitchdog-writing.zip)
+from the [latest release](https://github.com/bomkino/pitchdog-writing/releases/latest).
+Open **Customize → Skills**, choose **+ → Create skill → Upload a skill**, and
+select the ZIP. To update, delete the older version there first, then upload
+the new one. In the desktop app, uploaded skills are also available in the
+Code tab.
+
+**Claude Code in a terminal:**
+
+```bash
+npx skills add bomkino/pitchdog-writing --agent claude-code --global
+```
+
+Or extract the release ZIP into `~/.claude/skills/`.
 
 ### ChatGPT
 
@@ -64,7 +84,8 @@ Install for the current user:
 git clone https://github.com/bomkino/pitchdog-writing.git ~/.agents/skills/pitchdog-writing
 ```
 
-Or install only for one repository:
+For a fixed release, add `--branch v2.0.0 --depth 1` to the clone. Or install
+only for one repository:
 
 ```bash
 git clone https://github.com/bomkino/pitchdog-writing.git .agents/skills/pitchdog-writing
@@ -111,7 +132,7 @@ pitchdog-writing/
 ## Contribute
 
 Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md)
-before changing the voice constitution or calibration evidence. Examples should
+before changing the voice reference or calibration evidence. Examples should
 teach judgment, not become templates.
 
 No contributor licence agreement. No attribution requirement.

@@ -6,7 +6,7 @@ On the studio's own machine, the full master lives in the private writing librar
 
 ## How we sound
 
-Interested, candid, playful and comfortable with ourselves: a studio that takes the work seriously and itself less so, talking like someone you'd want at the dinner table.
+Interested, candid, playful and at ease with ourselves: serious about the work, light about ourselves, easy to talk to.
 
 - **Make the offer concrete.** Name the work, who it serves and what the reader can do next. A headline earns an immediate, useful explanation.
 - **Care shows in the work.** Scripts read to the end, references pulled, footnotes, revision rounds, handover files. Use the real details the brief supplies; late nights and rituals the brief never mentions are invented evidence.

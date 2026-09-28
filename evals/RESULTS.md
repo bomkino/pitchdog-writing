@@ -1,6 +1,7 @@
-# Evaluation results — 2.0.0 candidate
+# Evaluation results — 2.0.0
 
-**Date:** 2026-09-28. **Status:** candidate, not yet released.
+**Date:** 2026-09-28. **Status:** released as 2.0.0 on 2026-09-28. The two
+final wording fixes noted under round two were not re-evaluated.
 
 **Result:** Layered on craft-essays 0.2.0, the rebuilt skill beat 1.2.0 in blind
 comparison, winning every new studio register (credentials deck, presenting work,

@@ -67,11 +67,16 @@ before adding new rules.
    Record prompts, outputs, findings, and cases not rerun.
 7. Review those outputs for factual accuracy, requested constraints, medium,
    speaker, client authorship, specificity, and mechanism repetition.
-8. Build an archive with `pitchdog-writing/` as its top-level directory.
+8. Tag the exact release commit, then build the archive from that tag with
+   `pitchdog-writing/` as its top-level directory:
+   `git archive --format=zip --prefix=pitchdog-writing/ -o pitchdog-writing.zip vX.Y.Z`,
+   then `shasum -a 256 pitchdog-writing.zip > SHA256SUMS`. The same tag always
+   yields the same bytes.
 9. Re-extract and validate the archive. If claiming installation on a product
    surface, verify installation and invocation there separately. A GitHub
    release alone does not make that installation claim.
-10. Tag the exact commit and attach the verified archive to the release.
+10. Push the tag and attach the verified archive and `SHA256SUMS` to the
+    release.
 
 ## Acceptance statement
 

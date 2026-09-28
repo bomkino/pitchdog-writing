@@ -2,7 +2,11 @@
 
 All notable changes are recorded here.
 
-## 2.0.0 — unreleased
+## 2.0.0 — 2026-09-28
+
+**Breaking:** requires [craft-essays](https://github.com/bomkino/craft-essays)
+0.2.0 or later, installed alongside. Without it, the skill says so and works
+from its own references.
 
 - Builds on the craft-essays skill for writing craft. The Palahniuk
   adaptations formerly kept in `craft-decisions.md` and `narrative-craft.md`
@@ -20,6 +24,8 @@ All notable changes are recorded here.
   lines carry status; addressees come only from the brief.
 - Records blind two-judge comparisons against 1.2.0 in `evals/RESULTS.md` and
   `evals/results/2.0.0/`.
+- Adds Claude install steps and fixed-release links to the README, and the
+  reproducible archive command to the release checklist.
 
 ## 1.2.0 — 2026-09-12
 
