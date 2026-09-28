@@ -20,18 +20,20 @@ work.
 - invoices and payment notes;
 - wedding and event invitations;
 - proposals, estimates, and handovers;
+- our own decks, and presenting work to clients;
+- case studies told true;
 - website, product, programme, and campaign copy;
 - announcements and social posts;
 - internal notes, forms, errors, and microcopy;
 - apologies, personal messages, and sensitive writing;
 - writing for clients and creators without stealing their voice.
 
-The craft layer helps substantial writing earn its claims, choose telling
-details, develop a narrative, and stop before explaining away its effect. It
-adapts techniques from Chuck Palahniuk's craft essays while preserving factual
-accuracy, the requested medium, and the speaker's own authorship. The
-[source manifest](provenance/SOURCE-MANIFEST.md) records coverage and boundaries;
-the essays themselves are not part of the package.
+The craft comes from [craft-essays](https://github.com/bomkino/craft-essays),
+our open skill of Chuck Palahniuk's writing moves: unpack, received text,
+horses, the buried gun, big voice and little voice. pitch.dog Writing is the
+voice on top of that craft: who is speaking, what the medium must do, and how
+we sound doing it. Install both. The
+[source manifest](provenance/SOURCE-MANIFEST.md) records lineage and boundaries.
 
 ## What it refuses to become
 
@@ -40,6 +42,9 @@ copy in shorter sentences. Not dog puns. Not compulsory wit. Not a numerical
 humanity score.
 
 ## Install
+
+This skill builds on craft-essays. Install
+[craft-essays](https://github.com/bomkino/craft-essays) the same way first.
 
 ### ChatGPT
 
@@ -97,7 +102,7 @@ Options, and Sensitive.
 pitchdog-writing/
 ├── SKILL.md
 ├── agents/openai.yaml
-├── references/          # loaded only when the task needs them
+├── references/          # voice, registers, speakers, modes; loaded when needed
 ├── evals/evals.json     # portable test cases
 ├── docs/                # maintainer handover
 └── provenance/          # source lineage and decisions

@@ -1,0 +1,908 @@
+{
+  "date": "2026-09-28",
+  "writer_model": "claude-opus-5-5 (fresh subagent context per condition)",
+  "conditions": {
+    "v120": "pitchdog-writing 1.2.0 (main)",
+    "v2": "pitchdog-writing 2.0.0 first candidate + craft-essays 0.2.0 first candidate",
+    "v2f": "pitchdog-writing 2.0.0 revised candidate + craft-essays 0.2.0 revised candidate"
+  },
+  "snapshots_sha256": {
+    "v120": {
+      "pitchdog-writing/SKILL.md": "e42722fff93b3b5907283c6b1b06d6240b92ed51a8d07d5dd14cdaedafa30bca",
+      "pitchdog-writing/references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+      "pitchdog-writing/references/anti-patterns.md": "382e1ce5a8b55dc65fa870c6fa6f292b4f9124f08576bd4a296785deff3dbff5",
+      "pitchdog-writing/references/calibration-examples.md": "be762357162377790ed9697dcf8f1c309d5cc09c831c7381a74b55aa9484578c",
+      "pitchdog-writing/references/craft-decisions.md": "de9f7fd3d59fb323e9d881b2dc4c1f9dc2f454bb4d397881b2812d1b82102291",
+      "pitchdog-writing/references/evals.md": "0296e4d481d592ccaf9fec08ec58f018c7a0518d4aed86568bf73ce70619ba45",
+      "pitchdog-writing/references/juno-voice.md": "a537eb60e843ac4035327110da3c9790bb4c988731c803577ff15945f2124e14",
+      "pitchdog-writing/references/medium-registers.md": "d24443f7f0f5d0e3b0b58fbb31f9e8c4844e2e546dbbcbd702b15b095e176f85",
+      "pitchdog-writing/references/narrative-craft.md": "47e114f7b05d4c754044be365eeb88e0237fdcb8487f701fa40eac2a3d97fabb",
+      "pitchdog-writing/references/rewrite-workflows.md": "2f5d32c92f8dc8b19c5b4ca43546cc00eabcc63b505dbe105102e8c73c7804b5",
+      "pitchdog-writing/references/rhythm-wit-warmth.md": "a3a627576fd1955914cc6a42924dd5a4bd0c664ba51549637b403d29987083b2",
+      "pitchdog-writing/references/speaker-modes.md": "1c0e78e77da56345f4ea70e451ec6b8e8e351bbb7860251425566ad43d342ff5",
+      "pitchdog-writing/references/voice-constitution.md": "cdccb9f7a3d6e489cb94cc91ef92a884fd63d42635a28f1261b852d65b69560b"
+    },
+    "v2": {
+      "pitchdog-writing/SKILL.md": "861338a09087bd31f80ecc63d046813a7df70c052a177fbb90c4b4c30dbbe079",
+      "pitchdog-writing/references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+      "pitchdog-writing/references/calibration-examples.md": "be762357162377790ed9697dcf8f1c309d5cc09c831c7381a74b55aa9484578c",
+      "pitchdog-writing/references/evals.md": "7b7df00beab57cefbc15848e902b69d93a35848c0975fed5a884a935325bec80",
+      "pitchdog-writing/references/juno-voice.md": "1cd2750511f434ebabb2de7d86c5ee156a1d31abd691b67d15e24f9a415edfba",
+      "pitchdog-writing/references/medium-registers.md": "14640e3bf72d87f138851590f811852eb0843715fd848ee8473150d61ce9362e",
+      "pitchdog-writing/references/rewrite-workflows.md": "78d25d1558463f7e6586a65f5d30df0f77346b6b2cf2892fd319056c7f8f2561",
+      "pitchdog-writing/references/speaker-modes.md": "f685dc1938c6f6e3c5f20a63b1b3579360f58c1cf0501bd4bfbe1582d550df5f"
+    },
+    "v2f": {
+      "pitchdog-writing/SKILL.md": "ae8a63c98bef5c8b760bf1697d437e8cfd0909787b3f2fd64b145a1b3582c2dc",
+      "pitchdog-writing/references/actual-goal-writing-lens.md": "3911b3493616f973923c23c7342f101a388e99adfe33e2886d91c41b1271b2de",
+      "pitchdog-writing/references/calibration-examples.md": "be762357162377790ed9697dcf8f1c309d5cc09c831c7381a74b55aa9484578c",
+      "pitchdog-writing/references/evals.md": "7b7df00beab57cefbc15848e902b69d93a35848c0975fed5a884a935325bec80",
+      "pitchdog-writing/references/juno-voice.md": "9f4fc30032a1e6f9054652a95c6f88de63bc571fe82daceb6f69090769f48773",
+      "pitchdog-writing/references/medium-registers.md": "c7c4110e4e3dc332672f3e902b1b937f3232ea345b85a5d084b443c327070a38",
+      "pitchdog-writing/references/rewrite-workflows.md": "78d25d1558463f7e6586a65f5d30df0f77346b6b2cf2892fd319056c7f8f2561",
+      "pitchdog-writing/references/speaker-modes.md": "f685dc1938c6f6e3c5f20a63b1b3579360f58c1cf0501bd4bfbe1582d550df5f"
+    }
+  },
+  "cases": [
+    {
+      "id": 1,
+      "name": "same-facts-four-media",
+      "prompt": "Use $pitchdog-writing. A paid event called Deck First Read happens on 17 September 2026 at 17:00 IST at Method, Bandra West, Mumbai. The fee is ₹12,000, due 10 September; bank details are on page one of the invoice. The venue has step-free entry. Guests RSVP by replying to hello@example.com. Public registration is at example.com/first-read. The client must decide by 8 September whether the session may be recorded. Write four artifacts: (1) a client email asking for the recording decision, (2) an invoice note, (3) a guest invitation, and (4) a website announcement.",
+      "expected_output": "Four ready-to-use artifacts with family resemblance but different structures and registers. Each artifact selects the facts its medium needs. The client decision is immediately visible; payment details are exact; invitation logistics are complete; website copy explains the offer and registration action.",
+      "assertions": [
+        "The client email asks for a recording decision by 8 September 2026",
+        "The invoice note includes ₹12,000, 10 September 2026, and page-one bank details",
+        "The invitation includes date, time, venue, step-free entry, and the RSVP email",
+        "The website announcement includes the public registration URL",
+        "The four artifacts are visibly different in structure rather than four variants of one template"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "invoice-clarity",
+      "prompt": "Use $pitchdog-writing in Write mode. Draft a payment reminder to Arun for invoice PD-104, final deck handover, ₹84,000, due 4 August 2026, now unpaid. Payment details are on page one. Ask him to reply if payment has already been sent or anything is wrong.",
+      "expected_output": "Calm, exact, dignified reminder. Amount, invoice, reason, due date, status, payment route, and reply action are unmistakable. No money joke or apologetic billing language.",
+      "assertions": [
+        "The reminder includes invoice PD-104, ₹84,000, and 4 August 2026",
+        "The reminder identifies final deck handover as the reason",
+        "The reminder points to payment details on page one",
+        "The reminder asks for a reply if paid or if something is wrong",
+        "The reminder contains no joke about money and no apology for charging"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "apology-accountability",
+      "prompt": "Use $pitchdog-writing in Sensitive mode. Rewrite this: ‘Sorry the deck was late. We had a chaotic week and the client sent changes at the last minute, so there wasn't much we could do. Anyway, hope it didn't cause too much trouble. We're committed to doing better!’ Facts: we missed Friday's deadline; Priya had to present from an old file on Monday; the corrected deck is attached; we added a Thursday preflight check owned by Em.",
+      "expected_output": "Responsibility, concrete impact, apology, attached repair, and preventive change. No blame transfer, minimisation, wit, or request for reassurance.",
+      "assertions": [
+        "The apology states that the writer missed Friday's deadline",
+        "The apology states that Priya had to present from an old file on Monday",
+        "The apology says the corrected deck is attached",
+        "The apology names the Thursday preflight check and Em's ownership",
+        "The apology does not blame the client or the chaotic week"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "personal-letter-specificity",
+      "prompt": "Use $pitchdog-writing in Personal mode. Write a short letter to Leena for her 60th birthday using these memories: she taught me to make lime pickle on the blue balcony; she always hid a ₹50 note inside books she lent me; during the 2005 floods she walked three kilometres to bring us candles. Warm, not grand. From Kumail.",
+      "expected_output": "A personal letter that could only belong to Leena and Kumail. The memories carry affection; the result avoids generic tribute language and studio branding.",
+      "assertions": [
+        "The letter uses all three supplied memories accurately",
+        "The letter addresses Leena's 60th birthday and is from Kumail",
+        "The letter contains no invented memory or personality claim",
+        "The letter does not read like website or campaign copy"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "client-authorship",
+      "prompt": "Use $pitchdog-writing in Voice Match mode. This is for director Asha, not pitch.dog. Her samples: ‘The city is loudest in the rooms where nobody speaks.’ ‘I am interested in what a family edits out before it calls itself a family.’ ‘The camera waits. It does not forgive.’ Draft a 90-word treatment opening from these facts: a mother and daughter clear an old flat after the grandmother dies; they find twelve undeveloped film rolls; the film is patient, restrained, and set during one monsoon afternoon. Preserve Asha's surface voice. Do not add pitch.dog humour.",
+      "expected_output": "A restrained treatment opening governed by Asha's samples and supplied facts. pitch.dog contributes structure and precision without copying sample lines, adding house humour, or turning the film into a service benefit.",
+      "assertions": [
+        "The opening includes the mother, daughter, old flat, grandmother's death, twelve undeveloped rolls, and one monsoon afternoon",
+        "The opening is 90 words or fewer",
+        "The opening does not copy any supplied sample sentence verbatim",
+        "The opening adds no pitch.dog or dog humour"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "samey-syntax-audit",
+      "prompt": "Use $pitchdog-writing in Audit mode. Audit these page headings without rewriting: ‘Big stories. Small screens.’ ‘Real people. Real stakes.’ ‘Sharp thinking. Soft landing.’ ‘No fluff. Just film.’ ‘Your vision. Our craft.’ ‘More feeling. Less fuss.’ ‘One team. Every frame.’ ‘Good work. Better together.’ ‘From first thought. To final cut.’ ‘Made here. Seen everywhere.’",
+      "expected_output": "Audit identifies mechanism-level monotony and explains the cost even if some lines work alone. It preserves any genuinely useful line and recommends varied information jobs and structures, without rewriting unless asked.",
+      "assertions": [
+        "The audit identifies repeated two-beat antithesis or X.Y syntax",
+        "The audit distinguishes individual-line quality from page-level monotony",
+        "The audit names a material consequence for comprehension or authorship",
+        "The audit does not provide a full replacement set"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "smallest-useful-edit",
+      "prompt": "Use $pitchdog-writing in Rewrite mode. Repair only paragraph two; delete it if that is the smallest truthful edit. Keep paragraphs one and three verbatim.\n\nParagraph one: The revised deck is attached. Pages 4–11 now follow the approved structure.\n\nParagraph two: We are absolutely thrilled to share this exciting evolution, which we truly believe elevates the narrative into a more compelling and impactful journey.\n\nParagraph three: Please check the two figures highlighted in yellow by 12:00 IST on Thursday.",
+      "expected_output": "Paragraphs one and three remain character-for-character unchanged. Paragraph two is either removed or replaced with a factual bridge built only from supplied information. Paragraph count is not a success criterion.",
+      "assertions": [
+        "Paragraph one is reproduced verbatim",
+        "Paragraph three is reproduced verbatim",
+        "Only paragraph two is changed or removed",
+        "The result adds no unsupported narrative benefit, emotional claim, or generic enthusiasm"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "unpack-without-inventing",
+      "prompt": "Use $pitchdog-writing in Rewrite mode. Replace the abstract opening of this factual account with its observable detail. Return 45 words or fewer. Draft: 'Mina was nervous about sending the deck. She worried that it was not good enough. Eventually she made herself do it.' Available facts: at 08:59 Mina hovered over Send; she deleted the greeting twice; at 09:00 she sent the deck. Use all three facts. Add no dialogue, physical sensation, client reaction, or other event.",
+      "expected_output": "The account lets the supplied actions carry the hesitation and ends with the completed action, without inventing sensory colour or explaining an emotional lesson.",
+      "assertions": [
+        "The output is no more than 45 words",
+        "It preserves Mina, 08:59, hovering over Send, deleting the greeting twice, and sending at 09:00",
+        "It leads with observable action and does not append an explanation of Mina's character or feelings",
+        "It adds no dialogue, sensation, client reaction, or event"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "global-studio-positioning",
+      "prompt": "Use $pitchdog-writing. Rewrite this pitch.dog website opening in our Juno voice for a global audience. Return a headline, a paragraph, and a CTA. Source draft: A Mumbai-based Indian studio with Bombay hustle. We make pitch decks for film, advertising, and business. Our design-only deck service starts at $2,500 (INR conversion to follow). Contact hello@example.com. Keep the service and supplied USD price. Remove regional studio positioning.",
+      "expected_output": "Ready-to-use writing that follows Juno global voice calibration while preserving the explicit brief and factual boundaries.",
+      "assertions": [
+        "The opening explains pitch decks for film, advertising, and business",
+        "The output preserves the supplied $2,500 starting price and hello@example.com",
+        "The output has no Mumbai, Bombay, India, regional identity cue, or added INR conversion",
+        "The output does not invent an overseas location, country count, outcomes, or availability",
+        "The result includes a useful headline, developed paragraph, and concrete CTA"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "juno-voice-across-media",
+      "prompt": "Use $pitchdog-writing. Same confirmed facts, two artifacts: (1) a pitch.dog website section of 50–75 words, including a short headline and CTA; (2) a client email of at most 60 words. Service: a first read of a film pitch; people may send a rough outline; we return written notes on story structure and a 30-minute call; no deck design is included. Price: $300. Submission: hello@example.com. Use our Juno voice. Do not invent a turnaround or a programme name.",
+      "expected_output": "Ready-to-use writing that follows Juno global voice calibration while preserving the explicit brief and factual boundaries.",
+      "assertions": [
+        "Website section has 50–75 words and the email at most 60",
+        "Both preserve rough-outline eligibility, written structure notes, the 30-minute call, $300, no deck design, and hello@example.com",
+        "Website and email have distinct forms appropriate to their jobs",
+        "The copy is plainspoken and welcoming without inventing enthusiasm, location, availability, or a programme",
+        "Personality does not become a dog routine or an extended string of slogans"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "studio-contact",
+      "prompt": "Use $pitchdog-writing. Write the contact section for pitch.dog. We write and design pitch decks for film, advertising and business. People can bring a finished script, a rough outline or questions about what they need. They can email hello@example.com or book a 30-minute call with the people who would work on their project. Headline, body and two CTAs. Final copy only.",
+      "expected_output": "Useful, recognisable studio writing whose observation, attitude or timing belongs to this brief. Preserve the medium and every practical constraint. No mandatory joke count.",
+      "assertions": [
+        "Preserves all three sectors and writing and design services",
+        "Welcomes finished scripts, rough outlines and questions",
+        "Provides email and a 30-minute call with the project makers as distinct actions",
+        "No invented response time, free-call claim or regional identity",
+        "The phrasing has an observable point of view or human ease beyond a neutral list of facts"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "reference-newsletter",
+      "prompt": "Use $pitchdog-writing. Open this month’s studio newsletter in 80–120 words. We’ve published a free reference-selection worksheet. It helps filmmakers sort their references into story, light, colour and framing, and note what they want to borrow from each. No email signup; download at example.com/references. We made it because collecting references and choosing a visual direction are different jobs. Final copy only.",
+      "expected_output": "Useful, recognisable studio writing whose observation, attitude or timing belongs to this brief. Preserve the medium and every practical constraint. No mandatory joke count.",
+      "assertions": [
+        "80–120 words",
+        "Preserves free worksheet, four categories, borrowing notes, no signup and download URL",
+        "Expresses the difference between collecting and choosing without inventing research, client incidents or results",
+        "An observation, attitude or turn belongs to visual references and is worth keeping",
+        "No source catchphrase transplant or repetitive slogan structure"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "contact-sheet-tool",
+      "prompt": "Use $pitchdog-writing. Announce our free contact-sheet tool in 50–80 words for a studio social post. It turns a folder of images into a PDF, keeps their order and labels each image with its filename. It runs locally; no images are uploaded. Get it at example.com/contact-sheet. Final copy only.",
+      "expected_output": "Useful, recognisable studio writing whose observation, attitude or timing belongs to this brief. Preserve the medium and every practical constraint. No mandatory joke count.",
+      "assertions": [
+        "50–80 words",
+        "Preserves free tool, folder-to-PDF conversion, image order and filename labels",
+        "Preserves local operation and no image uploads",
+        "Includes example.com/contact-sheet",
+        "Expressive language adds no unprovided formats, platforms, speed claims, client events or capability",
+        "Has subject-specific pleasure or a clear editorial observation without engagement bait"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "studio-credentials-deck",
+      "prompt": "Use $pitchdog-writing. Write the slide copy for a 7-slide credentials deck we'll send to Marisol Ferro, a documentary producer pitching her feature documentary \"The Salt Keepers\" (about the last family-run salt pans on a coastline threatened by a port expansion) to streamers next month. Per slide: a headline and one to three lines of body copy. Facts we can use: we have made pitch decks for 11 documentary features since 2021. Two projects are approved for credentials use: \"Night Ferry\" (director Anouk Saar) and \"Low Tide Choir\" (director Teo Brandt). Our documentary package is USD 6,500 for a 20-page deck with two revision rounds, delivered 15 working days after the script and references arrive. We don't run the pitch meeting and we don't write her synopsis; we shape and design what she has. She keeps all rights. Next step: a 30-minute call, booked at example.com/call. Final copy only.",
+      "expected_output": "A credentials deck in our voice whose pages are about her film and her pitch. Proof and terms are real and exact; limits are candid; the close is a literal next step.",
+      "assertions": [
+        "Exactly seven slides, each with a headline and one to three lines of body copy",
+        "Headlines use sentence case; any mention of pitch.dog is lowercase",
+        "Includes USD 6,500, a 20-page deck, two revision rounds and delivery 15 working days after script and references arrive",
+        "States that we don't run the pitch meeting or write her synopsis, and that she keeps all rights",
+        "Names only Night Ferry and Low Tide Choir as past work; invents no other clients, awards, streamers or success rates",
+        "Most slides address her film or her pitch rather than describing the studio",
+        "Closes with the 30-minute call at example.com/call"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "presenting-work-cover-note",
+      "prompt": "Use $pitchdog-writing. Kay is emailing director Ines Varga the first full draft of her series treatment deck \"Paper Moons\" (eight episodes). Since the outline, the deck opens on the pilot's rooftop scene instead of the logline, the character pages are shorter, and the comparables page is gone because Ines said comps felt \"like borrowing someone else's coat\". One risk: opening on the scene moves the logline to page 3, and some commissioners expect it on page 1. Kay recommends keeping the scene opening and can move the logline in ten minutes if Ines prefers. Ines needs to decide by Friday 3 October: (1) scene opening or logline first, and (2) whether to keep the tone page's second image. The deck is at example.com/paper-moons-v1. Write the email in 120–180 words. Final copy only.",
+      "expected_output": "A comfortable working email from Kay that leads with what is ready and the two decisions due Friday, names the risk with a recommendation, and keeps Ines's material and words hers.",
+      "assertions": [
+        "120–180 words",
+        "The first two sentences say the draft is ready and that two decisions are needed by Friday 3 October",
+        "Lists both decisions with their options",
+        "Names the logline-on-page-3 risk and Kay's recommendation, including the ten-minute switch",
+        "Includes example.com/paper-moons-v1",
+        "Any use of the coat remark quotes Ines exactly and attributes it to her",
+        "Written in Kay's first person singular; no humour at the expense of Ines's material"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "honest-case-study",
+      "prompt": "Use $pitchdog-writing. Write a 250–350 word case study for our website from these notes. Client: Coralie Dunn, a first-time director pitching her dark comedy feature \"Small Hours\" to financiers. She came with a 62-page deck she described as \"everything I've ever thought about this film\". We cut it to 24 pages, rebuilt the story section around the night-shift bakery where the film is set, and replaced stock images with frames from her short film. Constraint: two weeks before her first financier meeting. Result so far: four financier meetings; one financier asked for the full script; no financing is confirmed. Approved quote from Coralie: \"It finally looks like the film in my head, only with fewer pages.\" No other quotes or figures may be used. Final copy only.",
+      "expected_output": "A true case study in our voice with Coralie and her film as protagonists, our decisions in specifics, and an honest partial result.",
+      "assertions": [
+        "250–350 words",
+        "Quotes Coralie's approved line exactly",
+        "Includes the 62-to-24-page cut, the bakery-centred story section, frames from her short film and the two-week constraint",
+        "Reports four meetings, one script request and no confirmed financing without implying success",
+        "Invents no other quotes, figures, financier names, emotions or outcomes",
+        "Coralie and her film are the protagonists"
+      ]
+    }
+  ],
+  "judgments": [
+    {
+      "round": 1,
+      "judge_model": "claude-opus-5-5",
+      "seed": 28092027,
+      "mapping": {
+        "01-same-facts-four-media": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "03-invoice-clarity": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "05-apology-accountability": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "06-personal-letter-specificity": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "08-client-authorship": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "09-samey-syntax-audit": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "12-smallest-useful-edit": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "13-unpack-without-inventing": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "21-global-studio-positioning": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "24-juno-voice-across-media": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "25-studio-contact": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "26-reference-newsletter": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "28-contact-sheet-tool": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "29-studio-credentials-deck": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "30-presenting-work-cover-note": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "31-honest-case-study": {
+          "A": "v2",
+          "B": "v120"
+        }
+      },
+      "verdicts": [
+        {
+          "id": "01-same-facts-four-media",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both pass every check. A's invitation sets its logistics as stacked lines ('17 September 2026, 17:00 IST / Method, Bandra West, Mumbai / Method has step-free entry.'), so the four pieces genuinely differ in shape, and 'If you can't make it, a quick no helps us plan too' is the most human line in either set. B's invitation and website share an almost identical sentence ('at 17:00 IST, at Method in Bandra West, Mumbai. The venue has step-free entry.'), and the invitation opens with the redundant 'You're invited to Deck First Read, and we'd like you there' and is unsigned. B has good practical touches ('One decision for you:', 'please tell us before you pay', routing invited guests to email), and A's website block is thin, but A's headline 'A deck only gets one first read.' is sharper than B's near-tautology 'The first read only happens once.'"
+        },
+        {
+          "id": "03-invoice-clarity",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both pass every check and stay calm and exact, with no apology or money joke. The difference is the subject line: B's 'Invoice PD-104 is overdue: ₹84,000, due 4 August' states the status in the inbox, while A's 'Invoice PD-104, ₹84,000, due 4 August 2026' reads like the original invoice being resent. The bodies are nearly interchangeable ('is still unpaid', 'page one of the invoice', 'reply to this email'), with A's 'we'll sort it out' a touch warmer than B's 'we'll check it'. B wins narrowly because the status is unmistakable before the email is opened."
+        },
+        {
+          "id": "05-apology-accountability",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both pass every check and cleanly drop the blame, the minimising and 'We're committed to doing better!'. A adds a plain ownership line, 'That should not have happened, and it was our failure.', before 'We're sorry.', which is the responsibility the brief asks for without grovelling. B is tighter and more humane if Priya is the reader ('you had to present from an old file on Monday'), but its salutation 'Priya,' assumes a recipient the brief never names, and in Sensitive mode a wrong addressee is costly. A's neutral wording works whoever receives it."
+        },
+        {
+          "id": "06-personal-letter-specificity",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both use all three memories accurately, mark the 60th and come from Kumail. A's close, 'This time, the candles are for you.', is the best line in the pair: it turns the flood candles into birthday candles and could only belong to these two people. Its body is close to a recitation of the brief (three consecutive 'You...' sentences) and 'Thank you for all of it' is generic. B is warmer in places ('I haven't forgotten any of it', 'Love,'), but 'left me a little richer every time' puns on the ₹50, and 'I hope someone else makes the pickle this year' implies a yearly pickle-making habit the memories don't supply."
+        },
+        {
+          "id": "08-client-authorship",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both are exactly 90 words, include every required element, copy no sample line and add no humour. A keeps the supplied fact that 'they find' the rolls, confines its additions to physical texture ('The rain keeps every window shut', 'set the rolls on the table between them'), and its aphorisms ('Grief, in this family, is work for the hands', 'A photograph kept in the dark has not yet decided what it remembers') sit close to Asha's register. B is a strong treatment, and 'her old flat is full of decisions' is a fine opening, but it reassigns the discovery ('the daughter finds'), adds a premise of its own ('why nobody looked'), and ends by explaining the film's stance ('close enough to see what they decide, too patient to decide for them') where A's 'The film gives them the whole afternoon, and no more.' enacts it. In a client-authorship brief, A's fidelity edges it."
+        },
+        {
+          "id": "09-samey-syntax-audit",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both pass all four checks, share the same six-section template and run long for ten headings (772 and 866 words). B is more exact about the mechanism: 'Nine are exactly two words plus two words' (true), the seven oppositions, 'Alliteration doing the thinking' (five of ten, which A never notices) and 'Duplicate jobs', which adds a page-level cost A lacks: 'ten headings carry seven ideas at most'. B also names why the set is dangerous for this studio: it 'could pass a review as on-voice', since full-stop headlines are house style. A has good lines ('\"No fluff\" is itself fluff', 'The full stops are doing the work that an observation should do') and a useful pitch-deck scope warning, but calls 'Soft landing' 'the least predictable phrase in the set' when it is a stock phrase."
+        },
+        {
+          "id": "12-smallest-useful-edit",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "tie",
+          "reasons": "The two responses are identical. Each deletes paragraph two, reproduces paragraphs one and three character for character (including the en dash in 'Pages 4–11'), and adds nothing. Deletion is the smallest truthful edit, so there is nothing to separate them."
+        },
+        {
+          "id": "13-unpack-without-inventing",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "tie",
+          "reasons": "The two responses are identical: 'At 08:59, Mina hovered over Send. She deleted the greeting twice. At 09:00, she sent the deck.' At 17 words it uses all three facts in order, adds no sensation, dialogue or event, and ends on the completed action. Nothing separates them."
+        },
+        {
+          "id": "21-global-studio-positioning",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both pass every check: $2,500 and hello@example.com kept, every regional cue gone, no INR added. They share one core idea and even one clause ('so it has to make the case on its own'). A's headline 'Your deck will be read without you.' is the sharper line, but its paragraph leans on the headline ('It gets forwarded...') and its CTA 'Email hello@example.com' is bare. B tells a new visitor what the studio does straight away ('pitch.dog makes pitch decks for film, advertising and business'), develops the paragraph further and gives the CTA a job ('Tell us what you're pitching: hello@example.com'); 'gives them a deck to travel in' strains slightly but suits a global reader."
+        },
+        {
+          "id": "24-juno-voice-across-media",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both fit the limits (websites 67 and 65 words, emails 44 and 46 before subject lines) and keep every fact without inventing a turnaround or programme. A's 'We'd rather see it early, while the structure is still easy to move' gives a candid, specific reason to send a rough outline, and 'the slides can wait until the story holds up' explains the no-design limit without a slogan. B's headline 'Notes on the story, not the slides.' leans on a not-X contrast of the kind the house guide is wary of, and its CTA 'Send your outline to hello@example.com' narrows the offer to outlines. B's email line 'there's no need to tidy it up first' is good and its process sentence is clear, so the margin is small."
+        },
+        {
+          "id": "25-studio-contact",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both pass every check. B's headline 'You don't need to know what you need.' answers the visitor's main hesitation in one line, and its body stays lean: 'you'll spend the 30 minutes with the people who would work on your project'. A has a genuinely useful specific line ('If you can't tell yet whether you need writing, design or both, that's a perfectly good first question'), but it says the same thing twice ('the people who'd make your deck', 'the people who would work on your project') and repeats both actions in the body right above the two CTAs. B's 'Headline:/Body:/CTA 1:' labels are a small lapse against 'Final copy only'."
+        },
+        {
+          "id": "26-reference-newsletter",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both are in range (101 and 90 words), keep every practical fact and invent nothing. A leads with the idea, which suits a newsletter opener, and has the line worth keeping: 'perhaps nothing at all from the one you kept because it was beautiful', which belongs to visual references and nothing else; 'keep it next to whatever folder you've been filling' closes well. B is clear and correct but announces first and largely restates the brief ('We made it because collecting references and choosing a visual direction are different jobs'), and 'the folder only gets bigger' is its only real observation."
+        },
+        {
+          "id": "28-contact-sheet-tool",
+          "failures": {
+            "A": [],
+            "B": [
+              "Check 5 (no unprovided formats): the joke 'even the ones called final_v3_REAL.jpg' introduces a .jpg file format the brief never supplied, implying JPG input support."
+            ]
+          },
+          "preference": "A",
+          "reasons": "A passes every check. B's 'even the ones called final_v3_REAL.jpg' is the funniest line in the pair, but the joke brings in a file format (.jpg) the brief never gives, which is exactly what the check on expressive additions rules out; without the extension it would probably win. A opens on a generic 'a job nobody should have to do by hand', then earns its place with a real editorial reason for the filename labels ('feedback can name the image instead of pointing at \"the one near the top\"') and keeps every fact straight."
+        },
+        {
+          "id": "29-studio-credentials-deck",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both have seven slides, exact terms, only the two approved titles and a close at example.com/call. A spends its first three slides on Marisol's film and pitch: 'The port expansion is your why-now.' and 'For The Salt Keepers, we'd start with the families, the salt pans and the port' show what her deck would lead with, and slide 7 ties the 15 working days to her pitches next month. In B only slide 2 engages with the film ('a way of working, and what threatens it' is a good read), while slide 1 is a title card, slide 5 gives a whole slide to 'You keep all rights', and its headlines drop the house full stop ('Documentary is familiar ground'). A's 'approved for us to name here' is a little stiff and it never names pitch.dog, but it does more of the real job."
+        },
+        {
+          "id": "30-presenting-work-cover-note",
+          "failures": {
+            "A": [
+              "Check 2 (first two sentences): the body opens 'The first full draft of the Paper Moons treatment deck is ready: example.com/paper-moons-v1' and then 'Three things have changed since the outline.'; the two decisions and the Friday 3 October deadline appear only in the subject line and in the closing 'Could you let me know two things by Friday 3 October?'"
+            ],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "A fails the lead check: after 'The first full draft of the Paper Moons treatment deck is ready' its second sentence is 'Three things have changed since the outline.', so the two decisions and the deadline live in the subject line and the closing ask. B puts both in its first sentence ('is ready at example.com/paper-moons-v1, and I need two decisions from you by Friday 3 October'), stays in Kay's 'I' throughout and gives each decision its options ('Keep the tone page's second image, or cut it?'). B's middle paragraph is clumsy ('After that, the character pages are shorter. On the tone page, whether the second image stays is the other decision.') and A is otherwise the tidier email, but the structural miss decides it; A also slips into 'Should we keep'."
+        },
+        {
+          "id": "31-honest-case-study",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both are in range (282 and 294 words), quote Coralie exactly, include the cut, the bakery, the short-film frames and the two weeks, and report 'No financing is confirmed.' A has the sharpest observation in either piece ('The small hours are when a night-shift bakery does its work, so the title and the setting were already pointing at the same place') and keeps house style. B has fine lines of its own ('before it asks anyone to laugh', 'The bakery, the frames and the film were already hers'), but it stacks contrasts, generalises Coralie's state ('usually means someone cares about a film'), uses an em dash for the attribution and no full stop on its headline, and closes by congratulating itself on its candour ('We'd rather tell you that plainly than round it up into a happier ending'). A's 'which is the next step a deck exists to earn' leans slightly toward claiming credit and 'Coralie puts it better than we can' is stock, so the margin is modest."
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "judge_model": "claude-fable-5-1",
+      "seed": 71129082,
+      "mapping": {
+        "01-same-facts-four-media": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "03-invoice-clarity": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "05-apology-accountability": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "06-personal-letter-specificity": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "08-client-authorship": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "09-samey-syntax-audit": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "12-smallest-useful-edit": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "13-unpack-without-inventing": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "21-global-studio-positioning": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "24-juno-voice-across-media": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "25-studio-contact": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "26-reference-newsletter": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "28-contact-sheet-tool": {
+          "A": "v120",
+          "B": "v2"
+        },
+        "29-studio-credentials-deck": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "30-presenting-work-cover-note": {
+          "A": "v2",
+          "B": "v120"
+        },
+        "31-honest-case-study": {
+          "A": "v2",
+          "B": "v120"
+        }
+      },
+      "verdicts": [
+        {
+          "id": "01-same-facts-four-media",
+          "failures": {
+            "A": [
+              "Check 5 (structure): the same logistics sentence recurs almost verbatim in three of the four artifacts. Email: 'the session is on 17 September 2026 at 17:00 IST, at Method in Bandra West, Mumbai.' Invitation: 'It's on 17 September 2026 at 17:00 IST, at Method in Bandra West, Mumbai. The venue has step-free entry.' Announcement: 'Deck First Read is on 17 September 2026 at 17:00 IST, at Method in Bandra West, Mumbai. The venue has step-free entry.' Family resemblance shades into one template.",
+              "Minor addition not in the brief: the public announcement adds a routing rule, 'If we've already sent you an invitation, reply to hello@example.com instead.' Not treated as material."
+            ],
+            "B": [
+              "Check 2 (minor): the invoice note carries no year anywhere: 'Here's the invoice for Deck First Read on 17 September. The fee is ₹12,000, due on 10 September, and our bank details are on page one.' Amount, day, month and page-one detail are exact, so not treated as material."
+            ]
+          },
+          "preference": "B",
+          "reasons": "B's four pieces behave like four media: the invitation stacks its logistics like a card ('17 September 2026, 17:00 IST / Method, Bandra West, Mumbai / Method has step-free entry.'), the invoice note is one covering paragraph, and the announcement is a headline, one line of logistics and 'Register at example.com/first-read'. A's four are all two-to-four short prose paragraphs with the same logistics sentence carried through them, and its website invents a rule the brief never gave, 'If we've already sent you an invitation, reply to hello@example.com instead.' B also has the more human lines: 'A one-word reply is plenty' and 'If you can't make it, a quick no helps us plan too.' B's missing year on the invoice note is the one thing to fix before sending; it does not outweigh A's template resemblance."
+        },
+        {
+          "id": "03-invoice-clarity",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both are exact and dignified, and the bodies are nearly interchangeable: PD-104, ₹84,000, 4 August 2026, 'final deck handover', 'page one of the invoice', and a reply request with no joke and no apology. The difference is the subject line, which is where a reminder does its work. B's 'Invoice PD-104 is overdue: ₹84,000, due 4 August' tells Arun the status before he opens it; A's 'Invoice PD-104, ₹84,000, due 4 August 2026' could pass for the original invoice email. B's body splits the amount off a little awkwardly ('is still unpaid. The amount is ₹84,000.') and A's 'we'll sort it out' is a touch warmer, but neither changes the send. Marginal call for B."
+        },
+        {
+          "id": "05-apology-accountability",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "tie",
+          "reasons": "Both own the miss in the first clause, 'We missed Friday's deadline for the deck', name the Monday impact, attach the repair and end on 'a Thursday preflight check, and Em owns it', with no trace of the chaotic week or the client's changes. A adds explicit ownership, 'That should not have happened, and it was our failure', and stays recipient-neutral. B addresses Priya directly, so 'you had to present from an old file on Monday' lands harder, but the brief never names the recipient; if this note goes to anyone but Priya, B is misaddressed while A still works, and if it goes to Priya, A's third-person 'Priya had to present' is stilted. The deciding fact is not in the brief, so I will not pretend to know it."
+        },
+        {
+          "id": "06-personal-letter-specificity",
+          "failures": {
+            "A": [],
+            "B": [
+              "Minor inference beyond the supplied memories: 'I hope someone else makes the pickle this year' implies Leena still makes the pickle every year. Not an invented memory or personality claim; noted only."
+            ]
+          },
+          "preference": "B",
+          "reasons": "A gets all three memories in and lands one very good turn, 'This time, the candles are for you.', but the body is the three facts restated in three parallel sentences followed by a twist, which is a card's or an ad's shape, and it signs off with a bare 'Kumail'. B reads like a person writing to someone he loves: the ₹50 note becomes 'borrowing from you left me a little richer every time', the birthday is the reason for writing ('your 60th birthday seemed the right time to say thank you'), and 'I hope someone else makes the pickle this year' is warm and wry without being grand. 'Love, Kumail' is the right closing for a 60th. B's pickle line leans on an inferred habit, but it invents no memory and no trait."
+        },
+        {
+          "id": "08-client-authorship",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both hit every fact in exactly 90 words, copy no sample sentence and add no house humour. A's sentences have Asha's surface: short declaratives that turn, 'They speak only about boxes. Grief, in this family, is work for the hands.' and 'A photograph kept in the dark has not yet decided what it remembers.', closing on the constraint, 'The film gives them the whole afternoon, and no more.' B has the single best line, 'What is on the rolls matters less than why nobody looked.', and its first-person 'We stay with them' is good treatment practice, but 'her old flat is full of decisions' is a copywriter's neatness and 'too patient to decide for them' names the brief's own adjective where Asha would show it. Narrow call for A on voice preservation."
+        },
+        {
+          "id": "09-samey-syntax-audit",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both name the mechanism, separate line quality from set monotony and stop short of rewriting. B's evidence is exact and checkable: 'Nine are exactly two words plus two words', 'Seven turn on an opposition', 'Half the set leans on a matching consonant', and the duplicate-jobs count, 'ten headings carry seven ideas at most'; 'A shared voice has turned into shared syntax' is the audit in one sentence. A's 'usually adjective plus noun' is loose (it fits about half the set), and it praises 'Soft landing' as 'the least predictable phrase in the set' where B rightly files it under received text. A's 'You could shuffle them between sections, or move them onto another studio's site, and nothing would visibly break' and ''No fluff' is itself fluff' are keepers, but B does more of the job with fewer guesses. Both run the same six-heading audit template, which is the mode's scaffold rather than either writer's tic."
+        },
+        {
+          "id": "12-smallest-useful-edit",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "tie",
+          "reasons": "The two responses are character-for-character identical. Both keep paragraphs one and three verbatim, including the en dash in 'Pages 4–11' and '12:00 IST on Thursday', and delete paragraph two, which carried no fact ('absolutely thrilled', 'exciting evolution', 'compelling and impactful journey') and so had no truthful replacement. Nothing separates them."
+        },
+        {
+          "id": "13-unpack-without-inventing",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "tie",
+          "reasons": "Identical texts. 'At 08:59, Mina hovered over Send. She deleted the greeting twice. At 09:00, she sent the deck.' uses all three facts in 17 words, leads with action, and lets the twice-deleted greeting carry the nerves without a word of explanation, dialogue or sensation. Nothing separates them."
+        },
+        {
+          "id": "21-global-studio-positioning",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both keep the service, '$2,500' and 'hello@example.com', drop every regional cue and invent no new location or outcome. B's paragraph is the more developed: 'A deck is often read before anyone hears the pitch, and sometimes by people who never will, so it has to make the case on its own', and 'a deck to travel in' pays off the headline 'Your deck gets there before you do.' B's CTA, 'Tell us what you're pitching: hello@example.com', is an action; A's 'Email hello@example.com' is an address. A's headline, 'Your deck will be read without you.', is candid and good, but its paragraph opens 'It gets forwarded', borrowing its subject from the headline, which is fragile once headline and paragraph are set apart on a page."
+        },
+        {
+          "id": "24-juno-voice-across-media",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both fit their limits (A 65 and 54 words, B 67 and 52) and keep the rough outline, the written structure notes, the 30-minute call, $300, no deck design and hello@example.com in both pieces. B has the line worth keeping, 'We'd rather see it early, while the structure is still easy to move', which is a true thing about story work rather than a pitch, and its email runs in the reader's order: send it, what's fine, what you get, what it costs. A's 'because the story is the part that has to work first' is a fair point of view, but its headline 'Notes on the story, not the slides.' leans on the not-X-Y contrast the guide flags, and its email opens on 'is $300' before the reader knows what that buys. B is the quieter, more comfortable version of the same facts."
+        },
+        {
+          "id": "25-studio-contact",
+          "failures": {
+            "A": [],
+            "B": [
+              "Minor form: the brief asked for final copy only, and B keeps scaffolding labels in the output ('**Headline:**', '**Body:**', '**CTA 1:**', '**CTA 2:**'). Not treated as material."
+            ]
+          },
+          "preference": "B",
+          "reasons": "B's headline, 'You don't need to know what you need.', is the section's point of view in seven words and speaks to the reader the brief describes, the one arriving with questions. Its body then does something quietly specific: 'If you book a call, you'll spend the 30 minutes with the people who would work on your project', which says no salespeople without saying it. A's 'Talk to the people who'd make your deck.' is honest and 'that's a perfectly good first question' is warm, but the body repeats its one idea ('the people who'd make your deck', 'the people who would work on your project') and 'perfectly' reassures where it should trust the reader. B's labels should be stripped before it ships; that is scaffolding, not a fault in the copy."
+        },
+        {
+          "id": "26-reference-newsletter",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both fit the length and keep the free worksheet, 'story, light, colour and framing', the borrowing notes, 'no email signup' and the URL, and neither invents research or a client. A's turn belongs to references and nothing else: 'the light from one, the framing from another, and perhaps nothing at all from the one you kept because it was beautiful.' That line does the worksheet's job in the reader's head before they download it, and 'keep it next to whatever folder you've been filling' is a real ending. B's 'the folder only gets bigger' and 'what it will leave alone' are true and decent but ordinary beside it. A's idea-first lead, 'Collecting references and choosing a visual direction are different jobs', is also the better newsletter opening."
+        },
+        {
+          "id": "28-contact-sheet-tool",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both fit 50–80 words, keep folder-to-PDF, order, filename labels, 'It runs locally, and no images are uploaded' and the URL, and neither invents a platform or a speed claim. A's observation is original and reader-facing: 'feedback can name the image instead of pointing at \"the one near the top\"' explains why filenames matter in the one situation where they do. B's 'even the ones called final_v3_REAL.jpg' is a good laugh and demonstrates the feature, but it is the design world's most-told filename joke. A also punches first ('a job nobody should have to do by hand') and gives the link its own line, which is how a post reads. Close, and A by the more interested line."
+        },
+        {
+          "id": "29-studio-credentials-deck",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both have seven slides, exact terms ('USD 6,500', '20-page deck', 'two revision rounds', '15 working days after your script and references arrive'), only the two approved projects, and the candid limits. A's pages are about her film: 'The port expansion is your why-now.' is a real pitch observation, and 'we'd start with the families, the salt pans and the port' shows thinking about The Salt Keepers rather than about the studio. A's headlines carry full stops in house style, and 'Two projects are approved for us to name here' explains the short list without apology. B is clean, and 'You keep all rights / All of them, before the deck and after it' is a good page, but 'Documentary is familiar ground' and 'We shape and design what you already have' make the middle of the deck about pitch.dog, and its headlines drop the full stop the guide asks for."
+        },
+        {
+          "id": "30-presenting-work-cover-note",
+          "failures": {
+            "A": [],
+            "B": [
+              "Check 2 (form): the first two sentences do not say that two decisions are needed by Friday 3 October. Sentence one: 'The first full draft of the Paper Moons treatment deck is ready: example.com/paper-moons-v1'. Sentence two: 'Three things have changed since the outline.' The ask arrives in the final paragraph, 'Could you let me know two things by Friday 3 October?'; only the subject line carries it up front."
+            ]
+          },
+          "preference": "A",
+          "reasons": "The brief's structural instruction was to lead with what is ready and the two decisions due Friday, and A does it in one sentence: 'The first full draft of the Paper Moons deck is ready at example.com/paper-moons-v1, and I need two decisions from you by Friday 3 October.' B's prose is the smoother read ('Three things have changed since the outline.', 'The new opening comes with one risk.'), but it holds the ask until 'Could you let me know two things by Friday 3 October?' at the end, which is exactly the form failure the brief was written to prevent. Both name the page-3 risk, Kay's recommendation and the ten-minute switch, quote 'like borrowing someone else's coat' exactly and attribute it to Ines, and list both decisions. A's middle is clunky ('On the tone page, whether the second image stays is the other decision.') and I would smooth it, but it is the email that does the job."
+        },
+        {
+          "id": "31-honest-case-study",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both fit the length, quote 'It finally looks like the film in my head, only with fewer pages.' exactly, keep the 62-to-24 cut, the bakery, the short-film frames and the two weeks, and report four meetings, one script request and 'No financing is confirmed' without spin. A keeps Coralie and her film at the centre: 'What Coralie did have was a setting, a tone, a short film and the film in her head. None of it needed inventing.', 'The small hours are when a night-shift bakery does its work, so the title and the setting were already pointing at the same place', 'They show financiers her eye'. B has two fine lines, 'a good thing to have and a hard thing to pitch from' and 'somewhere to stand before it asks anyone to laugh', but more of its middle is the studio explaining its craft, and its close, 'We'd rather tell you that plainly than round it up into a happier ending', congratulates the studio on its own honesty. A's 'the next step a deck exists to earn' nudges credit toward the deck and I would cut it, but it does not imply the financing went anywhere it did not."
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "judge_model": "claude-opus-5-5",
+      "seed": 11102026,
+      "mapping": {
+        "03-invoice-clarity": {
+          "A": "v120",
+          "B": "v2f"
+        },
+        "05-apology-accountability": {
+          "A": "v2f",
+          "B": "v120"
+        },
+        "06-personal-letter-specificity": {
+          "A": "v120",
+          "B": "v2f"
+        },
+        "21-global-studio-positioning": {
+          "A": "v2f",
+          "B": "v120"
+        },
+        "24-juno-voice-across-media": {
+          "A": "v2f",
+          "B": "v120"
+        },
+        "26-reference-newsletter": {
+          "A": "v120",
+          "B": "v2f"
+        },
+        "28-contact-sheet-tool": {
+          "A": "v2f",
+          "B": "v120"
+        }
+      },
+      "verdicts": [
+        {
+          "id": "03-invoice-clarity",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both pass every check: PD-104, ₹84,000, 4 August 2026, the final deck handover, page one and the reply request are all there, with no money joke and no apology. B is the calmer and more exact letter: \"still showing as unpaid on our side\" states only what the studio can actually see, and \"If the payment is already on its way, this email has crossed with it\" gives Arun a dignified way out without apologising for the charge. A is tighter and has the more useful subject line (\"Invoice PD-104 is overdue: ₹84,000, due 4 August\"), but its body reads more like a system notice, with \"The payment details are on page one of the invoice.\" standing alone and a flat \"is still unpaid\" sitting awkwardly beside \"If you've already sent the payment\". Narrow preference for B."
+        },
+        {
+          "id": "05-apology-accountability",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both meet every check and cut the blame and the \"hope it didn't cause too much trouble\" minimisation from the original. B keeps the brief's framing, \"because of that Priya had to present from an old file on Monday\", and adds the ownership the original dodged: \"That should not have happened, and it was our failure.\" A is tighter and more humane if Priya is the reader, but its \"Priya,\" salutation and \"that left you presenting\" assume a recipient the brief never names, and in a note about fault B's \"Em owns it\" is cleaner than \"Em is responsible for it\". \"That should not have happened\" is a little stock, so the margin is narrow."
+        },
+        {
+          "id": "06-personal-letter-specificity",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "B",
+          "reasons": "Both use all three memories accurately, mark the 60th and come from Kumail. B's additions could only belong to this pair: \"I never worked out whether it was a reward for reading or a reason to\" and the close, \"This time, I hope someone brings the candles to you,\" which turns the flood candles into birthday candles without getting grand. A is warm, and \"left me a little richer every time\" is a nice turn, but \"I haven't forgotten any of it, and your 60th birthday seemed the right time to say thank you\" is the most generic sentence in either letter, and \"I hope someone else makes the pickle this year\" implies a yearly pickle routine the brief doesn't give. B's \"I can still see the blue balcony\" is a stock opener, but a small one."
+        },
+        {
+          "id": "21-global-studio-positioning",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both keep film, advertising and business, $2,500 and hello@example.com, remove every regional cue and invent nothing. A has the sharper idea and the line worth keeping: \"Your deck will go to meetings you won't.\" followed by \"so page seven has to explain itself\" is specific, candid and a little funny, which is pitch.dog on a good day. B makes the same point in a more familiar shape: \"Your deck gets there before you do.\" is a stock ad construction, though \"gives them a deck to travel in\" is a good echo of it. The CTAs are near-identical (\"tell us what you're pitching\"), so the headline and paragraph decide it."
+        },
+        {
+          "id": "24-juno-voice-across-media",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both fit the limits by my count (A: website 62, email 57 including the subject; B: 67 and 52) and carry every fact into both pieces without inventing a turnaround or programme. A's website section has the stronger voice: \"Before the money reads it.\" gives the service a stake, and \"Polish can hide a structural problem, and an outline usually can't.\" is the candid observation worth keeping. B is clean, and \"the slides can wait until the story holds up\" earns its place, but \"A first read, before the deck.\" is closer to a label than a headline. B's email is efficient but cool (\"Hi,\" then \"If you'd like us to read your film pitch\"), where A's reads like a person and ends on \"whenever you're ready\"."
+        },
+        {
+          "id": "26-reference-newsletter",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both are in range (A 101 words, B 90), keep every practical fact and explain collecting versus choosing without inventing anything. A opens on the idea, as a newsletter can, and has the best line in either: \"the light from one, the framing from another, and perhaps nothing at all from the one you kept because it was beautiful\" is an honest joke that only works about visual references, and \"keep it next to whatever folder you've been filling\" closes warmly. B is tighter and practical-first, with good turns in \"There's always one more still\" and \"most references are only right about one thing\", and it keeps \"for filmmakers\", which A drops. A's \"The first... The second...\" setup is familiar, but it pays off, so A narrowly."
+        },
+        {
+          "id": "28-contact-sheet-tool",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both are in range (A 59 words, B 69) and keep free, folder-to-PDF, order, filename labels, local running, no uploads and the URL. A's \"The one with the blue door finally has a name, even if that name is IMG_0412.\" is subject-specific pleasure and candid about what a filename label actually gives you; the door and filename are illustration, not a capability claim. B's \"That way, feedback can name the image\" is a clear, useful observation, but its opener, \"a job nobody should have to do by hand\", is generic. A sounds more like the studio."
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "judge_model": "claude-fable-5-1",
+      "seed": 22102026,
+      "mapping": {
+        "03-invoice-clarity": {
+          "A": "v120",
+          "B": "v2f"
+        },
+        "05-apology-accountability": {
+          "A": "v120",
+          "B": "v2f"
+        },
+        "06-personal-letter-specificity": {
+          "A": "v2f",
+          "B": "v120"
+        },
+        "21-global-studio-positioning": {
+          "A": "v2f",
+          "B": "v120"
+        },
+        "24-juno-voice-across-media": {
+          "A": "v2f",
+          "B": "v120"
+        },
+        "26-reference-newsletter": {
+          "A": "v120",
+          "B": "v2f"
+        },
+        "28-contact-sheet-tool": {
+          "A": "v2f",
+          "B": "v120"
+        }
+      },
+      "verdicts": [
+        {
+          "id": "03-invoice-clarity",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both carry every fact: PD-104, the final deck handover, 4 August 2026, ₹84,000, page one, and a reply ask, with no money joke and no apology for billing. A's subject line, 'Invoice PD-104 is overdue: ₹84,000, due 4 August', does the reader's work before the email is opened, and its single ask, 'If you've already sent the payment, or anything on the invoice looks wrong, please reply to this email and we'll check it', covers both cases in one calm sentence. B's 'still showing as unpaid on our side' is the more gracious status line and worth keeping, but its ask runs twice ('so just reply and let us know. Please reply as well if anything on the invoice looks wrong'), which is the only slack in either draft. Narrow call for A on exactness; the ideal send is A's subject over B's first paragraph."
+        },
+        {
+          "id": "05-apology-accountability",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both state the missed Friday deadline, the Monday presentation from an old file, the attached corrected deck and the Thursday preflight check under Em, and neither mentions the chaotic week or the client's late changes. A supplies the ownership the source draft dodged: 'That should not have happened, and it was our failure. We're sorry.' B is the better sentence ('that left you presenting from an old file on Monday') and the leaner draft, but it opens 'Priya,' and so assumes she is the recipient, which the brief never says, and its responsibility is only implied by 'We missed'. A keeps the impact in the third person so it works whoever receives it, and 'Em owns it' is the brief's own wording; its 'because of that' is the one clunky joint."
+        },
+        {
+          "id": "06-personal-letter-specificity",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both use the three memories accurately, address the 60th birthday, sign as Kumail and invent nothing. A turns the brief into remembered life rather than transcription ('I can still see the blue balcony where you taught me to make lime pickle') and has the one line that could belong to nobody else: 'I never worked out whether it was a reward for reading or a reason to.' Its close, 'This time, I hope someone brings the candles to you', puts the flood and the birthday in one sentence without grandeur. B behaves more like a letter ('your 60th birthday seemed the right time to say thank you', 'Love,') and is warmer at the sign-off, but its first paragraph reads the brief back in order and 'a little richer every time' is the more generic joke. Watch A's one-line paragraphs and bare 'Kumail', which are a studio cadence in a personal letter."
+        },
+        {
+          "id": "21-global-studio-positioning",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both keep film, advertising and business, the $2,500 start and hello@example.com, and neither lets Mumbai, Bombay, an INR line or an invented overseas footprint back in. A's headline, 'Your deck will go to meetings you won't.', is the sharper cut of the same insight as B's 'Your deck gets there before you do.', and 'page seven has to explain itself' is the specific, candid line the voice guide asks for. B's 'gives them a deck to travel in' is a good echo of its headline, but 'so it has to make the case on its own' is the generic version of the thought and its CTA, 'Tell us what you're pitching: hello@example.com', reads as a label rather than a sentence. A's paragraph leans on the headline for its 'It'll', which is fine on the page but worth knowing if the paragraph is ever lifted alone."
+        },
+        {
+          "id": "24-juno-voice-across-media",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both pass length (A: 62-word section, 57-word email; B: 67 and 52), keep the rough-outline welcome, the written structure notes, the 30-minute call, $300, no deck design and the address, and neither invents a turnaround or a programme name. A's 'Before the money reads it.' is a headline a film person recognises at once, and 'Polish can hide a structural problem, and an outline usually can't' is the line that actually sells the service. A's email also gives a reason to send early ('structure is easier to change before anything's designed'), where B's email is facts only and opens with the address before the reader knows what a read is. B's 'the slides can wait until the story holds up' is good and its headline, 'A first read, before the deck.', is clearer but flatter; both drafts keep the two forms properly distinct."
+        },
+        {
+          "id": "26-reference-newsletter",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both are in range (A 101, B 90), keep the free worksheet, story, light, colour and framing, the borrowing note, no signup and the URL, and invent no research or client story. A's arc runs idea, tool, how, link, and its borrowing example is the best passage in the case: 'the light from one, the framing from another, and perhaps nothing at all from the one you kept because it was beautiful.' Its close, 'keep it next to whatever folder you've been filling', lands the download with attitude. B's 'most references are only right about one thing' is the sharper single observation and 'There's always one more still' is a good film-specific beat, but B hands over the URL in sentence two, then doubles back to explain the worksheet and ends without a call to get it; the run of short declaratives in its second paragraph edges toward slogan cadence. Narrow call for A."
+        },
+        {
+          "id": "28-contact-sheet-tool",
+          "failures": {
+            "A": [],
+            "B": []
+          },
+          "preference": "A",
+          "reasons": "Both are in range (A 59, B 69) and preserve free, folder to PDF, order kept, filename labels, local running, no uploads and example.com/contact-sheet, with no formats, platforms or speed claims added. A's 'The one with the blue door finally has a name, even if that name is IMG_0412' is subject-specific pleasure that also explains why the labels matter, and 'in the order you left them' is exactly put. B's 'feedback can name the image instead of pointing at \"the one near the top\"' is a clear editorial observation and the more practical framing, but its opener, 'a job nobody should have to do by hand', is stock. Both lean on the same 'Give it a folder of images and it...' construction; A's 'new' is unprovided but harmless for an announcement."
+        }
+      ]
+    }
+  ]
+}

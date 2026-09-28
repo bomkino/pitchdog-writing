@@ -356,6 +356,50 @@
         "Expressive language adds no unprovided formats, platforms, speed claims, client events or capability",
         "Has subject-specific pleasure or a clear editorial observation without engagement bait"
       ]
+    },
+    {
+      "id": 29,
+      "name": "studio-credentials-deck",
+      "prompt": "Use $pitchdog-writing. Write the slide copy for a 7-slide credentials deck we'll send to Marisol Ferro, a documentary producer pitching her feature documentary \"The Salt Keepers\" (about the last family-run salt pans on a coastline threatened by a port expansion) to streamers next month. Per slide: a headline and one to three lines of body copy. Facts we can use: we have made pitch decks for 11 documentary features since 2021. Two projects are approved for credentials use: \"Night Ferry\" (director Anouk Saar) and \"Low Tide Choir\" (director Teo Brandt). Our documentary package is USD 6,500 for a 20-page deck with two revision rounds, delivered 15 working days after the script and references arrive. We don't run the pitch meeting and we don't write her synopsis; we shape and design what she has. She keeps all rights. Next step: a 30-minute call, booked at example.com/call. Final copy only.",
+      "expected_output": "A credentials deck in our voice whose pages are about her film and her pitch. Proof and terms are real and exact; limits are candid; the close is a literal next step.",
+      "assertions": [
+        "Exactly seven slides, each with a headline and one to three lines of body copy",
+        "Headlines use sentence case; any mention of pitch.dog is lowercase",
+        "Includes USD 6,500, a 20-page deck, two revision rounds and delivery 15 working days after script and references arrive",
+        "States that we don't run the pitch meeting or write her synopsis, and that she keeps all rights",
+        "Names only Night Ferry and Low Tide Choir as past work; invents no other clients, awards, streamers or success rates",
+        "Most slides address her film or her pitch rather than describing the studio",
+        "Closes with the 30-minute call at example.com/call"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "presenting-work-cover-note",
+      "prompt": "Use $pitchdog-writing. Kay is emailing director Ines Varga the first full draft of her series treatment deck \"Paper Moons\" (eight episodes). Since the outline, the deck opens on the pilot's rooftop scene instead of the logline, the character pages are shorter, and the comparables page is gone because Ines said comps felt \"like borrowing someone else's coat\". One risk: opening on the scene moves the logline to page 3, and some commissioners expect it on page 1. Kay recommends keeping the scene opening and can move the logline in ten minutes if Ines prefers. Ines needs to decide by Friday 3 October: (1) scene opening or logline first, and (2) whether to keep the tone page's second image. The deck is at example.com/paper-moons-v1. Write the email in 120–180 words. Final copy only.",
+      "expected_output": "A comfortable working email from Kay that leads with what is ready and the two decisions due Friday, names the risk with a recommendation, and keeps Ines's material and words hers.",
+      "assertions": [
+        "120–180 words",
+        "The first two sentences say the draft is ready and that two decisions are needed by Friday 3 October",
+        "Lists both decisions with their options",
+        "Names the logline-on-page-3 risk and Kay's recommendation, including the ten-minute switch",
+        "Includes example.com/paper-moons-v1",
+        "Any use of the coat remark quotes Ines exactly and attributes it to her",
+        "Written in Kay's first person singular; no humour at the expense of Ines's material"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "honest-case-study",
+      "prompt": "Use $pitchdog-writing. Write a 250–350 word case study for our website from these notes. Client: Coralie Dunn, a first-time director pitching her dark comedy feature \"Small Hours\" to financiers. She came with a 62-page deck she described as \"everything I've ever thought about this film\". We cut it to 24 pages, rebuilt the story section around the night-shift bakery where the film is set, and replaced stock images with frames from her short film. Constraint: two weeks before her first financier meeting. Result so far: four financier meetings; one financier asked for the full script; no financing is confirmed. Approved quote from Coralie: \"It finally looks like the film in my head, only with fewer pages.\" No other quotes or figures may be used. Final copy only.",
+      "expected_output": "A true case study in our voice with Coralie and her film as protagonists, our decisions in specifics, and an honest partial result.",
+      "assertions": [
+        "250–350 words",
+        "Quotes Coralie's approved line exactly",
+        "Includes the 62-to-24-page cut, the bakery-centred story section, frames from her short film and the two-week constraint",
+        "Reports four meetings, one script request and no confirmed financing without implying success",
+        "Invents no other quotes, figures, financier names, emotions or outcomes",
+        "Coralie and her film are the protagonists"
+      ]
     }
   ]
 }

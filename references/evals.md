@@ -10,7 +10,8 @@ the real writing outcome, not merely increase visible pitch.dog cues.
 
 Run each eval in a clean context. Compare a run using this skill with either no
 skill or the previous released version. Review complete outputs, not isolated
-lines.
+lines. From 2.0.0 the skill builds on craft-essays: give the candidate the
+craft-essays version it will ship with, and record that version with the run.
 
 Objective assertions may check facts, required fields, structure, amount, due
 date, action, or preservation of supplied wording. Human review must judge
@@ -79,6 +80,14 @@ Never create a numerical score for soul, warmth, wit, poetry, Apple-likeness, or
     deadline, choice, source location, and agreed change immediately usable.
 28. **Contact-sheet tool** — a short announcement has subject-specific pleasure
     without inventing capabilities or weakening the privacy statement.
+29. **Studio credentials deck** — seven slides about the prospect's film and
+    pitch, with exact package terms, candid limits, only approved past work and
+    a literal next step.
+30. **Presenting work cover note** — the sender leads with what is ready and the
+    decisions due, names the risk with a recommendation, and keeps the
+    director's material and words hers.
+31. **Honest case study** — the client stays the protagonist; our decisions are
+    specific; the partial result is reported without implying success.
 
 ## Review questions
 

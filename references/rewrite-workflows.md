@@ -1,187 +1,71 @@
-# Rewrite workflows and output modes
+# Modes, rewrites and audits
 
-Use this reference when editing supplied text, matching voice samples, producing
-options, or auditing.
+Read when editing supplied text, matching voice samples, producing options, or auditing.
 
 ## Resolve the edit contract
 
-Before changing words, identify:
-
-- what the user asked to change;
-- what must stay exact;
-- whether the authority is format, correct, tighten, line-edit, rewrite,
-  diagnose, or draft;
-- whose voice the result belongs to;
-- whether the medium or recipient has changed;
-- the smallest intervention that solves the failure.
-
-If the user says not to change words, do not rewrite. If they ask for a surgical
-edit, preserve unaffected language.
+Before changing words, identify what the user asked to change, what must stay exact, the authority granted (format, correct, tighten, line-edit, rewrite, diagnose or draft), whose voice the result belongs to, whether the medium or recipient has changed, and the smallest intervention that solves the failure. When the user says not to change words, leave them. A surgical edit leaves unaffected language untouched.
 
 ## Surgical by default
 
-Preserve:
+Preserve facts and useful ambiguity, protected phrases, distinctive language, the sender's rhythm, lived detail, useful roughness and emotional stake. Fix the failing part. When the requested repair is the voice of a whole passage, that passage may need a full rewrite; the intervention follows the actual failure.
 
-- facts and useful ambiguity;
-- protected phrases;
-- distinctive language;
-- sender rhythm;
-- lived detail;
-- useful roughness;
-- emotional stake.
+An unsupported benefit, interpretation or outcome in the source is a claim to remove, qualify or verify, never meaning to preserve. "We believe this elevates the narrative" does not become a confident claim of a clearer arc, and an unsupported claim of improved work does not become "we're pleased with it". Named people's feelings, memories and reactions need evidence. Studio writing can express the welcoming, curious, playful attitude the user has authorised; that freedom never invents satisfaction, approval or a better outcome.
 
-Fix the failing part. When the requested repair is the voice of a whole passage,
-that passage may need a full rewrite. Preserve protected sections and useful
-language; intervention size follows the actual failure.
-
-Treat an unsupported benefit, interpretation, or outcome in the source as a
-claim to remove, qualify, or verify—not meaning that must be preserved. Never
-turn “we believe this elevates the narrative” into a confident claim that the
-story now has a clearer arc unless evidence supports it.
-
-An unsupported claim of improved work cannot become “we're pleased with it”.
-Named people's feelings, memories, and reactions need evidence. Studio writing
-can express the welcoming, curious, playful attitude the user has authorised;
-that freedom does not invent satisfaction, client approval, or a better outcome.
-Expressive phrasing can be fresh while the underlying account stays exact.
-
-Subtraction is a valid edit. When surrounding text already carries the true and
-useful information, a shorter bridge or no replacement is better than plausible
-invention. A paragraph containing only generic enthusiasm may disappear; do not
-preserve it by swapping “thrilled” for “excited”, “pleased”, or “proud”.
+Subtraction is a valid edit. When surrounding text already carries the true and useful information, a shorter bridge or no replacement beats plausible invention. A paragraph of generic enthusiasm can disappear; swapping "thrilled" for "excited" keeps the problem.
 
 ## Distil without sterilising
 
-When shortening:
+1. Cut setup and throat-clearing.
+2. Combine repeated facts or explanations.
+3. Remove self-description the writing already shows.
+4. Keep the specific thing, the useful turn and the emotional stake.
+5. Restore one breath if compression has made the writing cold or ambiguous.
 
-1. cut setup and throat-clearing;
-2. combine repeated facts or explanations;
-3. remove self-description already shown by the writing;
-4. keep the specific thing, useful turn, and emotional stake;
-5. restore one breath if compression has made the writing cold or ambiguous.
+The result keeps more than the informational skeleton.
 
-Do not leave only the informational skeleton.
+## Warm without fluff
 
-## Warm without adding fluff
+Warmth may mean naming the person, acknowledging the real situation, remembering a detail, lowering pressure, explaining what happens next, or making a correction or refusal dignified. It rarely needs more praise or exclamation marks.
 
-Warmth may require:
+## De-AI without quirk
 
-- naming the person;
-- acknowledging the real situation;
-- remembering a detail;
-- lowering pressure;
-- explaining what happens next;
-- making a correction or refusal dignified.
+Replace generic symmetry, predictable antithesis, over-signposting, repeated sentence shapes, vague uplift, empty scene-setting and brand-menu vocabulary with the subject's own particulars, using craft-essays' received-text pass. Human writing is not AI writing with the tie loosened: random slang, fragments, swearing and eccentric punctuation are still costume.
 
-It rarely requires more praise adjectives or exclamation marks.
+## Modes
 
-## De-AI without making it quirky
+- **Write:** return ready-to-use writing first. Infer ordinary gaps where safe; mark or ask about consequential missing facts.
+- **Rewrite:** return the revised artifact. If a material meaning changed or a protected fact remains uncertain, add one short note after it.
+- **Distil:** return the shortened artifact, with temperature and specific life intact. Meet any word, character or line limit without hiding required facts.
+- **Warm:** return warmer copy without raising pressure, intimacy or praise beyond the relationship.
+- **Wit:** offer a small set of options built on different mechanisms (a literal turn, a human observation, a dry aside, a plain line) and choose by thought and timing.
+- **Voice Match:** read every sample; separate stable decisions (vocabulary, information order, syntax, rhythm, humour, intimacy, restraint) from accidents; keep the new artifact's subject, medium and relationship; match decisions, never catchphrases or errors. A draft that maps back to one sample line, even noun-swapped, gets rewritten from the broader decisions. Too little evidence never justifies a caricature.
+- **Options:** alternatives differ in temperature, information order, directness, wit mechanism, intimacy, length or medium. Label the difference plainly; "bold", "premium" and "creative" are not differences.
+- **Sensitive:** plain, accountable language that keeps dignity and freedom. Wit only when the user invites it and the relationship clearly supports it. Apologies put responsibility before explanation; grief and medical writing stay unforced; consent states what is optional and how to decline; money states amount, date and route without shame.
+- **Audit:** diagnose; rewrite only when asked for Rewrite or a combined Audit + Rewrite. Return:
+  1. **Actual outcome:** what the artifact must achieve.
+  2. **Costliest false success:** how it could look right and fail.
+  3. **Already alive:** language, detail, structure or roughness worth keeping.
+  4. **Generic or performative:** exact passages or mechanisms failing, using the signals below.
+  5. **Material gaps:** missing truth, action, logistics, consent or medium requirements.
+  6. **High-impact repairs:** specific, ordered changes.
 
-Remove:
+## Audit signals
 
-- generic symmetry;
-- predictable antithesis;
-- over-signposting;
-- repeated sentence shapes;
-- vague uplift language;
-- empty scene-setting;
-- words chosen from a brand-tone menu.
+These are diagnostic signals for audits and repairs. A phrase can be right when it is true, specific and naturally placed; repetition and substitution are usually the tell.
 
-Do not compensate with random slang, fragments, swearing, or eccentric
-punctuation. Human writing is not AI writing with the tie loosened.
-
-## Write mode
-
-Return ready-to-use writing first. Infer ordinary gaps where safe. Mark or ask
-about consequential missing facts rather than inventing them.
-
-## Rewrite mode
-
-Return the revised artifact. If a material meaning changed or a protected fact
-remains uncertain, add one short note after the artifact.
-
-## Distil mode
-
-Return the shortened artifact. Preserve temperature and specific life. If the
-user gives a word, character, or line limit, meet it without hiding required
-facts.
-
-## Warm mode
-
-Return warmer copy without increasing pressure, intimacy, or praise beyond the
-relationship.
-
-## Wit mode
-
-Offer a small set of options that use different mechanisms, for example:
-
-- literal turn;
-- human observation;
-- dry aside;
-- plain line.
-
-Choose by the actual thought and timing, including what the reader enjoys.
-Alternatives should offer different ways of seeing the subject.
-
-## Voice Match mode
-
-1. Read all supplied samples.
-2. Separate stable decisions from accidents: vocabulary, information order,
-   syntax, rhythm, humour, intimacy, and restraint.
-3. Preserve subject, medium, and relationship of the new artifact.
-4. Match decisions, not catchphrases or errors.
-5. Reject noun-swapped or lightly paraphrased versions of signature sample
-   sentences.
-6. Compare the draft against samples for mechanism repetition and overfitting.
-
-Do not infer a personal caricature from too little evidence.
-
-## Audit mode
-
-Return:
-
-1. **Actual outcome** — what the artifact must achieve.
-2. **Costliest false success** — how it could look right and fail.
-3. **Already alive** — language, detail, structure, or roughness worth keeping.
-4. **Generic or performative** — exact passages or mechanisms failing.
-5. **Material gaps** — missing truth, action, logistics, consent, or medium
-   requirements.
-6. **High-impact repairs** — specific, ordered changes.
-
-Do not rewrite unless the user asks for Rewrite or a combined Audit + Rewrite.
-
-## Options mode
-
-Options should differ in one or more meaningful ways:
-
-- emotional temperature;
-- information order;
-- level of directness;
-- wit mechanism;
-- amount of intimacy;
-- length or medium.
-
-Label the difference plainly. Do not call them “bold”, “premium”, or “creative”.
-
-## Sensitive mode
-
-Use plain, accountable language. Preserve dignity and freedom. Remove wit unless
-the user explicitly invites it and the relationship clearly supports it.
-
-For apologies, responsibility precedes explanation. For grief or medical
-writing, do not force optimism. For consent, state what is optional and how to
-decline. For money, make the amount, date, and route legible without shame.
+- **Two ways to disappear.** An artifact can perform the voice while missing its job, or deliver every fact while removing its speaker. Restore the missing information or action; for a correct but anonymous draft, find a specific observation, preference or way of addressing the reader.
+- **Website voice everywhere.** Invoices, apologies, invitations, handovers and letters that sound like landing-page sections.
+- **Apple cosplay.** Short fragments without an idea, two-beat lines in every section, familiar slogans with new nouns, minimalism hiding missing detail, launch-event superlatives, full stops used as wit. When a user explicitly requests this surface, keep the count and structure and distinguish the lines through facts, images or actions.
+- **Generated cadence.** The same contrast, triplet, "from X to Y" or rhetorical question recurring; every paragraph ending in a slogan; tidy summaries restating the paragraph. Each alone may be fine; recurrence makes writing feel assembled.
+- **Agency fog.** Elevate, amplify, unlock, seamless, bespoke, visionary, premium, holistic, game-changing, world-class, transformative, innovative, tailored solutions, bring your vision to life. Treat each as a request for a fact, mechanism, choice or consequence, not for a sharper adjective.
+- **Forced warmth or wit.** Praise before substance, exclamation marks as energy, "we care deeply" without visible care, puns in every heading, jokes near money, consent or bad news, wordplay imported from outside the subject, a paragraph written to rescue a cryptic line.
+- **Fake poetry.** Stacked metaphors, abstract nouns posing as feeling, magic, journey, dream, tapestry or soul without concrete life.
+- **Political theatre.** Slogans without changed conditions; talk of community while ownership, labour, payment or consent stay hidden.
+- **Samey mechanism.** Neighbouring pieces sharing antithesis, sentence length, full-stop patterns, emotional arcs or softened closings. A shared voice is not shared syntax.
+- **Branded intimacy.** A personal message whose memory, awkwardness or honest feeling has been replaced with polished studio warmth.
+- **Client overwrite.** The client's vocabulary gone, their rough but meaningful syntax smoothed into house cadence, their emotional logic turned into a service benefit, or our humour and politics appearing without source evidence. Return the authorship.
 
 ## Final meaning check
 
-Compare source and revision:
-
-- Did any fact, promise, amount, date, scope, identity, relationship, or useful
-  ambiguity change?
-- Did the revised artifact become more branded than personal?
-- Did compression remove the reason, action, or dignity?
-- Did warmth increase pressure?
-- Did the revision preserve a recognisable speaker and something worth keeping
-  beyond the information, where the medium invites it?
-
-Repair meaning before polishing rhythm.
+Compare source and revision. Did any fact, promise, amount, date, scope, identity, relationship or useful ambiguity change? Did the artifact become more branded than personal? Did compression remove the reason, the action or the dignity? Did warmth increase pressure? Is a recognisable speaker still present, with something worth keeping beyond the information where the medium invites it? Repair meaning before polishing rhythm.

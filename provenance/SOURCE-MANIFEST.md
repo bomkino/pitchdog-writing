@@ -125,10 +125,11 @@ examples of revision judgment, not evidence of a finished model story.
 
 ### Integration boundaries
 
-The runtime synthesis lives in [craft decisions](../references/craft-decisions.md)
-and [narrative craft](../references/narrative-craft.md), with routing in `SKILL.md`
-and the medium register. Spoken revision is maintained in the existing rhythm
-reference rather than duplicated.
+From 2.0.0 the runtime synthesis of this study lives in the
+[craft-essays](https://github.com/bomkino/craft-essays) skill, which this skill
+invokes first. The former `craft-decisions.md` and `narrative-craft.md`
+references were retired so the craft has one home; the table above records the
+1.1.0 study and its dispositions, which craft-essays carries forward.
 
 Source homework, prompts to contact people or attend groups, reading lists,
 disclosure exercises, author-imitation drills, and personal productivity rituals

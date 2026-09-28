@@ -1,0 +1,1 @@
+At 08:59, Mina hovered over Send. She deleted the greeting twice. At 09:00, she sent the deck.
