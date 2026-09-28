@@ -20,18 +20,20 @@ work.
 - invoices and payment notes;
 - wedding and event invitations;
 - proposals, estimates, and handovers;
+- our own decks, and presenting work to clients;
+- case studies told true;
 - website, product, programme, and campaign copy;
 - announcements and social posts;
 - internal notes, forms, errors, and microcopy;
 - apologies, personal messages, and sensitive writing;
 - writing for clients and creators without stealing their voice.
 
-The craft layer helps substantial writing earn its claims, choose telling
-details, develop a narrative, and stop before explaining away its effect. It
-adapts techniques from Chuck Palahniuk's craft essays while preserving factual
-accuracy, the requested medium, and the speaker's own authorship. The
-[source manifest](provenance/SOURCE-MANIFEST.md) records coverage and boundaries;
-the essays themselves are not part of the package.
+The craft comes from [craft-essays](https://github.com/bomkino/craft-essays),
+our open skill of Chuck Palahniuk's writing moves: unpack, received text,
+horses, the buried gun, big voice and little voice. pitch.dog Writing is the
+voice on top of that craft: who is speaking, what the medium must do, and how
+we sound doing it. Install both. The
+[source manifest](provenance/SOURCE-MANIFEST.md) records lineage and boundaries.
 
 ## What it refuses to become
 
@@ -40,6 +42,29 @@ copy in shorter sentences. Not dog puns. Not compulsory wit. Not a numerical
 humanity score.
 
 ## Install
+
+pitch.dog Writing 2.0 builds on
+[craft-essays](https://github.com/bomkino/craft-essays) 0.2.0 or later: install
+craft-essays the same way first. Keep one copy of each skill per app; two
+copies of one skill drift apart.
+
+### Claude
+
+**Claude apps (web and desktop).** Download
+[`pitchdog-writing.zip`](https://github.com/bomkino/pitchdog-writing/releases/latest/download/pitchdog-writing.zip)
+from the [latest release](https://github.com/bomkino/pitchdog-writing/releases/latest).
+Open **Customize → Skills**, choose **+ → Create skill → Upload a skill**, and
+select the ZIP. To update, delete the older version there first, then upload
+the new one. In the desktop app, uploaded skills are also available in the
+Code tab.
+
+**Claude Code in a terminal:**
+
+```bash
+npx skills add bomkino/pitchdog-writing --agent claude-code --global
+```
+
+Or extract the release ZIP into `~/.claude/skills/`.
 
 ### ChatGPT
 
@@ -59,7 +84,8 @@ Install for the current user:
 git clone https://github.com/bomkino/pitchdog-writing.git ~/.agents/skills/pitchdog-writing
 ```
 
-Or install only for one repository:
+For a fixed release, add `--branch v2.0.0 --depth 1` to the clone. Or install
+only for one repository:
 
 ```bash
 git clone https://github.com/bomkino/pitchdog-writing.git .agents/skills/pitchdog-writing
@@ -97,7 +123,7 @@ Options, and Sensitive.
 pitchdog-writing/
 ├── SKILL.md
 ├── agents/openai.yaml
-├── references/          # loaded only when the task needs them
+├── references/          # voice, registers, speakers, modes; loaded when needed
 ├── evals/evals.json     # portable test cases
 ├── docs/                # maintainer handover
 └── provenance/          # source lineage and decisions
@@ -106,7 +132,7 @@ pitchdog-writing/
 ## Contribute
 
 Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md)
-before changing the voice constitution or calibration evidence. Examples should
+before changing the voice reference or calibration evidence. Examples should
 teach judgment, not become templates.
 
 No contributor licence agreement. No attribution requirement.

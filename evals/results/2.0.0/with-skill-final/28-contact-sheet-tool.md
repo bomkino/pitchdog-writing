@@ -1,0 +1,1 @@
+Give our new contact-sheet tool a folder of images and it turns them into a PDF, in the order you left them, with each image labelled by its filename. The one with the blue door finally has a name, even if that name is IMG_0412. It's free. It runs locally, so no images are uploaded. Get it at example.com/contact-sheet.

@@ -2,6 +2,31 @@
 
 All notable changes are recorded here.
 
+## 2.0.0 — 2026-09-28
+
+**Breaking:** requires [craft-essays](https://github.com/bomkino/craft-essays)
+0.2.0 or later, installed alongside. Without it, the skill says so and works
+from its own references.
+
+- Builds on the craft-essays skill for writing craft. The Palahniuk
+  adaptations formerly kept in `craft-decisions.md` and `narrative-craft.md`
+  now live in craft-essays, so the craft has one home across our skills.
+- Merges the voice constitution, rhythm and wit guidance and Juno calibration
+  into one voice reference, and the anti-patterns into the audit section of
+  the modes reference. Its own runtime text shrinks from about 12,200 to 7,400 words
+  (excluding the maintainer eval specification) with the tested rules preserved.
+- Adds registers for our own decks, presenting work to clients, case studies
+  and newsletters, with three new eval cases.
+- States rules as target behaviour where a prohibition was doing the work, and
+  keeps detection lists inside the audit branch.
+- Restores and sharpens body voice after blind comparison: choose an angle, let
+  the thought develop, and carry one line only this subject could have. Subject
+  lines carry status; addressees come only from the brief.
+- Records blind two-judge comparisons against 1.2.0 in `evals/RESULTS.md` and
+  `evals/results/2.0.0/`.
+- Adds Claude install steps and fixed-release links to the README, and the
+  reproducible archive command to the release checklist.
+
 ## 1.2.0 — 2026-09-12
 
 - Makes candid, playful studio personality part of the initial writing, with

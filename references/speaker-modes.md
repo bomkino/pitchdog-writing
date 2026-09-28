@@ -18,7 +18,7 @@ clients, outcomes, prices, or promises from old examples.
 
 Em, Jen, Kay, or another specified sender.
 
-Use the shared constitution as a foundation, then preserve the person's supplied
+Use the shared voice as a foundation, then preserve the person's supplied
 samples, facts, relationship, vocabulary, and natural register. Do not invent
 theatrical differences between people. Do not imitate accidental typos or
 private traits the user did not supply.

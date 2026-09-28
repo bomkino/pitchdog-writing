@@ -1,0 +1,1 @@
+We've made a free contact-sheet tool, for when you want a whole folder of images side by side and still need to know which file is which. It turns the folder into a PDF, keeps the images in their order and labels each one with its filename, even the ones called final_v3_REAL.jpg. It runs locally, and no images are uploaded. Get it at example.com/contact-sheet.

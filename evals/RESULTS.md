@@ -1,3 +1,79 @@
+# Evaluation results — 2.0.0
+
+**Date:** 2026-09-28. **Status:** released as 2.0.0 on 2026-09-28. The two
+final wording fixes noted under round two were not re-evaluated.
+
+**Result:** Layered on craft-essays 0.2.0, the rebuilt skill beat 1.2.0 in blind
+comparison, winning every new studio register (credentials deck, presenting work,
+honest case study) and the cross-media, client-authorship and audit cases. The
+first candidate lost the playful studio pieces: sharper headlines, thinner
+bodies. After a targeted repair, a rerun of the seven cases it had lost or split
+went its way with both judges. This is a bounded observation, not human approval.
+
+## Method
+
+Two writers in fresh Claude Opus 5.5 contexts completed the same cases, one with
+1.2.0 and one with the 2.0.0 candidate plus the craft-essays 0.2.0 candidate.
+Both read their skill folders from frozen snapshots and nothing else; the
+private Juno library was withheld from both. Two judges on different models
+(Claude Opus 5.5 and Claude Fable 5.1) received the prompts, assertions, the
+Juno brand voice guide for calibration, and anonymous A/B responses, with labels
+shuffled independently per judge from recorded seeds. Mappings were unsealed
+only after verdicts were saved. The [run record](results/2.0.0/run.json) holds
+snapshot hashes, cases, seeds, mappings and every verdict; the outputs are in
+[previous-skill](results/2.0.0/previous-skill/), [with-skill](results/2.0.0/with-skill/)
+and [with-skill-final](results/2.0.0/with-skill-final/).
+
+## Round one: sixteen cases
+
+| Judge | 2.0.0 candidate | 1.2.0 | Tie |
+| --- | --- | --- | --- |
+| Opus 5.5 | 8 | 6 | 2 |
+| Fable 5.1 | 7 | 6 | 3 |
+
+Both judges preferred the candidate on cases 1 (same facts, four media),
+8 (client authorship), 9 (samey syntax audit), 25 (studio contact),
+29 (credentials deck), 30 (presenting work) and 31 (honest case study). Both
+preferred 1.2.0 on 3 (invoice), 21 (global positioning), 24 (Juno across media),
+26 (newsletter) and 28 (contact-sheet tool). They split on 5 and 6 and tied 12
+and 13.
+
+The losses shared one cause. The candidate wrote sharper headlines ("Your deck
+will be read without you.") over bodies that restated the brief, where 1.2.0
+kept a line worth keeping in the body. One candidate joke also imported an
+unprovided file format ("final_v3_REAL.jpg"), and one headline used the X-not-Y
+contrast the house guide flags.
+
+## Repair
+
+Restored from 1.2.0 and made checkable: choose an angle (what we notice, what we
+value, what is quietly absurd, what makes this easier); let the thought develop
+through the paragraph; the body must carry at least one line that could only be
+about this subject. Added: a trade joke everyone has heard is received text;
+subject lines carry the status; headlines state their claim directly. On the
+craft-essays side, the plain-version test now keeps whichever version does more
+for the reader, including more memorable and more pleasure to read.
+
+## Round two: the seven lost or split cases
+
+| Judge | 2.0.0 revised | 1.2.0 |
+| --- | --- | --- |
+| Opus 5.5 | 5 | 2 |
+| Fable 5.1 | 4 | 3 |
+
+Both judges now preferred the candidate on 6 (personal letter), 21, 24 and 28.
+Both still preferred 1.2.0 on 5 (the candidate addressed "Priya" although the
+brief never says she is the reader) and 26 (the candidate gave the link in its
+second sentence where an idea-first opening read better). They split on 3.
+Both points were then fixed in wording (addressee, newsletter order); those two
+changes have not been re-evaluated.
+
+## Limits
+
+One generation per condition per case, two model judges, English only, one
+writer model. The judges share a model family with the writer. Human review
+remains the authority on whether a line belongs to pitch.dog.
+
 # Evaluation results — 1.2.0
 
 **Date:** 2026-09-12

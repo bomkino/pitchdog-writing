@@ -23,8 +23,13 @@ source or establish that its business claims are current.
 - **Explicit constraints:** preserve requested form, count, wording, and edit
   scope. Infer the communication goal within those constraints; vary choices
   only when the user delegates them.
-- **Progressive disclosure:** `SKILL.md` carries the operating spine. Medium,
-  tonal, rewrite, anti-pattern, example, and eval detail loads only when needed.
+- **Craft dependency:** from 2.0.0, writing craft lives in the craft-essays
+  skill, the single home for the Palahniuk adaptation across our skills. This
+  skill is the voice layer: speaker, medium, truth and how pitch.dog sounds.
+  Install both; if craft-essays is missing, the skill says so and continues.
+- **Progressive disclosure:** `SKILL.md` carries the operating spine. Voice,
+  medium registers, speakers, modes and audits, examples and eval detail load
+  only when needed.
 - **No scripts:** the skill performs no computation and needs no executable
   helper. Mechanical package validation belongs in release tooling, not runtime.
 - **No voice score:** soul, warmth, wit, poetry, Apple-likeness, and “human” are
@@ -43,8 +48,10 @@ source or establish that its business claims are current.
 
 A comprehensive writing constitution can become too large to activate cheaply.
 The package therefore keeps the full conceptual range while routing specialised
-detail into focused references. A maintainer should remove duplication before
-adding new rules.
+detail into focused references. Each meaning has one home: craft in
+craft-essays, voice in `juno-voice.md`, media in `medium-registers.md`, audit
+signals in `rewrite-workflows.md`. A maintainer should remove duplication
+before adding new rules.
 
 ## Release checklist
 
@@ -60,11 +67,16 @@ adding new rules.
    Record prompts, outputs, findings, and cases not rerun.
 7. Review those outputs for factual accuracy, requested constraints, medium,
    speaker, client authorship, specificity, and mechanism repetition.
-8. Build an archive with `pitchdog-writing/` as its top-level directory.
+8. Tag the exact release commit, then build the archive from that tag with
+   `pitchdog-writing/` as its top-level directory:
+   `git archive --format=zip --prefix=pitchdog-writing/ -o pitchdog-writing.zip vX.Y.Z`,
+   then `shasum -a 256 pitchdog-writing.zip > SHA256SUMS`. The same tag always
+   yields the same bytes.
 9. Re-extract and validate the archive. If claiming installation on a product
    surface, verify installation and invocation there separately. A GitHub
    release alone does not make that installation claim.
-10. Tag the exact commit and attach the verified archive to the release.
+10. Push the tag and attach the verified archive and `SHA256SUMS` to the
+    release.
 
 ## Acceptance statement
 
